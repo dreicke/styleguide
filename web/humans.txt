@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Kaiser Permanente - My HR Wed Delivery
+    
+    Louis Rawlins -- Design Lead -- louis.rawlins@kp.org
+    David Wagoner -- Avent, Interaction Designer -- david...@avnet.com
+    Leslie Tom -- Design Researcher -- leslie.k.tom@kp.org
+    Josie Wulsin -- Content Strategist -- josie...
+    Phani Kadalya -- Front-end Engineer -- phani...@kp.org
+
+# THANKS
+
+    Gail Duffley -- Director -- gail...@kp.org
+    William Fairfax -- Development Manager -- william...
+    Nancy Ellen Buss -- Project Manager -- nancy...
+    Amy Jacobs --- Technical Lead -- amy.j.jacobs@kp.org
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
