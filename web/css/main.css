@@ -104,6 +104,10 @@ nav ul {
     list-style-type: none;
 }
 
+nav ul li {
+    display: block;
+}
+
 nav a {
     display: block;
     margin-bottom: 10px;
@@ -115,6 +119,7 @@ nav a {
 
     color: white;
     background: #003B71;
+    float: none;
 }
 
 nav a:hover,
@@ -230,17 +235,23 @@ nav a:hover {
    ============ */
 
     .title {
-        float: left;
+
     }
 
     nav {
-        float: right;
         width: 800px;
     }
 
 /* ============
     WIDE: Main
    ============ */
+
+    nav a {
+        float: left;
+        margin: 0 1em;
+        padding: 1em 2em;
+        margin-bottom: 0;
+    }
 
     .main article {
         float: left;
