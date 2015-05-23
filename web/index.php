@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>My  HR Web Delivery - Layouts</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -27,12 +27,14 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">Layouts</h1>
+                <h1 class="title">My HR Web Delivery</h1>
                 <nav>
                     <ul>
-                        <li><a href="#">Guidelines</a></li>
-                        <li><a href="#">Layouts</a></li>
-                        <li><a href="#">Iconography</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="guidelines.html">Guidelines</a></li>
+                        <li><a href="layouts.html">Layouts</a></li>
+                        <li><a href="iconography.html">Iconography</a></li>
+                        <li><a href="project_log.html">Project Log</a></li>
                     </ul>
                 </nav>
             </header>
@@ -63,15 +65,32 @@
 
         <div class="main-container">
             <div class="main wrapper clearfix">
+            
+                <article>
+                    <header>
+                        <h1>My HR R3 Redesign</h1>
+                        <p>All work is work-in-progress and meant to support other efforts in design, content, and technical implementation.</p>
+                    </header>
+                    <section>
+                        <h2>Layouts</h2>
+                        <p>Layouts with status here.</p>
+                        <p>Layouts project plan dates and assignments here.</p>
+                    </section>
+                    <section>
+                        <h2>Guidelines and Iconography</h2>
+                        <p>All material meant to support the style guide.</p>
+                    </section>
+                </article>
+            
                 <article>
                   <h2>A - Unique</h2>
                   <p>This is for items that occur either once or require customer programming.</p>            
                   <table class="table table-hover">
                     <tbody>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">A1 - Homepage</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">A1 - Homepage</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -79,13 +98,13 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">A2 - Megamenu</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">A2 - Megamenu</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -93,7 +112,7 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                     </tbody>
@@ -106,9 +125,9 @@
                   <table class="table table-hover">
                     <tbody>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">B1 - Windex</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">B1 - Windex</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" 
                             aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -116,7 +135,7 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                     </tbody>
@@ -129,9 +148,9 @@
                   <table class="table table-hover">
                     <tbody>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">C1 - Detail - Article</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">C1 - Detail - Article</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -139,13 +158,13 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">C2 - Detail - Video</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">C2 - Detail - Video</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -153,13 +172,13 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">C3 - Detail - List</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">C3 - Detail - List</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -167,7 +186,7 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                     </tbody>
@@ -180,9 +199,9 @@
                   <table class="table table-hover">
                     <tbody>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">D1 - Business Process</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">D1 - Business Process</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -190,7 +209,7 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                     </tbody>
@@ -203,9 +222,9 @@
                   <table class="table table-hover">
                     <tbody>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">E1 - Data</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">E1 - Data</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -213,7 +232,7 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                     </tbody>
@@ -226,9 +245,9 @@
                   <table class="table table-hover">
                     <tbody>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">F1 - External Transaction</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">F1 - External Transaction</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -236,13 +255,13 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">F2 - External Site</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">F2 - External Site</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -250,13 +269,13 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                       <tr>
-                        <td style="width:9%"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td><a href="#">F3 - Empty</a></td>
-                        <td style="width:20%">
+                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
+                        <td style="width:120px"><a href="#">F3 - Empty</a></td>
+                        <td style="width:120px">
                           <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -264,7 +283,7 @@
                             </div>
                           </div>
                         </td>
-                        <td style="width:40%">Note: Needs more cowbell.</td>
+                        <td>Note: Needs more cowbell.</td>
 
                       </tr>
                     </tbody>
