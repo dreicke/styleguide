@@ -29,7 +29,6 @@
                 <h1 class="title">R3 Redesign</h1>
                 <nav>
                     <ul>
-                        <li><a class="selected" href="/">Home</a></li>
                         <li><a href="guidelines.html">Guidelines</a></li>
                         <li><a href="iconography.html">Iconography</a></li>
                         <li><a href="layouts.html">Layouts</a></li>
