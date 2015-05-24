@@ -67,228 +67,28 @@
             <div class="main wrapper clearfix">
                 <article>
                     <header>
-                        <h1>My HR R3 Redesign</h1>
-                        <p>All work is work-in-progress and meant to support other efforts in design, content, and technical implementation.</p>
+                        <h1>Design Team Work-in-Progress</h1>
+                        <p>All work shown here is in-progress and meant to support efforts for design, content, and technical implementation. If you have questions, please reach out to <a href="mailto:louis.rawlins@kp.org">Louis Rawlins</a></p>
                     </header>
                     <section>
-                        <h2>Layouts</h2>
-                        <p>Layouts with status here.</p>
-                        <p>Layouts project plan dates and assignments here.</p>
+                        <h3>Guidelines and Iconography</h3>
+                        <p>This material is here to support the development of an <a href="#">online style guide</a> that gives design, content, and implementation standards and guidelines.</p>
                     </section>
                     <section>
-                        <h2>Guidelines and Iconography</h2>
-                        <p>All material meant to support the style guide.</p>
+                        <h3>Layouts, Mapping, and Flows</h3>
+                        <p>These sections explain which layouts are available for use how they fit within the context of the megamenu, and how they fit from the standpoint of a visitor to My HR, respectively.</p>
+                        <p>Use the:
+                        <ul>
+                          <li><a href="#">layouts section</a> if you know the purpose of a piece of content but are unclear what it should look like</li>
+                          <li><a href="#">mapping section</a> if you know where content should go but are unclear what layouts are being used for that type of content</li>
+                          <li><a href="#">flows section</a> if you know the type of content or where it should go but are unclear what the experience should be like for a visitor</li>
+                    </section>
+                    <section>
+                        <h3>Project Log</h3>
+                        <p>This is a tracking log for completion of My HR R3 Redesign layouts. <a href="#">Look here</a> if you have a question about whether something is done.</p>
                     </section>
                 </article>
             
-                <article>
-                  <h2>A - Unique</h2>
-                  <p>This is for items that occur either once or require customer programming.</p>            
-                  <table class="table table-hover">
-                    <tbody>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">A1 - Homepage</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">A2 - Megamenu</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                    </tbody>
-                  </table>
-                </article>
-
-                <article>
-                  <h2>B - Windex</h2>
-                  <p>A window into an index. This shows information related to a topic.</p>            
-                  <table class="table table-hover">
-                    <tbody>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">B1 - Windex</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            70%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                    </tbody>
-                  </table>
-                </article>
-
-                <article>
-                  <h2>C - Detail</h2>
-                  <p>Specific topic information for a content type.</p>            
-                  <table class="table table-hover">
-                    <tbody>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">C1 - Detail - Article</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">C2 - Detail - Video</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">C3 - Detail - List</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                    </tbody>
-                  </table>
-                </article>
-
-                <article>
-                  <h2>D - Business Process</h2>
-                  <p>A repeatable Human Resources process.</p>            
-                  <table class="table table-hover">
-                    <tbody>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">D1 - Business Process</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                    </tbody>
-                  </table>
-                </article>
-
-                <article>
-                  <h2>E - Data</h2>
-                  <p>Personal content for display to users.</p>            
-                  <table class="table table-hover">
-                    <tbody>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">E1 - Data</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                    </tbody>
-                  </table>
-                </article>
-
-                <article>
-                  <h2>F - Container</h2>
-                  <p>A generic container for content.</p>            
-                  <table class="table table-hover">
-                    <tbody>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">F1 - External Transaction</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">F2 - External Site</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                      <tr>
-                        <td style="width:50px"><img style="width:48px" src="layouts/0-default-thumbnail.png" /></td>
-                        <td style="width:120px"><a href="#">F3 - Empty</a></td>
-                        <td style="width:120px">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                        </td>
-                        <td>Note: Needs more cowbell.</td>
-
-                      </tr>
-                    </tbody>
-                  </table>
-                </article>
-
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
