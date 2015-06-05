@@ -73,6 +73,20 @@
                 </article>
                 
                 <article>
+                	<h4>Instructions for Photoshop Export</h4>
+                	<ol>
+                		<li>For 75x75 (large) icons, open <strong>icons_lg.psd</strong>. Or for 45x45 (medium) icons, open <strong>icons_md.psd</strong>.</li>
+                		<li>Make sure Photoshop's "Layers" window is open. If not, go to Windows on the menu bar and check "Layers"</li>
+                		<li>From this window, find a folder called "icons" and select the icon you'd like to use by clicking the empty box on the left of its name. This will turn on its visibility, indicated by an eye.</li>
+                		<li>Next, select the background color you'd like to use from "backgrounds" folder in the same way.</li>
+                		<li>In the display area, you should see a rendering of the icon you'd like to use.</li>
+                		<li>Export this icon by selecting "Save for Web" from the File menu.</li>
+                		<li>You will have a few options here. Choose PNG-8 from the first menu. Select "No Dither". Check "Transparency". Then select "No Transparency Dither".</li>
+                		<li>The preview you see now should be crisp-looking and about twice as big as you want it to appear on the web. If it looks correct, click Save, and choose the directory where you'd like to pull icons from.</li>                	
+                	</ol>
+                </article>
+                
+                <article>
                 	<table class="table table-hover" style="margin-top:50px">
                 		<thead>
                 			<th>ICONS</th>
@@ -96,7 +110,7 @@
 							<td>Used globally for calendars and due dates</td>
 							<td style="width:200px"><a href="#">Get it</a></td>
 						  </tr>
-						  <tr>
+						  <tr style="opacity:0.3">
 							<td style="width:50px"><img style="width:45px" src="icons/icon-career.png" /></td>
 							<td style="width:120px">Career</td>
 							<td style="width:120px"><a href="#">Navigation</a></td>
@@ -145,15 +159,18 @@
 							<td>TBD</td>
 							<td style="width:200px"><a href="#">Get it</a></td>
 						  </tr>
-						  <tr>
-							<td style="width:100px"><img style="width:75px" src="icons/icon_email.png" /></td>
-							<td style="width:100px"><img style="width:75px" src="icons/icon_email2.png" /></td>
-							<td style="width:100px"><img style="width:75px" src="icons/icon_calendar.png" /></td>
-							<td style="width:100px"><img style="width:75px" src="icons/icon_calendar2.png" /></td>
-						  </tr>
 						  
 						  
                 	</table>
+                	
+                </article>
+                
+                <article>
+                	<h4>How to use these icons in code:</h4>
+                	<p>While slightly more costly for load time, we found that, on Retina displays, there is a significant difference in clarity if we use icon images 2x the size of display and then shrink them with CSS. So when using these, please specify a width.</p>
+                	<pre>&lt;img style="width:45px" src="[folder]/[filename].png" /&gt;</pre>
+                	<img style="width:75px" src="icons/icon_email2.png" />
+                	<img style="width:75px" src="icons/icon_email.png" />
                 	
                 </article>
             
