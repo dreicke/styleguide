@@ -14,10 +14,183 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="fonts/font-embed.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <style> 
+        	
+        	h3{
+        		padding-top: 20px;
+        		padding-bottom: 20px;
+        	}
+			
+        	h4{
+        		margin-top: 18px;
+        		color: #006BA6;
+        	}
+        	
+        	pre{
+        		display: inline-block;
+        		width: 40%;
+        	}
+        	
+        	.example{
+        		display: inline-block;
+        		vertical-align: top;
+        		margin-left: 150px; 
+        		padding:2px;
+        	}
+        	
+        	.tabblock{
+        		display:inline-block;
+        		border-right: 1px solid black;
+        		background-color: #f3f3f3;
+        		text-align: center;
+        		padding-right: 17px;
+        		padding-left: 17px;
+        		padding-top: 6px; 
+        		padding-bottom: 6px;
+        		}
+        	
+        	.menunav{
+        		font-size: 16px;
+        		color: #555;
+        		text-decoration: none;
+        		font-family: 'Gotham 4r', verdana;
+        	}
+        	
+        	.menunav:hover{
+        		text-decoration: none;
+        		color: #555;
+        	}
+        	
+        	.hover{
+        		background-color: #dddddd;
+        	}
+        	
+        	li.selected{
+        		background-color: #5FA621;
+        	}
+        	
+        	a.selected{
+        		color: #fff;
+        	}
+        	
+        	a.selected:hover{
+        		color: #fff;
+        	}
+        	
+        	h5.subhead {
+        		color: #000;
+				font-size: 14px;
+				font-weight: bold; 
+				font-family: 'Gotham 7r', verdana;
+        	}
+        	
+        	a.menuitem{
+        		color: #006BA6;
+				font-size: 12px;
+				font-family: 'Gotham 4r', verdana; 
+				text-decoration: none;
+        	}
+        	
+        	a.menuitem:hover{
+        		color: #E5661F;
+        		text-decoration: none;
+        	}
+        	
+        	a.hoveritem{
+        		color: #E5661F;
+        	}
+        	
+        	a.visiteditem{
+        		color: #706259
+        	}
+        	
+        	a.visiteditem:hover{
+        		color: #706259
+        	}
+        	
+        	div#alertbar{
+        		background-color: #ffeea6;
+        		border: 1px solid #231F20;
+				text-align: center;
+				width: 390px;
+				padding-top: 7px;
+				padding-bottom: 7px;
+        	}
+        	
+        	a#alerttext{
+        		font-size: 14px;
+        		color: #333;
+				font-family: 'Gotham 4r', verdana;
+        	}
+        	
+        	span#warning{
+        		color: #BB1654;
+        		font-family: 'Gotham 7r', verdana;
+        	}
+        	
+        	li#greeting{
+        		display: inline-block;
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 16px;
+				border-right: 2px solid #000;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: #000;
+        	}
+        	
+        	span#username{
+        		font-family: 'Gotham 7r', verdana;
+        	}
+        	
+        	span#imperson{
+        		font-family: 'Gotham 7r', verdana;
+        		color: #BB1654;
+        	}
+        	
+        	a#headerlinkprimary{
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 16px;
+        		border-right: 2px solid #000;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: #000;
+				text-decoration: none;
+        	}
+        	
+        	a#headerlinksecondary{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 16px;
+        		border-right: 2px solid #000;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: #006BA6;
+				text-decoration: none;
+        	}
+        	
+        	a#footerlink{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 14px;
+        		border-right: 1px solid #000;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: #555;
+				text-decoration: none;
+			}
+        		
+        	
+        	
+        </style>
+        
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -41,27 +214,6 @@
         </div>
 
 
-                          <!-- Progress Bars
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                            100%
-                            </div>
-                          </div>
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            70%
-                            </div>
-                          </div>
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" 
-                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            50%
-                            </div>
-                          </div>
-                          Progress Bars -->
-
 
         <div class="main-container">
             <div class="main wrapper clearfix">
@@ -71,6 +223,217 @@
                         <p>Design specifications including iconography, brand usage, and general styles, content editorial standards, and front-end development guidelines.</p>
                     </header>
                 </article>
+
+<!-- Start tabs -->
+
+<div role="tabpanel">
+
+<!-- Nav tabs -->
+
+	  <ul class="nav nav-tabs" role="tablist" id="myTab">
+		<li role="presentation" class="active">
+			<a href="#desktop" role="tab" data-toggle="tab">Desktop Styles</a>
+		</li>
+		<li role="presentation">
+			<a href="#mobile" role="tab" data-toggle="tab">Mobile Styles</a>
+		</li>
+	  </ul>
+	  
+<!-- Start tab content -->
+
+		<div class="tab-content">
+			
+<!-- Desktop pane -->
+					  
+			<div role="tabpanel" class="tab-pane active" id="desktop">
+
+
+                <article class="desktop" id="megamenu">
+                <h3>Megamenu</h3>
+                
+   
+   <!-- Tabs -->                
+                
+                <h4>Tabs</h4>
+                
+                <h5>Tab Blocks: megamenu > menulist > li</h5>
+                	<pre>background-color: #f3f3f3;
+text-align: center;
+padding-right: 17px;
+padding-left: 17px;
+padding-top: 6px;
+padding-bottom: 6px;</pre>
+                	<div class="example">
+                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li>
+                	</div>
+                <h5>Tab Text: megamenu > menulist > a</h5>
+                	<pre>font-size: 16px;
+color: #555;
+font-family: 'Gotham 7r', verdana</pre>
+  
+                <h5>Tab Block on Hover: megamenu > menulist > li: hover</h5>
+                	<pre>background-color: #dddddd;</pre>
+                	<div class="example">
+                		<li class="tabblock hover"><a class="menunav">Menu Nav Item</a></li>
+                	</div>   
+                	
+                <h5>Tab Block Selected: megamenu > menulist > li: active</h5>
+                	<pre>background-color: #5FA621;</pre>
+                	<div class="example">
+                		<li class="tabblock selected"><a class="menunav selected">Menu Nav Item</a></li>
+                	</div>   
+                	       
+                	        	           	
+                <h5>Tab Text Selected: megamenu > menulist > a: active</h5>
+                	<pre>color: #fff;</pre>
+                	
+
+   <!-- Menu Items --> 
+                
+                <h4>List Items</h4>
+                <h5>Subheaders: ul > li > h5</h5>
+                	<pre>color: #000;
+font-size: 14px;
+font-family: 'Gotham 7r', verdana;</pre>
+                	<div class="example">
+                		<h5 class="subhead">Menu Item Subheader</h5>
+                	</div>
+                	
+                <h5>Menu Item Hyperlinks: ul > li > megamenu-list-items > li > a</h5>
+                	<pre>color: #006BA6;
+font-size: 12px;
+font-family: 'Gotham 4r', verdana;
+text-decoration: none;</pre>
+                	<div class="example">
+                		<a class="menuitem">Individual Menu Item</a>
+                	</div>
+                	
+                	
+                <h5>Menu Item Hyperlinks: ul > li > megamenu-list-items > li > a: hover</h5>
+                	<pre>color: #E5661F;</pre>
+                	<div class="example">
+                		<a class="menuitem hoveritem">Individual Menu Item</a>
+                	</div>
+                	
+                <h5>Menu Item Hyperlinks: ul > li > megamenu-list-items > li > a: visited</h5>
+                	<pre>color: #706259;</pre>
+                	<div class="example">
+                		<a class="menuitem visiteditem">Individual Menu Item</a>
+                	</div>
+                
+
+                </article>
+                
+                
+   <!-- Alert Bar -->                 
+                
+                <article class="desktop" id="alert">
+                <h3>Alert</h3>
+                
+                <h5>Alert Bar:  div.alert ></h5>
+                	<pre>background-color: #ffeea6;
+border: 1px solid #231F20;
+text-align: center;
+</pre>
+                	<div class="example">
+                		<div id="alertbar"><a id="alerttext"><span id="warning">ALERT!</span> This is a test, this is only a test.</a></div>
+                	</div>
+                <h5>Alert Bar Text: div.alert > a</h5>
+                	<pre>font-size: 14px;
+color: #333;
+font-family: 'Gotham 4r', verdana</pre>
+
+				<h5>Alert Bar Text: div.alert > a > span#warning</h5>
+                	<pre>color: #BB1654;
+font-family: 'Gotham 7r', verdana;
+</pre>
+
+                </article>
+                
+   <!-- Header and Footer -->         
+                
+                <article class="desktop" id="alert">
+                <h3>Header and Footer</h3>
+                
+                <h5>Greeting > li </h5>
+                	<pre>font-family: 'Gotham 4r', verdana;
+border-right: 2px solid #000;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+color: #000;
+</pre>
+                	<div class="example">
+                		<li id="greeting">Welcome, <span id="username">Margaret</span> <span id="imperson">(as Dave)</span></li>
+                	</div>
+                <h5>Greeting > li > span#username</h5>
+                	<pre>font-family: 'Gotham 7r', verdana</pre>
+
+				<h5>Greeting > li > span#imperson</h5>
+                	<pre>color: #BB1654;
+font-family: 'Gotham 7r', verdana;
+</pre>
+
+				<h5>Header > a (primary) </h5>
+                	<pre>font-family: 'Gotham 7r', verdana;
+font-size: 16px;
+border-right: 2px solid #000;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+color: #000;
+</pre>
+                	<div class="example">
+                		<a id="headerlinkprimary" href="#">My Profile</a>
+                	</div>
+                	
+                <h5>Header > a (secondary) </h5>
+                	<pre>font-family: 'Gotham 4r', verdana;
+color: #006BA6;</pre>
+					<div class="example">
+                		<a id="headerlinksecondary" href="#">Admin</a>
+                	</div>
+
+				<h5>Footer > li </h5>
+                	<pre>border-right: 1px solid #000;
+text-align: center;
+padding: 0 10px 0 5px;
+</pre>
+					<div class="example">
+                		<a id="footerlink" href="#">Terms and Conditions</a>
+                	</div>
+                	
+				<h5>Footer > li > a </h5>
+					<pre>font-family: 'Gotham 4r', verdana;
+font-size: 14px;
+color: #555;</pre>
+
+
+
+
+                </article>
+                
+            </div>
+            
+            
+            
+            
+            
+ <!-- Mobile Tab -->           
+ 
+            <div class="tab-pane fade" id="mobile">
+            	<p>asdfasd asdlf alsdfawe asdf a;sdfadsf</p>
+            </div>
+            
+                        
+		</div>
+		
+	<!-- End tab content -->	
+		
+</div>
+		
+<!-- End tabs section -->		
+
             
             </div> <!-- #main -->
         </div> <!-- #main-container -->
@@ -81,10 +444,14 @@
             </footer>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+		   
+		</script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -95,5 +462,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        
+
     </body>
 </html>
