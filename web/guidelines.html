@@ -59,7 +59,7 @@
         		font-size: 16px;
         		color: #555;
         		text-decoration: none;
-        		font-family: 'Gotham 4r', verdana;
+        		font-family: 'Gotham 7r', verdana;
         	}
         	
         	.menunav:hover{
@@ -138,11 +138,11 @@
         		display: inline-block;
         		font-family: 'Gotham 4r', verdana;
         		font-size: 16px;
-				border-right: 2px solid #000;
+				border-right: 2px solid #555;
 				text-align: center;
 				padding-left: 10px;
 				padding-right: 10px;
-				color: #000;
+				color: #555;
         	}
         	
         	span#username{
@@ -154,21 +154,21 @@
         		color: #BB1654;
         	}
         	
-        	a#headerlinkprimary{
+        	a.headerlinkprimary{
         		font-family: 'Gotham 7r', verdana;
         		font-size: 16px;
-        		border-right: 2px solid #000;
+        		border-right: 2px solid #555;
 				text-align: center;
 				padding-left: 10px;
 				padding-right: 10px;
-				color: #000;
+				color: #555;
 				text-decoration: none;
         	}
         	
-        	a#headerlinksecondary{
+        	a.headerlinksecondary{
         		font-family: 'Gotham 4r', verdana;
         		font-size: 16px;
-        		border-right: 2px solid #000;
+        		border-right: 2px solid #555;
 				text-align: center;
 				padding-left: 10px;
 				padding-right: 10px;
@@ -176,15 +176,40 @@
 				text-decoration: none;
         	}
         	
-        	a#footerlink{
+        	a.footerlink{
         		font-family: 'Gotham 4r', verdana;
         		font-size: 14px;
-        		border-right: 1px solid #000;
+        		border-right: 1px solid #555;
 				text-align: center;
 				padding-left: 10px;
 				padding-right: 10px;
 				color: #555;
 				text-decoration: none;
+			}
+			
+			a.mmenulink{
+				font-family: 'Gotham 7r', verdana;
+        		font-size: 16px;
+        		color: #333;
+        		text-decoration: none;
+			}
+			
+			li.mmenublock{
+				padding-left: 15px;
+				padding-top: 7px;
+				padding-bottom: 7px;
+				border-bottom: 3px solid #ececec;
+				border-left: 1px solid #000;
+				display: block;
+				width: 200px;
+			}
+			
+			.commonblk{
+				background-color: #706259;
+			}
+			
+			a.commonlink{
+				color: #fff;
 			}
         		
         	
@@ -299,7 +324,7 @@ font-family: 'Gotham 7r', verdana;</pre>
                 		<h5 class="subhead">Menu Item Subheader</h5>
                 	</div>
                 	
-                <h5>Menu Item Hyperlinks: ul > li > megamenu-list-items > li > a</h5>
+                <h5>Menu Item Hyperlinks: megamenu-list-items > li > a</h5>
                 	<pre>color: #006BA6;
 font-size: 12px;
 font-family: 'Gotham 4r', verdana;
@@ -309,13 +334,13 @@ text-decoration: none;</pre>
                 	</div>
                 	
                 	
-                <h5>Menu Item Hyperlinks: ul > li > megamenu-list-items > li > a: hover</h5>
+                <h5>Menu Item Hyperlinks: megamenu-list-items > li > a: hover</h5>
                 	<pre>color: #E5661F;</pre>
                 	<div class="example">
                 		<a class="menuitem hoveritem">Individual Menu Item</a>
                 	</div>
                 	
-                <h5>Menu Item Hyperlinks: ul > li > megamenu-list-items > li > a: visited</h5>
+                <h5>Menu Item Hyperlinks: megamenu-list-items > li > a: visited</h5>
                 	<pre>color: #706259;</pre>
                 	<div class="example">
                 		<a class="menuitem visiteditem">Individual Menu Item</a>
@@ -357,19 +382,19 @@ font-family: 'Gotham 7r', verdana;
                 
                 <h5>Greeting > li </h5>
                 	<pre>font-family: 'Gotham 4r', verdana;
-border-right: 2px solid #000;
+border-right: 2px solid #555;
 text-align: center;
 padding-left: 10px;
 padding-right: 10px;
-color: #000;
+color: #555;
 </pre>
                 	<div class="example">
                 		<li id="greeting">Welcome, <span id="username">Margaret</span> <span id="imperson">(as Dave)</span></li>
                 	</div>
-                <h5>Greeting > li > span#username</h5>
+                <h5>Greeting > li > span# username</h5>
                 	<pre>font-family: 'Gotham 7r', verdana</pre>
 
-				<h5>Greeting > li > span#imperson</h5>
+				<h5>Greeting > li > span# impersonate</h5>
                 	<pre>color: #BB1654;
 font-family: 'Gotham 7r', verdana;
 </pre>
@@ -377,30 +402,34 @@ font-family: 'Gotham 7r', verdana;
 				<h5>Header > a (primary) </h5>
                 	<pre>font-family: 'Gotham 7r', verdana;
 font-size: 16px;
-border-right: 2px solid #000;
+border-right: 2px solid #555;
 text-align: center;
 padding-left: 10px;
 padding-right: 10px;
-color: #000;
+color: #555;
 </pre>
                 	<div class="example">
-                		<a id="headerlinkprimary" href="#">My Profile</a>
+                		<a class="headerlinkprimary" href="#">My Profile</a>
+                		<a class="headerlinkprimary" href="#">Sign Off</a>
+                		<a class="headerlinkprimary" href="#">Help</a>
                 	</div>
                 	
                 <h5>Header > a (secondary) </h5>
                 	<pre>font-family: 'Gotham 4r', verdana;
 color: #006BA6;</pre>
 					<div class="example">
-                		<a id="headerlinksecondary" href="#">Admin</a>
+                		<a class="headerlinksecondary" href="#">Admin</a><a class="headerlinksecondary" href="#">Author</a><a class="headerlinksecondary" href="#">Impersonate</a>
                 	</div>
 
 				<h5>Footer > li </h5>
-                	<pre>border-right: 1px solid #000;
+                	<pre>border-right: 1px solid #555;
 text-align: center;
 padding: 0 10px 0 5px;
 </pre>
 					<div class="example">
-                		<a id="footerlink" href="#">Terms and Conditions</a>
+                		<a class="footerlink" href="#">Terms and Conditions</a>
+                		<a class="footerlink" href="#">Privacy</a>
+                		<a class="footerlink" href="#">Legal</a>
                 	</div>
                 	
 				<h5>Footer > li > a </h5>
@@ -422,7 +451,60 @@ color: #555;</pre>
  <!-- Mobile Tab -->           
  
             <div class="tab-pane fade" id="mobile">
-            	<p>asdfasd asdlf alsdfawe asdf a;sdfadsf</p>
+            	
+            	<article class="mobile" id="menu">
+                
+                	<h3>Menu</h3>
+                		
+                		<h5>menuitem > a</h5>
+                		<pre>font-family: 'Gotham 7r', verdana;
+font-size: 15px;
+color: #333;</pre>
+						<div class="example">
+							<li class="mmenublock"><a class="mmenulink">Money</a></li>
+							<li class="mmenublock"><a class="mmenulink">Time</a></li>
+							<li class="mmenublock"><a class="mmenulink">Performance</a></li>
+						</div>
+						
+						<h5>menuitem > li</h5>
+                		<pre>padding-left: 15px;
+padding-top: 7px;
+padding-bottom: 7px;</pre>
+
+						
+						<h5>menuitem > li (Back)</h5>
+                		<pre>background-color: #003B71;
+padding-top: 10px;
+padding-bottom: 10px;</pre>
+						
+						<div class="example">
+							<li class="mmenublock mback"><a class="mmenulink mback">< Home</a></li>
+							<li class="mmenublock mselected"><a class="mmenulink mselected">Feedback</a></li>
+							<li class="mmenublock "><a class="mmenulink">Peer</a></li>
+						</div>
+						
+						<h5>menuitem > a (Common Tasks)</h5>
+                		<pre>color: #fff;</pre>
+						
+						<h5>menuitem > li (Common Tasks)</h5>
+                		<pre>background-color: #706259;</pre>
+						
+						<div class="example">
+							<li class="mmenublock"><a class="mmenulink">Manager Tools</a></li>
+							<li class="mmenublock commonblk"><a class="mmenulink commonlink">My Profile</a></li>
+							<li class="mmenublock commonblk"><a class="mmenulink commonlink">Change Region</a></li>
+							<li class="mmenublock commonblk"><a class="mmenulink commonlink">Help</a></li>
+						</div>
+						
+						<h5>menuitem > a (Common Tasks)</h5>
+                		<pre>color: #fff;</pre>
+						
+
+                		
+
+                
+                </article>
+                
             </div>
             
                         
