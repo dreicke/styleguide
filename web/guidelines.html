@@ -211,6 +211,20 @@
 			a.commonlink{
 				color: #fff;
 			}
+			
+			a.mback {
+				color: #fff;
+			}
+			
+			li.mback{
+				background-color: #003B71;
+				padding-top: 13px;
+				padding-bottom: 13px; 
+			}
+			
+			li.mselected{
+				background-color: #8FCDF0;
+			}
         		
         	
         	
@@ -288,30 +302,35 @@ padding-right: 17px;
 padding-left: 17px;
 padding-top: 6px;
 padding-bottom: 6px;</pre>
-                	<div class="example">
-                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li>
+                	<div class="example">                		
+                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>                		
                 	</div>
                 <h5>Tab Text: megamenu > menulist > a</h5>
                 	<pre>font-size: 16px;
 color: #555;
 font-family: 'Gotham 7r', verdana</pre>
+
+<hr>
   
                 <h5>Tab Block on Hover: megamenu > menulist > li: hover</h5>
                 	<pre>background-color: #dddddd;</pre>
                 	<div class="example">
-                		<li class="tabblock hover"><a class="menunav">Menu Nav Item</a></li>
+                		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>
                 	</div>   
+                	
+<hr>
                 	
                 <h5>Tab Block Selected: megamenu > menulist > li: active</h5>
                 	<pre>background-color: #5FA621;</pre>
                 	<div class="example">
-                		<li class="tabblock selected"><a class="menunav selected">Menu Nav Item</a></li>
+                		<li class="tabblock"><a class="menunav">Item #1</a></li><li class="tabblock selected"><a class="menunav selected">Selected Item</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>
                 	</div>   
                 	       
                 	        	           	
                 <h5>Tab Text Selected: megamenu > menulist > a: active</h5>
                 	<pre>color: #fff;</pre>
                 	
+<hr>
 
    <!-- Menu Items --> 
                 
@@ -324,6 +343,8 @@ font-family: 'Gotham 7r', verdana;</pre>
                 		<h5 class="subhead">Menu Item Subheader</h5>
                 	</div>
                 	
+<hr>
+                	
                 <h5>Menu Item Hyperlinks: megamenu-list-items > li > a</h5>
                 	<pre>color: #006BA6;
 font-size: 12px;
@@ -333,6 +354,8 @@ text-decoration: none;</pre>
                 		<a class="menuitem">Individual Menu Item</a>
                 	</div>
                 	
+<hr>
+                	
                 	
                 <h5>Menu Item Hyperlinks: megamenu-list-items > li > a: hover</h5>
                 	<pre>color: #E5661F;</pre>
@@ -340,16 +363,19 @@ text-decoration: none;</pre>
                 		<a class="menuitem hoveritem">Individual Menu Item</a>
                 	</div>
                 	
+<hr>
+                	
                 <h5>Menu Item Hyperlinks: megamenu-list-items > li > a: visited</h5>
                 	<pre>color: #706259;</pre>
                 	<div class="example">
                 		<a class="menuitem visiteditem">Individual Menu Item</a>
                 	</div>
                 
-
+<hr>
                 </article>
                 
-                
+
+              
    <!-- Alert Bar -->                 
                 
                 <article class="desktop" id="alert">
@@ -372,8 +398,10 @@ font-family: 'Gotham 4r', verdana</pre>
                 	<pre>color: #BB1654;
 font-family: 'Gotham 7r', verdana;
 </pre>
-
+<hr>
                 </article>
+
+
                 
    <!-- Header and Footer -->         
                 
@@ -399,6 +427,8 @@ color: #555;
 font-family: 'Gotham 7r', verdana;
 </pre>
 
+<hr>
+
 				<h5>Header > a (primary) </h5>
                 	<pre>font-family: 'Gotham 7r', verdana;
 font-size: 16px;
@@ -414,12 +444,16 @@ color: #555;
                 		<a class="headerlinkprimary" href="#">Help</a>
                 	</div>
                 	
+<hr>
+                	
                 <h5>Header > a (secondary) </h5>
                 	<pre>font-family: 'Gotham 4r', verdana;
 color: #006BA6;</pre>
 					<div class="example">
                 		<a class="headerlinksecondary" href="#">Admin</a><a class="headerlinksecondary" href="#">Author</a><a class="headerlinksecondary" href="#">Impersonate</a>
                 	</div>
+                	
+<hr>
 
 				<h5>Footer > li </h5>
                 	<pre>border-right: 1px solid #555;
@@ -471,11 +505,13 @@ color: #333;</pre>
 padding-top: 7px;
 padding-bottom: 7px;</pre>
 
+<hr>
+
 						
 						<h5>menuitem > li (Back)</h5>
                 		<pre>background-color: #003B71;
-padding-top: 10px;
-padding-bottom: 10px;</pre>
+padding-top: 13px;
+padding-bottom: 13px;</pre>
 						
 						<div class="example">
 							<li class="mmenublock mback"><a class="mmenulink mback">< Home</a></li>
@@ -483,11 +519,18 @@ padding-bottom: 10px;</pre>
 							<li class="mmenublock "><a class="mmenulink">Peer</a></li>
 						</div>
 						
+						<h5>menuitem > a (Back)</h5>
+						<pre>color: #fff;</pre>
+						
+						<h5>menuitem > li (Selected)</h5>
+                		<pre>background-color: #8FCDF0;</pre>
+						
+<hr>					
+						
+						
+						
 						<h5>menuitem > a (Common Tasks)</h5>
                 		<pre>color: #fff;</pre>
-						
-						<h5>menuitem > li (Common Tasks)</h5>
-                		<pre>background-color: #706259;</pre>
 						
 						<div class="example">
 							<li class="mmenublock"><a class="mmenulink">Manager Tools</a></li>
@@ -495,6 +538,11 @@ padding-bottom: 10px;</pre>
 							<li class="mmenublock commonblk"><a class="mmenulink commonlink">Change Region</a></li>
 							<li class="mmenublock commonblk"><a class="mmenulink commonlink">Help</a></li>
 						</div>
+						
+						<h5>menuitem > li (Common Tasks)</h5>
+                		<pre>background-color: #706259;</pre>
+						
+						
 						
 						<h5>menuitem > a (Common Tasks)</h5>
                 		<pre>color: #fff;</pre>
