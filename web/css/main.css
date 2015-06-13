@@ -55,6 +55,11 @@ table tr th span {
   color: #ccc;
 }
 
+article.special {
+    padding: 0 15px;
+    background: #f2f2f2;
+}
+
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
