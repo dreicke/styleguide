@@ -198,7 +198,7 @@
 			}
 			
 			a.mmenulink{
-				font-family: 'Gotham 4r', verdana;
+				font-family: 'Gotham 7r', verdana;
         		font-size: 16px;
         		color: #333;
         		text-decoration: none;
@@ -236,7 +236,10 @@
 				background-color: #8FCDF0;
 			}
         		
-        	
+        	.backarrow{
+        		position: relative;
+        		top: -1px;
+        	}       	
         	
         </style>
         
@@ -542,9 +545,13 @@ padding-bottom: 7px;</pre>
                 		<pre>background-color: #003B71;
 padding-top: 13px;
 padding-bottom: 13px;</pre>
+
+						<h5>Caret Character: span class="backarrow" &lsaquo; /span </h5>
+                		<pre>position: relative;
+top: -1px;</pre>
 						
 						<div class="example">
-							<li class="mmenublock mback"><a class="mmenulink mback">&lsaquo; Home</a></li>
+							<li class="mmenublock mback"><a class="mmenulink mback"><span class="backarrow">&lsaquo;</span> Home</a></li>
 							<li class="mmenublock mselected"><a class="mmenulink mselected">Feedback</a></li>
 							<li class="mmenublock "><a class="mmenulink">Peer</a></li>
 						</div>
