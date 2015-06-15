@@ -28,6 +28,7 @@
         	
         	ul{
         		padding-left: 0px;
+        		list-style-type: none;
         		}
         	
         	h3{
@@ -255,6 +256,14 @@
 				text-decoration: none;
 				color: #333;
 			}
+			
+			li.cat {
+				font-weight: bold;
+			}
+			
+			li.sub{
+				margin-left: 5px;
+			}
         	
         </style>
         
@@ -315,6 +324,22 @@
 <!-- Desktop pane -->
 					  
 			<div role="tabpanel" class="tab-pane active" id="desktop">
+			
+			
+				<article class="desktop" class="toc">	
+					<ul style="margin-top:30px">
+						<li class="cat"><a href="#megamenu">MEGAMENU</a></li>
+						<li class="sub"><a href="#defaulttab">Default Tab</a></li>
+						<li class="sub"><a href="#hovertab">Tab on Hover</a></li>
+						<li class="sub"><a href="#selectedtab">Tab Selected</a></li>
+						<li class="cat"><a href="#alert">ALERT BAR</a></li>
+						<li class="cat"><a href="#headfoot">HEADER AND FOOTER</a></li>
+						<li class="sub"><a href="#pagegreeting">Header Greeting</a></li>
+						<li class="sub"><a href="#headerprimary">Header Link (Important)</a></li>
+						<li class="sub"><a href="#headersecondary">Header Link (Secondary)</a></li>
+						<li class="sub"><a href="#pagefooter">Footer</a></li>
+					</ul>
+				</article>
 
 
                 <article class="desktop" id="megamenu">
@@ -535,6 +560,17 @@ color: #555;</pre>
  <!-- Mobile Tab -->           
  
             <div class="tab-pane fade" id="mobile">
+            
+            
+            	<article class="desktop" class="toc">	
+					<ul style="margin-top:30px">
+						<li class="cat"><a href="#menu">MOBILE MENU</a></li>
+						<li class="sub"><a href="#defaultmitem">Default Menu Item</a></li>
+						<li class="sub"><a href="#backmitem">"Back" Menu Item</a></li>
+						<li class="sub"><a href="#commonmitem">Common Task Menu Item</a></li>
+						<li class="cat"><a href="#mfooter">FOOTER</a></li>
+					</ul>
+				</article>
             	
             	<article class="mobile" id="menu">
                 
@@ -566,9 +602,6 @@ padding-bottom: 7px;</pre>
 padding-top: 13px;
 padding-bottom: 13px;</pre>
 
-						<h5>Caret Character: span class="backarrow" &lsaquo; /span </h5>
-                		<pre>position: relative;
-top: -1px;</pre>
 						
 						<div class="example">
 							<li class="mmenublock mback"><a class="mmenulink mback"><span class="backarrow">&lsaquo;</span> Home</a></li>
@@ -576,6 +609,9 @@ top: -1px;</pre>
 							<li class="mmenublock "><a class="mmenulink">Peer</a></li>
 						</div>
 						
+						<h5>Caret Character: span class="backarrow" &lsaquo; /span </h5>
+                		<pre>position: relative;
+top: -1px;</pre>
 						<h5>menuitem > a (Back)</h5>
 						<pre>color: #fff;</pre>
 						
@@ -624,6 +660,7 @@ padding-right: 7px;
 </pre>
 
 					<div class="example">
+						<img src="images/kp_hor_307.jpg" style="width:250px; padding-left:7px;">
 						<ul>
 						<li class="mfooterlink"><a  href="#">Terms and Conditions</a>
 						</li><li class="mfooterlink"><a  href="#">Privacy</a>
