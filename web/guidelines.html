@@ -62,35 +62,35 @@
         	
         	.tabblock{
         		display:inline-block;
-        		border-right: 1px solid #e1e1e1;
+        		border-right: 1px solid #bdbdbd;
         		background-color: #f3f3f3;
         		text-align: center;
-        		padding-right: 17px;
-        		padding-left: 17px;
-        		padding-top: 6px; 
-        		padding-bottom: 6px;
+        		padding-right: 20px;
+        		padding-left: 20px;
+        		padding-top: 8px; 
+        		padding-bottom: 8px;
         		}
         	
         	.menunav{
-        		font-size: 1.125em;
-        		color: #555;
+        		font-size: 1.071em;
+        		color: #444445;
         		text-decoration: none;
-        		font-family: 'Gotham 7r', verdana;
+        		font-family: 'Gotham 4r', verdana;
         	}
         	
         	.menunav:hover{
         		text-decoration: none;
-        		color: #555;
+        		color: #444445;
         	}
         	
         	.hover{
         		background-color: #ffffff;
-        		border-top: 1px solid #e1e1e1;
-        		padding-top: 5px;
+        		border-top: 1px solid #bdbdbd;
+        		padding-top: 7px;
         	}
         	
         	li.selected{
-        		padding-bottom: 2px;
+        		padding-bottom: 4px;
         		border-bottom: 4px solid #5FA621;
         	}
         	
@@ -110,20 +110,12 @@
         	}
         	
         	a.menuitem:hover{
-        		color: #E5661F;
+        		color: #706259;
         		text-decoration: none;
         	}
         	
         	a.hoveritem{
-        		color: #E5661F;
-        	}
-        	
-        	a.visiteditem{
-        		color: #706259
-        	}
-        	
-        	a.visiteditem:hover{
-        		color: #706259
+        		color: #706259;
         	}
         	
         	div#alertbar{
@@ -149,8 +141,8 @@
         	li#greeting{
         		display: inline-block;
         		font-family: 'Gotham 4r', verdana;
-        		font-size: 1.125em;
-				border-right: 2px solid #555;
+        		font-size: 0.929em;
+				border-right: 1px solid #555;
 				text-align: center;
 				padding-left: 10px;
 				padding-right: 10px;
@@ -158,18 +150,18 @@
         	}
         	
         	span#username{
-        		font-family: 'Gotham 7r', verdana;
+        		font-family: 'Gotham 4r', verdana;
         	}
         	
         	span#imperson{
-        		font-family: 'Gotham 7r', verdana;
+        		font-family: 'Gotham 4r', verdana;
         		color: #BB1654;
         	}
         	
         	a.headerlinkprimary{
-        		font-family: 'Gotham 7r', verdana;
-        		font-size: 1.125em;
-        		border-right: 2px solid #555;
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 0.929em;
+        		border-right: 1px solid #555;
 				text-align: center;
 				padding-left: 10px;
 				padding-right: 10px;
@@ -179,8 +171,8 @@
         	
         	a.headerlinksecondary{
         		font-family: 'Gotham 4r', verdana;
-        		font-size: 1.125em;
-        		border-right: 2px solid #555;
+        		font-size: 0.929em;
+        		border-right: 1px solid #555;
 				text-align: center;
 				padding-left: 10px;
 				padding-right: 10px;
@@ -264,10 +256,123 @@
 			li.sub{
 				margin-left: 5px;
 			}
+			
+			.col-title{
+				font-size: 1.5em;
+				color: #3c431d;
+				font-family: 'Gotham 4r', verdana;
+			}
+			
+			.col-stat{
+				font-family: 'Gotham 4r', verdana;
+				font-size: 1.071em;
+				display: inline-block;
+				float: left;
+				margin-bottom: 0px;
+				color: #555555;
+			}
+			
+			.statvalue{
+				float: right;
+			}
+			
+			.col-row{
+				width: 280px;
+			}
+			
+			.col-link{
+				color: #006BA6;
+				font-family: 'Gotham 4r', verdana;
+				font-size: 1.071em;
+				margin-bottom: 0px;
+			}
+			
+			.windex-pagetitle{
+				color: #003B71;
+				font-size: 2em;
+				font-family: 'Gotham 7r', verdana;
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			.windex-breadcrumb{
+				color: #706259;
+				font-size: 0.929em;
+				font-family: 'Gotham 4r', verdana;
+				margin-right: 8px;
+			}
+			
+			.active-breadcrumb {
+				color: #006BA6;
+			}
+			
+			a.active-breadcrumb:hover {
+				color: #706259;
+				text-decoration: none;
+			}
+        	
+        	.rows-subtitle{
+        		color: #3c431d;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.286em;
+        	}
+        	
+        	.submit-comment{
+        		background-color: #00625C;
+        		text-align: center;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 0.929em;
+        		width: 310px;
+        		height: 33px;
+        		color: #ffffff;
+        		vertical-align: middle;
+        		border: 0px;
+        	}
+        	
+        	div.comments-area{
+        		width: 280px;
+        		height: 200px;
+        		color: #706259;
+        		padding: 10px;
+        	}	
+        	
+        	h5.commentsarea-head{
+        		color: #6f6158;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.214em;
+        		border-bottom: 1px solid #e1e1e1;
+        		padding-bottom: 10px;
+        	}
+        	
+        	.searchbar-text{
+        		color: #333333;
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 0.929em;
+        	}
+        	
+        	.searchbar-field{
+        		border: 1px solid #555555;
+        		width: 280px;
+        		height: 40px;
+        		padding: 10px;
+        	}
+        	
+        	
         	
         </style>
         
     </head>
+    
+    
+
+    
+     
+<!-- Start body -->   
+ 
+
+    
+    
+    
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -320,8 +425,32 @@
 <!-- Start tab content -->
 
 		<div class="tab-content">
+
+
+
+
+
+
+
+
+
+
+
+
 			
-<!-- Desktop pane -->
+<!-- DESKTOP __________________________________________________________ -->
+
+
+
+
+
+
+
+
+
+
+
+
 					  
 			<div role="tabpanel" class="tab-pane active" id="desktop">
 			
@@ -332,6 +461,8 @@
 						<li class="sub"><a href="#defaulttab">Default Tab</a></li>
 						<li class="sub"><a href="#hovertab">Tab on Hover</a></li>
 						<li class="sub"><a href="#selectedtab">Tab Selected</a></li>
+						<li class="sub"><a href="#menusubheader">Menu Subheader</a></li>
+						<li class="sub"><a href="#menulink_default">Menu Item</a></li>
 						<li class="cat"><a href="#alert">ALERT BAR</a></li>
 						<li class="cat"><a href="#headfoot">HEADER AND FOOTER</a></li>
 						<li class="sub"><a href="#pagegreeting">Header Greeting</a></li>
@@ -345,8 +476,11 @@
                 <article class="desktop" id="megamenu">
                 <h3>Megamenu</h3>
                 
+ 
    
    <!-- Tabs -->                
+                
+                
                 
                 <h4>Tabs</h4>
                 
@@ -360,22 +494,22 @@ padding-right: 17px;
 padding-left: 17px;
 padding-top: 6px;
 padding-bottom: 6px;
-border-right: 1px solid #e1e1e1;</pre>
+border-right: 1px solid #bdbdbd;</pre>
                 	<div class="example">                		
                 		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>                		
                 	</div>
                 <h5>Tab Text: megamenu > menulist > a</h5>
-                	<pre>font-size: 1.125em;
+                	<pre>font-size: 1.071em;
 color: #555;
-font-family: 'Gotham 7r', verdana</pre>
+font-family: 'Gotham 4r', verdana</pre>
 				</div>
 
 <hr>
             <div id="hovertab">  
                 <h5>Tab Block on Hover: megamenu > menulist > li: hover</h5>
                 	<pre>background-color: #ffffff;
-border-top: 1px solid #e1e1e1;
-padding-top: 5px;</pre>
+border-top: 1px solid #bdbdbd;
+padding-top: 7px;</pre>
                 	<div class="example">
                 		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>
                 	</div>  
@@ -384,7 +518,7 @@ padding-top: 5px;</pre>
 <hr>
             <div id="selectedtab">	
                 <h5>Tab Block Selected: megamenu > menulist > li: active</h5>
-                	<pre>padding-bottom: 2px;
+                	<pre>padding-bottom: 4px;
 border-bottom: 4px solid #5FA621;</pre>
                 	<div class="example">
                 		<li class="tabblock"><a class="menunav">Item #1</a></li><li class="tabblock selected"><a class="menunav selected">Selected Item</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>
@@ -396,9 +530,15 @@ border-bottom: 4px solid #5FA621;</pre>
             </div> 	
 <hr>
 
+
+
    <!-- Menu Items --> 
+    
+    
                 
                 <h4>List Items</h4>
+                
+            <div id="menusubheader">
                 <h5>Subheaders: ul > li > h5</h5>
                 	<pre>color: #000;
 font-size: 1em;
@@ -406,9 +546,10 @@ font-family: 'Gotham 7r', verdana;</pre>
                 	<div class="example">
                 		<h5 class="subhead">Menu Item Subheader</h5>
                 	</div>
-                	
+            </div>
 <hr>
-                	
+            
+            <div id="menulink_default">    	
                 <h5>Menu Item Hyperlinks: megamenu-list-items > li > a</h5>
                 	<pre>color: #006BA6;
 font-size: 0.875em;
@@ -417,30 +558,29 @@ text-decoration: none;</pre>
                 	<div class="example">
                 		<a class="menuitem">Individual Menu Item</a>
                 	</div>
-                	
+            </div>   	
 <hr>
                 	
-                	
+            <div id="menulink_hover">   	
                 <h5>Menu Item Hyperlinks: megamenu-list-items > li > a: hover</h5>
-                	<pre>color: #E5661F;</pre>
+                	<pre>color: #706259;</pre>
                 	<div class="example">
                 		<a class="menuitem hoveritem">Individual Menu Item</a>
                 	</div>
-                	
+            </div>   	
 <hr>
-                	
-                <h5>Menu Item Hyperlinks: megamenu-list-items > li > a: visited</h5>
-                	<pre>color: #706259;</pre>
-                	<div class="example">
-                		<a class="menuitem visiteditem">Individual Menu Item</a>
-                	</div>
-                
-<hr>
+            
                 </article>
                 
 
+          
+          
               
    <!-- Alert Bar -->                 
+             
+             
+             
+             
                 
                 <article class="desktop" id="alert">
                 <h3>Alert</h3>
@@ -467,7 +607,12 @@ font-family: 'Gotham 7r', verdana;
 
 
                 
+                
    <!-- Header and Footer -->         
+                
+                
+                
+                
                 
                 <article class="desktop" id="headfoot">
                 <h3>Header and Footer</h3>
@@ -477,7 +622,7 @@ font-family: 'Gotham 7r', verdana;
             
                 <h5>Greeting > li </h5>
                 	<pre>font-family: 'Gotham 4r', verdana;
-border-right: 2px solid #555;
+border-right: 1px solid #555;
 text-align: center;
 padding-left: 10px;
 padding-right: 10px;
@@ -486,22 +631,18 @@ color: #555;
                 	<div class="example">
                 		<li id="greeting">Welcome, <span id="username">Margaret</span> <span id="imperson">(as Dave)</span></li>
                 	</div>
-                <h5>Greeting > li > span# username</h5>
-                	<pre>font-family: 'Gotham 7r', verdana</pre>
 
 				<h5>Greeting > li > span# impersonate</h5>
-                	<pre>color: #BB1654;
-font-family: 'Gotham 7r', verdana;
-</pre>
+                	<pre>color: #BB1654;</pre>
 
 			</div>
 
 <hr>
 			<div id="headerprimary">
 				<h5>Header > a (primary) </h5>
-                	<pre>font-family: 'Gotham 7r', verdana;
-font-size: 1.125em;
-border-right: 2px solid #555;
+                	<pre>font-family: 'Gotham 4r', verdana;
+font-size: 0.929em;
+border-right: 1px solid #555;
 text-align: center;
 padding-left: 10px;
 padding-right: 10px;
@@ -545,19 +686,190 @@ font-size: 1em;
 color: #555;</pre>
 
 			</div>
+			          	
+<hr>
+			<div id="searchbar">
+				<h5>Search Bar > preview text </h5>
+                	<pre>font-family: 'Gotham 4r', verdana;
+font-size: 0.929em;
+color: #333;
+</pre>
+					<div class="example">
+                		<div class="searchbar-field">
+                			<span class="searchbar-text">Search person or topic</span>
+                		</div>
+                	</div>
+                	
+				<h5>Search Bar > field </h5>
+					<pre>border: 1px solid #555555;
+height: 40px;
+padding: 10px;</pre>
 
-
-
+			</div>		
+			
 
                 </article>
+                
+
+
+   <!-- Windex Columns -->    
+
+
+                
+                <article class="desktop" id="windex-cols">
+                <h3>Windex</h3>
+                
+                	
+                	<div id="column-title">
+                		<h5>Column Title: h4</h5>
+                			<pre>font-size: 1.5em;
+color: #3c431d;
+font-family: 'Gotham 4r', verdana;</pre>
+						<div class="example">
+						<h4 class="col-title">Health Care</h4>
+						</div>
+                	</div>
+                	
+                	
+                	<div id="column-stat">
+                		<h5>Windex Body Text: p </h5>
+                			<pre>font-size: 1.071em;
+color: #555555;
+font-family: 'Gotham 4r', verdana;</pre>
+						<div class="example">
+							<div class="col-row">
+								<p class="col-stat">Annual Election</p>
+								<p class="col-stat statvalue">$9,999</p>
+							</div>
+							<div class="col-row">
+								<p class="col-stat">Contribution to Date</p>
+								<p class="col-stat statvalue">$1,452</p>
+								<p class="col-stat"><br>Lorem ipsum dolor sit amet, 
+								consectetur adipiscing elit. Nunc rutrum ante placerat ligula</p>
+							</div>
+						</div>
+                	</div>
+                	
+                	
+                	<div id="column-link">
+                		<h5>Windex Link: p </h5>
+                			<pre>font-size: 1.071em;
+color: #006BA6;
+font-family: 'Gotham 4r', verdana;</pre>
+						<div class="example">
+								<p class="col-link">Plan Details</p>
+								<p class="col-link">Eligible Expenses</p>
+						</div>
+                	</div>
+                	
+                	
+                	<div id="rows-subtitle">
+                		<h5>Rows Title: h4</h5>
+                			<pre>font-size: 1.286em;
+color: #3c431d;
+font-family: 'Gotham 4r', verdana;</pre>
+						<div class="example">
+						<h4 class="rows-subtitle">Emotional Well-Being</h4>
+						</div>
+                	</div>
+                	
+                	
+                	<div id="windex-title">
+                		<h5>Windex Page Title: h3 </h5>
+                			<pre>font-size: 2em;
+color: #003B71;
+font-family: 'Gotham 7r', verdana;</pre>
+						<div class="example">
+								<h3 class="windex-pagetitle">Flexible Spending</h3>
+								<h3 class="windex-pagetitle">Healthy Me</h3>
+						</div>
+                	</div>
+                	
+                	<div id="breadcrumbs">
+                		<h5>Global Breadcrumb: span </h5>
+                			<pre>font-size: 0.929em;
+color: #706259;
+font-family: 'Gotham 4r', verdana;
+margin-right: 8px;</pre>
+						<div class="example">
+								<span class="windex-breadcrumb">Benefits & Wellness</span><span class="windex-breadcrumb">&rsaquo;</span><span class="windex-breadcrumb">Healthy Me</span><span class="windex-breadcrumb">&rsaquo;</span><span class="windex-breadcrumb">Gym Discounts</span>
+								<br><span class="windex-breadcrumb">Benefits & Wellness</span><span class="windex-breadcrumb">&rsaquo;</span><a href="#" class="windex-breadcrumb active-breadcrumb">Healthy Me</a><span class="windex-breadcrumb">&rsaquo;</span><a href="#" class="windex-breadcrumb active-breadcrumb">Gym Discounts</a>
+						</div>
+                	</div>
+                
+                
+                </article>
+                
+                <article>
+                
+                	<div id="comment-button">
+                		<h5>Comment Button </h5>
+                			<pre>background-color: #00625C;
+color: #ffffff;
+text-align: center;
+vertical-align: middle;
+font-family: 'Gotham 7r', verdana;
+font-size: 0.929em;
+width: 310px;
+height: 33px;
+border: 0px;</pre>
+						<div class="example">
+							<button class="submit-comment">Write a Comment</button>
+						</div>
+                	</div>
+                	
+                	<div id="comment-area">
+                		<h5>Comment Area Header</h5>
+                			<pre>color: #6f6158;
+font-family: 'Gotham 7r', verdana;
+font-size: 1.214em;
+border-bottom: 1px solid #e1e1e1;
+padding-bottom: 10px;</pre>
+						<div class="example">
+							<div class="comments-area"><h5 class="commentsarea-head">3 Visitor Comments</h5>
+							<p class="col-stat" style="font-family: 'Gotham 7r', verdana">
+							John Commenter - KP Life Analytics</p><p class="col-stat">Hello, I'm just a little comment. Nothing to see here.</p></div>
+						</div>
+						<h5>Comment Area</h5>
+                			<pre>background-color: #eefbfa;
+padding: 10px;</pre>
+						<h5>Comment Body</h5>
+                			<pre>color: #555555;
+font-family: 'Gotham 4r', verdana;
+font-size: 1.071em;</pre>
+						<h5>Comment Attribution</h5>
+                			<pre>color: #555555;
+font-family: 'Gotham 7r', verdana;
+font-size: 1.071em;</pre>
+                	</div>
+                	
+                </article>
+                
                 
             </div>
             
             
             
+
+         
+         
+         
+         
+         
+         
             
             
- <!-- Mobile Tab -->           
+ <!-- MOBILE _____________________________________________________________ -->           
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
             <div class="tab-pane fade" id="mobile">
             
