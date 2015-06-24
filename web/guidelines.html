@@ -53,6 +53,10 @@
         		padding:2px;
         	}
         	
+        	.edge{
+        		border-right: 1px solid #bdbdbd;
+        	}
+        	
         	.tentative{
         		opacity: 0.2;
 /*         		background-color: gray;
@@ -158,17 +162,22 @@
         		color: #BB1654;
         	}
         	
-        	a.headerlinkprimary{
+        	a.headerlink{
         		font-family: 'Gotham 4r', verdana;
         		font-size: 0.929em;
         		border-right: 1px solid #555;
 				text-align: center;
 				padding-left: 10px;
 				padding-right: 10px;
-				color: #555;
+				color: #006BA6;
 				text-decoration: none;
         	}
         	
+        	a.headerlink:hover {
+        		color: #706259;
+        	}
+        	
+/* 
         	a.headerlinksecondary{
         		font-family: 'Gotham 4r', verdana;
         		font-size: 0.929em;
@@ -179,6 +188,7 @@
 				color: #006BA6;
 				text-decoration: none;
         	}
+ */
         	
         	a.footerlink{
         		font-family: 'Gotham 4r', verdana;
@@ -288,7 +298,7 @@
 			}
 			
 			.windex-pagetitle{
-				color: #003B71;
+				color: #706259;
 				font-size: 2em;
 				font-family: 'Gotham 7r', verdana;
 				padding: 0px;
@@ -330,10 +340,11 @@
         	}
         	
         	div.comments-area{
-        		width: 280px;
+        		width: 380px;
         		height: 200px;
         		color: #706259;
-        		padding: 10px;
+        		padding: 15px;
+        		background-color: #fbfbf8;
         	}	
         	
         	h5.commentsarea-head{
@@ -355,6 +366,26 @@
         		width: 280px;
         		height: 40px;
         		padding: 10px;
+        	}
+        	
+        	.column-button{
+        		background-color: #006BA6;
+        		text-align: center;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.071em;
+        		width: 310px;
+        		height: 78px;
+        		color: #ffffff;
+        		vertical-align: middle;
+        		border: 0px;
+        		border-radius: 4px;
+        		-moz-border-radius: 4px 4px 4px 4px;
+				-webkit-border-radius: 4px 4px 4px 4px;
+        		margin-right: 8px;
+        	}
+        	
+        	.column-button:hover{
+        		background-color: #003B71;
         	}
         	
         	
@@ -639,33 +670,21 @@ color: #555;
 
 <hr>
 			<div id="headerprimary">
-				<h5>Header > a (primary) </h5>
+				<h5>Header > a </h5>
                 	<pre>font-family: 'Gotham 4r', verdana;
 font-size: 0.929em;
 border-right: 1px solid #555;
 text-align: center;
 padding-left: 10px;
 padding-right: 10px;
-color: #555;
+color: #006BA6;
 </pre>
                 	<div class="example">
-                		<a class="headerlinkprimary" href="#">My Profile
-                		</a><a class="headerlinkprimary" href="#">Sign Off
-                		</a><a class="headerlinkprimary" href="#">Help</a>
+                		<a class="headerlink" href="#">My Profile
+                		</a><a class="headerlink" href="#">Sign Off
+                		</a><a class="headerlink" href="#">Help</a>
                 	</div>
             </div>    	
-                	
-<hr>
-            <div id="headersecondary">  
-             	
-                <h5>Header > a (secondary) </h5>
-                	<pre>font-family: 'Gotham 4r', verdana;
-color: #006BA6;</pre>
-					<div class="example">
-                		<a class="headerlinksecondary" href="#">Admin</a><a class="headerlinksecondary" href="#">Author</a><a class="headerlinksecondary" href="#">Impersonate</a>
-                	</div>
-                	
-            </div>
                 	
 <hr>
 			<div id="pagefooter">
@@ -729,7 +748,8 @@ font-family: 'Gotham 4r', verdana;</pre>
 						<h4 class="col-title">Health Care</h4>
 						</div>
                 	</div>
-                	
+
+<hr>                	
                 	
                 	<div id="column-stat">
                 		<h5>Windex Body Text: p </h5>
@@ -749,7 +769,8 @@ font-family: 'Gotham 4r', verdana;</pre>
 							</div>
 						</div>
                 	</div>
-                	
+
+<hr>                	
                 	
                 	<div id="column-link">
                 		<h5>Windex Link: p </h5>
@@ -762,6 +783,9 @@ font-family: 'Gotham 4r', verdana;</pre>
 						</div>
                 	</div>
                 	
+
+<hr> 
+
                 	
                 	<div id="rows-subtitle">
                 		<h5>Rows Title: h4</h5>
@@ -772,12 +796,14 @@ font-family: 'Gotham 4r', verdana;</pre>
 						<h4 class="rows-subtitle">Emotional Well-Being</h4>
 						</div>
                 	</div>
+
+<hr> 
                 	
                 	
                 	<div id="windex-title">
                 		<h5>Windex Page Title: h3 </h5>
                 			<pre>font-size: 2em;
-color: #003B71;
+color: #706259;
 font-family: 'Gotham 7r', verdana;</pre>
 						<div class="example">
 								<h3 class="windex-pagetitle">Flexible Spending</h3>
@@ -785,6 +811,10 @@ font-family: 'Gotham 7r', verdana;</pre>
 						</div>
                 	</div>
                 	
+                	
+<hr> 
+
+           	
                 	<div id="breadcrumbs">
                 		<h5>Global Breadcrumb: span </h5>
                 			<pre>font-size: 0.929em;
@@ -797,7 +827,7 @@ margin-right: 8px;</pre>
 						</div>
                 	</div>
                 
-                
+<hr>                  
                 </article>
                 
                 <article>
@@ -831,8 +861,8 @@ padding-bottom: 10px;</pre>
 							John Commenter - KP Life Analytics</p><p class="col-stat">Hello, I'm just a little comment. Nothing to see here.</p></div>
 						</div>
 						<h5>Comment Area</h5>
-                			<pre>background-color: #eefbfa;
-padding: 10px;</pre>
+                			<pre>background-color: #fbfbf8;
+padding: 15px;</pre>
 						<h5>Comment Body</h5>
                 			<pre>color: #555555;
 font-family: 'Gotham 4r', verdana;
@@ -841,6 +871,28 @@ font-size: 1.071em;</pre>
                 			<pre>color: #555555;
 font-family: 'Gotham 7r', verdana;
 font-size: 1.071em;</pre>
+                	</div>
+                	
+                	<div id="column-button">
+                		<h5>Windex Column - Button</h5>
+                		<pre>background-color: #006BA6;
+text-align: center;
+font-family: 'Gotham 7r', verdana;
+font-size: 1.071em;
+color: #ffffff;
+vertical-align: middle;
+width: 310px;
+height: 78px;
+border: 0px;
+border-radius: 4px;</pre>
+
+                		<div class="example edge">
+							<button class="column-button">View Account<br>or<br>Get Reimbursed</button>
+						</div>
+						
+						<h5>Windex Column - Button: hover</h5>
+                		<pre>background-color: #003B71;</pre>
+                		
                 	</div>
                 	
                 </article>
