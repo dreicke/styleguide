@@ -57,6 +57,10 @@ table tr th span {
 
 article.special {
     padding: 0 15px;
+    background: #f3edd4;
+}
+
+article.next {
     background: #f2f2f2;
 }
 
