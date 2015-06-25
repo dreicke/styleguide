@@ -82,6 +82,7 @@
         		padding-left: 20px;
         		padding-top: 8px; 
         		padding-bottom: 8px;
+        		cursor: pointer;
         		}
         	
         	.menunav{
@@ -94,12 +95,14 @@
         	.menunav:hover{
         		text-decoration: none;
         		color: #444445;
+        		cursor: pointer;
         	}
         	
         	.hover{
         		background-color: #ffffff;
         		border-top: 1px solid #bdbdbd;
         		padding-top: 7px;
+        		cursor: pointer;
         	}
         	
         	li.selected{
@@ -120,16 +123,19 @@
 				font-size: 0.875em;
 				font-family: 'Gotham 4r', verdana; 
 				text-decoration: none;
+				cursor: pointer;
         	}
         	
         	a.menuitem:hover{
         		color: #003B71;
         		text-decoration: underline;
+        		cursor: pointer;
         	}
         	
         	a.hoveritem{
         		color: #003B71;
         		text-decoration: underline;
+        		cursor: pointer;
         	}
         	
         	div#alertbar{
@@ -141,12 +147,14 @@
 				width: 390px;
 				padding-top: 7px;
 				padding-bottom: 7px;
+				cursor: pointer;
         	}
         	
         	a#alerttext{
         		font-size: 1em;
         		color: #333;
 				font-family: 'Gotham 4r', verdana;
+				text-decoration: none;
         	}
         	
         	span.warning{
@@ -183,6 +191,7 @@
 				padding-right: 10px;
 				color: #006BA6;
 				text-decoration: none;
+				cursor: pointer;
         	}
         	
         	a.headerlink:hover {
@@ -256,6 +265,7 @@
         	.backarrow{
         		position: relative;
         		top: -1px;
+        		font-size: 1.5em;
         	}     
         	
         	li.mfooterlink{
@@ -314,6 +324,7 @@
 				font-family: 'Gotham 4r', verdana;
 				font-size: 1.071em;
 				margin-bottom: 0px;
+				cursor: pointer;
 			}
 			
 			.windex-pagetitle{
@@ -339,11 +350,13 @@
 			
 			.active-breadcrumb {
 				color: #006BA6;
+				cursor: pointer;
 			}
 			
 			a.active-breadcrumb:hover {
 				color: #003B71;
 				text-decoration: underline;
+				cursor: pointer;
 			}
         	
         	.rows-subtitle{
@@ -364,6 +377,7 @@
         		border: 0px;
         		margin-top: 15px;
         		margin-bottom: 25px;
+        		cursor: pointer;
         	}
         	
         	.submit-comment:hover{
@@ -412,6 +426,7 @@
         		-moz-border-radius: 4px 4px 4px 4px;
 				-webkit-border-radius: 4px 4px 4px 4px;
         		margin-right: 8px;
+        		cursor: pointer;
         	}
         	
         	.column-button:hover{
@@ -658,8 +673,8 @@ text-decoration: underline;</pre>
                 <h3>Alert</h3>
                 
                 <h5>Alert Bar:  div.alert ></h5>
-                	<pre>background-color: #ffeea6;
-border: 1px solid #231F20;
+                	<pre>background-color: #ffffff;
+border: 2px solid #BB1654;
 text-align: center;
 </pre>
                 	<div class="example">
@@ -670,10 +685,8 @@ text-align: center;
 color: #333;
 font-family: 'Gotham 4r', verdana</pre>
 
-				<h5>Alert Bar Text: div.alert > a > span#warning</h5>
-                	<pre>color: #BB1654;
-font-family: 'Gotham 7r', verdana;
-</pre>
+				<h5>Alert Bar Text: div.alert > a > warning icon</h5>
+                	<pre>color: #BB1654;</pre>
 <hr>
                 </article>
 
