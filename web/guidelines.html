@@ -22,6 +22,11 @@
         
         <style> 
         
+        	a:hover{
+        		color: #003B71;
+        		text-decoration: underline;
+        	}
+        	
         	header{
         		margin-bottom: 40px;
         	}
@@ -51,6 +56,10 @@
         		vertical-align: top;
         		margin-left: 150px; 
         		padding:2px;
+        	}
+        	
+        	.wide{
+        		margin-left: 0px;
         	}
         	
         	.edge{
@@ -114,17 +123,20 @@
         	}
         	
         	a.menuitem:hover{
-        		color: #706259;
-        		text-decoration: none;
+        		color: #003B71;
+        		text-decoration: underline;
         	}
         	
         	a.hoveritem{
-        		color: #706259;
+        		color: #003B71;
+        		text-decoration: underline;
         	}
         	
         	div#alertbar{
-        		background-color: #ffeea6;
-        		border: 1px solid #231F20;
+        		background-color: #ffffff;
+        		border-right: 2px solid #BB1654;
+        		border-left: 2px solid #BB1654;
+        		border-bottom: 2px solid #BB1654;
 				text-align: center;
 				width: 390px;
 				padding-top: 7px;
@@ -137,7 +149,7 @@
 				font-family: 'Gotham 4r', verdana;
         	}
         	
-        	span#warning{
+        	span.warning{
         		color: #BB1654;
         		font-family: 'Gotham 7r', verdana;
         	}
@@ -174,7 +186,8 @@
         	}
         	
         	a.headerlink:hover {
-        		color: #706259;
+        		color: #003B71;
+        		text-decoration: underline;
         	}
         	
 /* 
@@ -273,6 +286,12 @@
 				font-family: 'Gotham 4r', verdana;
 			}
 			
+			.columnheadimage{
+				width: 45px;
+				margin-right: 10px;
+				display: inline-block;
+			}
+			
 			.col-stat{
 				font-family: 'Gotham 4r', verdana;
 				font-size: 1.071em;
@@ -305,6 +324,12 @@
 				margin: 0px;
 			}
 			
+			.windex-body{
+				color: #555555;
+				font-family: 'Gotham 4r', verdana;
+				font-size: 1.071em;
+			}
+			
 			.windex-breadcrumb{
 				color: #706259;
 				font-size: 0.929em;
@@ -317,8 +342,8 @@
 			}
 			
 			a.active-breadcrumb:hover {
-				color: #706259;
-				text-decoration: none;
+				color: #003B71;
+				text-decoration: underline;
 			}
         	
         	.rows-subtitle{
@@ -337,14 +362,19 @@
         		color: #ffffff;
         		vertical-align: middle;
         		border: 0px;
+        		margin-top: 15px;
+        		margin-bottom: 25px;
+        	}
+        	
+        	.submit-comment:hover{
+        		background-color: #4A7628;
         	}
         	
         	div.comments-area{
-        		width: 380px;
-        		height: 200px;
+        		width: 650px;
         		color: #706259;
         		padding: 15px;
-        		background-color: #fbfbf8;
+        		background-color: #f1f1f1;
         	}	
         	
         	h5.commentsarea-head{
@@ -386,6 +416,10 @@
         	
         	.column-button:hover{
         		background-color: #003B71;
+        	}
+        	
+        	textarea{
+        		font-family: 'Gotham 4r',verdana;
         	}
         	
         	
@@ -622,7 +656,7 @@ border: 1px solid #231F20;
 text-align: center;
 </pre>
                 	<div class="example">
-                		<div id="alertbar"><a id="alerttext"><span id="warning">ALERT!</span> This is a test, this is only a test.</a></div>
+                		<div id="alertbar"><a id="alerttext"><span class="glyphicon glyphicon-warning-sign" style="color:#BB1654"></span> This is a test, this is only a test.</a></div>
                 	</div>
                 <h5>Alert Bar Text: div.alert > a</h5>
                 	<pre>font-size: 1em;
@@ -726,18 +760,33 @@ padding: 10px;</pre>
 
 			</div>		
 			
+<hr>
+			
 
                 </article>
                 
 
 
-   <!-- Windex Columns -->    
+   <!-- Windex  -->    
 
 
                 
                 <article class="desktop" id="windex-cols">
+                
                 <h3>Windex</h3>
                 
+                	<div id="windex-title">
+                		<h5>Windex Page Title: h3 </h5>
+                			<pre>font-size: 2em;
+color: #706259;
+font-family: 'Gotham 7r', verdana;</pre>
+						<div class="example">
+								<h3 class="windex-pagetitle">Flexible Spending</h3>
+								<h3 class="windex-pagetitle">Healthy Me</h3>
+						</div>
+                	</div>
+                	
+<hr>              	
                 	
                 	<div id="column-title">
                 		<h5>Column Title: h4</h5>
@@ -750,7 +799,33 @@ font-family: 'Gotham 4r', verdana;</pre>
                 	</div>
 
 <hr>                	
+
+					<div id="column-title">
+                		<h5>Column Title: h4 with icon</h5>
+                			<pre>font-size: 1.5em;
+color: #3c431d;
+font-family: 'Gotham 4r', verdana;</pre>
+						<div class="example">
+						<img class="columnheadimage" src="icons/icon-employee.png"><h4 class="col-title" style="display:inline-block">Dependent Care</h4>
+						</div>
+                	</div>
+
+<hr>      
+					
+                	<div id="rows-subtitle">
+                		<h5>Rows Title: h4</h5>
+                			<pre>font-size: 1.286em;
+color: #3c431d;
+font-family: 'Gotham 4r', verdana;</pre>
+						<div class="example">
+						<h4 class="rows-subtitle">Emotional Well-Being</h4>
+						</div>
+                	</div>
                 	
+                	
+<hr>
+
+
                 	<div id="column-stat">
                 		<h5>Windex Body Text: p </h5>
                 			<pre>font-size: 1.071em;
@@ -765,7 +840,7 @@ font-family: 'Gotham 4r', verdana;</pre>
 								<p class="col-stat">Contribution to Date</p>
 								<p class="col-stat statvalue">$1,452</p>
 								<p class="col-stat"><br>Lorem ipsum dolor sit amet, 
-								consectetur adipiscing elit. Nunc rutrum ante placerat ligula</p>
+								consectetur adipiscing elit. Nunc rutrum.</p>
 							</div>
 						</div>
                 	</div>
@@ -778,101 +853,14 @@ font-family: 'Gotham 4r', verdana;</pre>
 color: #006BA6;
 font-family: 'Gotham 4r', verdana;</pre>
 						<div class="example">
-								<p class="col-link">Plan Details</p>
-								<p class="col-link">Eligible Expenses</p>
+								<a href="#" class="col-link">Plan Details</a><br>
+								<a href="#" class="col-link">Eligible Expenses</a>
 						</div>
                 	</div>
                 	
 
 <hr> 
 
-                	
-                	<div id="rows-subtitle">
-                		<h5>Rows Title: h4</h5>
-                			<pre>font-size: 1.286em;
-color: #3c431d;
-font-family: 'Gotham 4r', verdana;</pre>
-						<div class="example">
-						<h4 class="rows-subtitle">Emotional Well-Being</h4>
-						</div>
-                	</div>
-
-<hr> 
-                	
-                	
-                	<div id="windex-title">
-                		<h5>Windex Page Title: h3 </h5>
-                			<pre>font-size: 2em;
-color: #706259;
-font-family: 'Gotham 7r', verdana;</pre>
-						<div class="example">
-								<h3 class="windex-pagetitle">Flexible Spending</h3>
-								<h3 class="windex-pagetitle">Healthy Me</h3>
-						</div>
-                	</div>
-                	
-                	
-<hr> 
-
-           	
-                	<div id="breadcrumbs">
-                		<h5>Global Breadcrumb: span </h5>
-                			<pre>font-size: 0.929em;
-color: #706259;
-font-family: 'Gotham 4r', verdana;
-margin-right: 8px;</pre>
-						<div class="example">
-								<span class="windex-breadcrumb">Benefits & Wellness</span><span class="windex-breadcrumb">&rsaquo;</span><span class="windex-breadcrumb">Healthy Me</span><span class="windex-breadcrumb">&rsaquo;</span><span class="windex-breadcrumb">Gym Discounts</span>
-								<br><span class="windex-breadcrumb">Benefits & Wellness</span><span class="windex-breadcrumb">&rsaquo;</span><a href="#" class="windex-breadcrumb active-breadcrumb">Healthy Me</a><span class="windex-breadcrumb">&rsaquo;</span><a href="#" class="windex-breadcrumb active-breadcrumb">Gym Discounts</a>
-						</div>
-                	</div>
-                
-<hr>                  
-                </article>
-                
-                <article>
-                
-                	<div id="comment-button">
-                		<h5>Comment Button </h5>
-                			<pre>background-color: #00625C;
-color: #ffffff;
-text-align: center;
-vertical-align: middle;
-font-family: 'Gotham 7r', verdana;
-font-size: 0.929em;
-width: 310px;
-height: 33px;
-border: 0px;</pre>
-						<div class="example">
-							<button class="submit-comment">Write a Comment</button>
-						</div>
-                	</div>
-                	
-                	<div id="comment-area">
-                		<h5>Comment Area Header</h5>
-                			<pre>color: #6f6158;
-font-family: 'Gotham 7r', verdana;
-font-size: 1.214em;
-border-bottom: 1px solid #e1e1e1;
-padding-bottom: 10px;</pre>
-						<div class="example">
-							<div class="comments-area"><h5 class="commentsarea-head">3 Visitor Comments</h5>
-							<p class="col-stat" style="font-family: 'Gotham 7r', verdana">
-							John Commenter - KP Life Analytics</p><p class="col-stat">Hello, I'm just a little comment. Nothing to see here.</p></div>
-						</div>
-						<h5>Comment Area</h5>
-                			<pre>background-color: #fbfbf8;
-padding: 15px;</pre>
-						<h5>Comment Body</h5>
-                			<pre>color: #555555;
-font-family: 'Gotham 4r', verdana;
-font-size: 1.071em;</pre>
-						<h5>Comment Attribution</h5>
-                			<pre>color: #555555;
-font-family: 'Gotham 7r', verdana;
-font-size: 1.071em;</pre>
-                	</div>
-                	
                 	<div id="column-button">
                 		<h5>Windex Column - Button</h5>
                 		<pre>background-color: #006BA6;
@@ -887,18 +875,151 @@ border: 0px;
 border-radius: 4px;</pre>
 
                 		<div class="example edge">
-							<button class="column-button">View Account<br>or<br>Get Reimbursed</button>
+							<button class="column-button">View Account / Get Reimbursed</button>
 						</div>
 						
 						<h5>Windex Column - Button: hover</h5>
                 		<pre>background-color: #003B71;</pre>
                 		
                 	</div>
+
+
+<hr> 
+                	</article>
+                	
+                	
+                	
+                	
+                	
+   <!-- Global Stuff -->    
+
+
+                
+                
+                
+                <article class="desktop" id="global-styles"> 
+                
+                <h3>Global Styles</h3>	
+                	
+                	<div id="breadcrumbs">
+                		<h5>Global Breadcrumb: span </h5>
+                			<pre>font-size: 0.929em;
+color: #706259;
+font-family: 'Gotham 4r', verdana;
+margin-right: 8px;</pre>
+						<div class="example">
+								<span class="windex-breadcrumb">Benefits & Wellness</span><span class="windex-breadcrumb">&rsaquo;</span><span class="windex-breadcrumb">Healthy Me</span><span class="windex-breadcrumb">&rsaquo;</span><span class="windex-breadcrumb">Gym Discounts</span>
+								<br><span class="windex-breadcrumb">Benefits & Wellness</span><span class="windex-breadcrumb">&rsaquo;</span><a href="#" class="windex-breadcrumb active-breadcrumb">Healthy Me</a><span class="windex-breadcrumb">&rsaquo;</span><a href="#" class="windex-breadcrumb active-breadcrumb">Gym Discounts</a>
+						</div>
+                	</div>
+                
+<hr>                  
+                </article>
+          
+          
+          
+          
+                
+                
+     <!-- Comment Area  -->     
+     
+     
+     
+                
+                
+                <article class="desktop" id="comment-module">
+                
+				<h3>Comment Module</h3>
+				
+					<div class="example wide">
+							<div class="comments-area">
+							<h5 class="commentsarea-head">3 Comments</h5>
+							<textarea class="form-control" rows="2" placeholder="Share your thoughts"></textarea>
+							<button class="submit-comment">Add your Comment</button>
+							<p class="windex-body" style="font-family: 'Gotham 7r', verdana">
+							John Commenter - KP Life Analytics</p><p class="windex-body">Hello, I'm just a little comment. Nothing to see here.
+							Just go on with your business as your normally would.</p>
+							<p class="windex-body">06/23/14  7:59 pm</p>
+							<p class="windex-body"><span class="glyphicon glyphicon-triangle-right"></span> Reply 2 &nbsp; &middot; &nbsp; Like <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+							<hr>
+							<p class="windex-body" style="font-family: 'Gotham 7r', verdana">
+							John Commenter - KP Life Analytics</p><p class="windex-body">Hello, I'm just a little comment. Nothing to see here.
+							Just go on with your business as your normally would.</p>
+							<p class="windex-body">06/23/14  7:59 pm</p>
+							<p class="windex-body"><span class="glyphicon glyphicon-triangle-right"></span> Reply 2 &nbsp; &middot; &nbsp; Like <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+							</div>
+					</div>
+						
+						
+						
+                	<div id="comment-button">
+                		<h5>Comment Button </h5>
+                			<pre>background-color: #00625C;
+color: #ffffff;
+text-align: center;
+vertical-align: middle;
+font-family: 'Gotham 7r', verdana;
+font-size: 0.929em;
+width: 310px;
+height: 33px;
+border: 0px;</pre>
+						<div class="example">
+							<button class="submit-comment">Add your Comment</button>
+						</div>
+						
+<hr>
+
+                	</div>
+                	
+                	<h5>Comment Area</h5>
+                			<pre>background-color: #fbfbf8;
+padding: 15px;</pre>
+
+						<div class="example">
+							<div class="comments-area" style="width:300px">&nbsp;</div>
+						</div>
+
+<hr>
+                	
+                		<h5>Comment Area Header</h5>
+                			<pre>color: #6f6158;
+font-family: 'Gotham 7r', verdana;
+font-size: 1.214em;
+border-bottom: 1px solid #e1e1e1;
+padding-bottom: 10px;</pre>
+
+						<div class="example">
+							<h5 class="commentsarea-head">3 Comments</h5>
+						</div>
+
+<hr>
+						
+						<h5>Comment Body</h5>
+                			<pre>color: #555555;
+font-family: 'Gotham 4r', verdana;
+font-size: 1.071em;</pre>
+
+						<div class="example">
+							<p class="windex-body">Lorem ipsum</p>
+						</div>
+
+<hr>						
+						
+						<h5>Comment Attribution</h5>
+                			<pre>color: #555555;
+font-family: 'Gotham 7r', verdana;
+font-size: 1.071em;</pre>
+
+						<div class="example">
+							<p class="windex-body" style="font-family: 'Gotham 7r', verdana">John Doe</p>
+						</div>
+                	
                 	
                 </article>
                 
                 
             </div>
+            
             
             
             
@@ -1018,6 +1139,7 @@ border-right: 1px solid #333;
 padding-left: 7px;
 padding-right: 7px;
 </pre>
+					</div>
 
 					<div class="example">
 						<img src="images/kp_hor_307.jpg" style="width:250px; padding-left:7px;">
@@ -1027,6 +1149,7 @@ padding-right: 7px;
 						</li><li class="mfooterlink"><a  href="#">Other Stuff</a></li>	
 						</ul>
 					</div>
+					
                 
                 
                 </article>
@@ -1036,7 +1159,7 @@ padding-right: 7px;
                         
 		</div>
 		
-	<!-- End tab content -->	
+	<!-- End tab content -->
 		
 </div>
 		
