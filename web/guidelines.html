@@ -15,431 +15,13 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="fonts/font-embed.css">
+        <link rel="stylesheet" href="css/guide.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         
-        <style> 
-        
-        	a:hover{
-        		color: #003B71;
-        		text-decoration: underline;
-        	}
-        	
-        	header{
-        		margin-bottom: 40px;
-        	}
-        	
-        	ul{
-        		padding-left: 0px;
-        		list-style-type: none;
-        		}
-        	
-        	h3{
-        		padding-top: 20px;
-        		padding-bottom: 20px;
-        	}
-			
-        	h4{
-        		margin-top: 18px;
-        		color: #006BA6;
-        	}
-        	
-        	pre{
-        		display: inline-block;
-        		width: 40%;
-        	}
-        	
-        	.example{
-        		display: inline-block;
-        		vertical-align: top;
-        		margin-left: 150px; 
-        		padding:2px;
-        	}
-        	
-        	.wide{
-        		margin-left: 0px;
-        	}
-        	
-        	.edge{
-        		border-right: 1px solid #bdbdbd;
-        	}
-        	
-        	.tentative{
-        		opacity: 0.2;
-/*         		background-color: gray;
-				background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
- */
-        	}
-        	
-        	.tabblock{
-        		display:inline-block;
-        		border-right: 1px solid #bdbdbd;
-        		background-color: #f3f3f3;
-        		text-align: center;
-        		padding-right: 20px;
-        		padding-left: 20px;
-        		padding-top: 8px; 
-        		padding-bottom: 8px;
-        		cursor: pointer;
-        		}
-        	
-        	.menunav{
-        		font-size: 1.071em;
-        		color: #444445;
-        		text-decoration: none;
-        		font-family: 'Gotham 4r', verdana;
-        	}
-        	
-        	.menunav:hover{
-        		text-decoration: none;
-        		color: #444445;
-        		cursor: pointer;
-        	}
-        	
-        	.hover{
-        		background-color: #ffffff;
-        		border-top: 1px solid #bdbdbd;
-        		padding-top: 7px;
-        		cursor: pointer;
-        	}
-        	
-        	li.selected{
-        		padding-bottom: 4px;
-        		border-bottom: 4px solid #5FA621;
-        	}
-        	
-        	
-        	h5.subhead {
-        		color: #000;
-				font-size: 1em;
-				font-weight: bold; 
-				font-family: 'Gotham 7r', verdana;
-        	}
-        	
-        	a.menuitem{
-        		color: #006BA6;
-				font-size: 0.875em;
-				font-family: 'Gotham 4r', verdana; 
-				text-decoration: none;
-				cursor: pointer;
-        	}
-        	
-        	a.menuitem:hover{
-        		color: #003B71;
-        		text-decoration: underline;
-        		cursor: pointer;
-        	}
-        	
-        	a.hoveritem{
-        		color: #003B71;
-        		text-decoration: underline;
-        		cursor: pointer;
-        	}
-        	
-        	div#alertbar{
-        		background-color: #ffffff;
-        		border-right: 2px solid #BB1654;
-        		border-left: 2px solid #BB1654;
-        		border-bottom: 2px solid #BB1654;
-				text-align: center;
-				width: 390px;
-				padding-top: 7px;
-				padding-bottom: 7px;
-				cursor: pointer;
-        	}
-        	
-        	a#alerttext{
-        		font-size: 1em;
-        		color: #333;
-				font-family: 'Gotham 4r', verdana;
-				text-decoration: none;
-        	}
-        	
-        	span.warning{
-        		color: #BB1654;
-        		font-family: 'Gotham 7r', verdana;
-        	}
-        	
-        	li#greeting{
-        		display: inline-block;
-        		font-family: 'Gotham 4r', verdana;
-        		font-size: 0.929em;
-				border-right: 1px solid #555;
-				text-align: center;
-				padding-left: 10px;
-				padding-right: 10px;
-				color: #555;
-        	}
-        	
-        	span#username{
-        		font-family: 'Gotham 4r', verdana;
-        	}
-        	
-        	span#imperson{
-        		font-family: 'Gotham 4r', verdana;
-        		color: #BB1654;
-        	}
-        	
-        	a.headerlink{
-        		font-family: 'Gotham 4r', verdana;
-        		font-size: 0.929em;
-        		border-right: 1px solid #555;
-				text-align: center;
-				padding-left: 10px;
-				padding-right: 10px;
-				color: #006BA6;
-				text-decoration: none;
-				cursor: pointer;
-        	}
-        	
-        	a.headerlink:hover {
-        		color: #003B71;
-        		text-decoration: underline;
-        	}
-        	
-/* 
-        	a.headerlinksecondary{
-        		font-family: 'Gotham 4r', verdana;
-        		font-size: 0.929em;
-        		border-right: 1px solid #555;
-				text-align: center;
-				padding-left: 10px;
-				padding-right: 10px;
-				color: #006BA6;
-				text-decoration: none;
-        	}
- */
-        	
-        	a.footerlink{
-        		font-family: 'Gotham 4r', verdana;
-        		font-size: 1em;
-        		border-right: 1px solid #555;
-				text-align: center;
-				padding-left: 10px;
-				padding-right: 10px;
-				color: #555;
-				text-decoration: none;
-			}
-			
-			a.mmenulink{
-				font-family: 'Gotham 7r', verdana;
-        		font-size: 1em;
-        		color: #333;
-        		text-decoration: none;
-			}
-			
-			li.mmenublock{
-				padding-left: 15px;
-				padding-top: 7px;
-				padding-bottom: 7px;
-				border-bottom: 3px solid #ececec;
-				border-left: 1px solid #000;
-				display: block;
-				width: 200px;
-			}
-			
-			.commonblk{
-				background-color: #706259;
-			}
-			
-			a.commonlink{
-				color: #fff;
-			}
-			
-			a.mback {
-				color: #fff;
-			}
-			
-			li.mback{
-				background-color: #003B71;
-				padding-top: 13px;
-				padding-bottom: 13px; 
-			}
-			
-			li.mselected{
-				background-color: #8FCDF0;
-			}
-        		
-        	.backarrow{
-        		position: relative;
-        		top: -1px;
-        		font-size: 1.5em;
-        	}     
-        	
-        	li.mfooterlink{
-        		display: inline-block; 
-        		font-family: 'Gotham 4r', verdana;
-        		font-size: 0.688em;
-        		border-right: 1px solid #333;
-				padding-left: 7px;
-				padding-right: 7px;
-			}  	
-			
-			.mfooterlink a {
-				text-decoration: none;
-				color: #333;
-			}
-			
-			li.cat {
-				font-weight: bold;
-			}
-			
-			li.sub{
-				margin-left: 5px;
-			}
-			
-			.col-title{
-				font-size: 1.5em;
-				color: #3c431d;
-				font-family: 'Gotham 4r', verdana;
-			}
-			
-			.columnheadimage{
-				width: 45px;
-				margin-right: 10px;
-				display: inline-block;
-			}
-			
-			.col-stat{
-				font-family: 'Gotham 4r', verdana;
-				font-size: 1.071em;
-				display: inline-block;
-				float: left;
-				margin-bottom: 0px;
-				color: #555555;
-			}
-			
-			.statvalue{
-				float: right;
-			}
-			
-			.col-row{
-				width: 280px;
-			}
-			
-			.col-link{
-				color: #006BA6;
-				font-family: 'Gotham 4r', verdana;
-				font-size: 1.071em;
-				margin-bottom: 0px;
-				cursor: pointer;
-			}
-			
-			.windex-pagetitle{
-				color: #706259;
-				font-size: 2em;
-				font-family: 'Gotham 7r', verdana;
-				padding: 0px;
-				margin: 0px;
-			}
-			
-			.windex-body{
-				color: #555555;
-				font-family: 'Gotham 4r', verdana;
-				font-size: 1.071em;
-			}
-			
-			.windex-breadcrumb{
-				color: #706259;
-				font-size: 0.929em;
-				font-family: 'Gotham 4r', verdana;
-				margin-right: 8px;
-			}
-			
-			.active-breadcrumb {
-				color: #006BA6;
-				cursor: pointer;
-			}
-			
-			a.active-breadcrumb:hover {
-				color: #003B71;
-				text-decoration: underline;
-				cursor: pointer;
-			}
-        	
-        	.rows-subtitle{
-        		color: #3c431d;
-        		font-family: 'Gotham 7r', verdana;
-        		font-size: 1.286em;
-        	}
-        	
-        	.submit-comment{
-        		background-color: #00625C;
-        		text-align: center;
-        		font-family: 'Gotham 7r', verdana;
-        		font-size: 0.929em;
-        		width: 310px;
-        		height: 33px;
-        		color: #ffffff;
-        		vertical-align: middle;
-        		border: 0px;
-        		margin-top: 15px;
-        		margin-bottom: 25px;
-        		cursor: pointer;
-        	}
-        	
-        	.submit-comment:hover{
-        		background-color: #4A7628;
-        	}
-        	
-        	div.comments-area{
-        		width: 650px;
-        		color: #706259;
-        		padding: 15px;
-        		background-color: #f1f1f1;
-        	}	
-        	
-        	h5.commentsarea-head{
-        		color: #6f6158;
-        		font-family: 'Gotham 7r', verdana;
-        		font-size: 1.214em;
-        		border-bottom: 1px solid #e1e1e1;
-        		padding-bottom: 10px;
-        	}
-        	
-        	.searchbar-text{
-        		color: #333333;
-        		font-family: 'Gotham 4r', verdana;
-        		font-size: 0.929em;
-        	}
-        	
-        	.searchbar-field{
-        		border: 1px solid #555555;
-        		width: 280px;
-        		height: 40px;
-        		padding: 10px;
-        	}
-        	
-        	.column-button{
-        		background-color: #006BA6;
-        		text-align: center;
-        		font-family: 'Gotham 7r', verdana;
-        		font-size: 1.071em;
-        		width: 310px;
-        		height: 78px;
-        		color: #ffffff;
-        		vertical-align: middle;
-        		border: 0px;
-        		border-radius: 4px;
-        		-moz-border-radius: 4px 4px 4px 4px;
-				-webkit-border-radius: 4px 4px 4px 4px;
-        		margin-right: 8px;
-        		cursor: pointer;
-        	}
-        	
-        	.column-button:hover{
-        		background-color: #003B71;
-        	}
-        	
-        	textarea{
-        		font-family: 'Gotham 4r',verdana;
-        	}
-        	
-        	
-        	
-        </style>
+
         
     </head>
     
@@ -902,7 +484,7 @@ vertical-align: middle;
 width: 310px;
 height: 78px;
 border: 0px;
-border-radius: 4px;</pre>
+border-radius: 6px;</pre>
 
                 		<div class="example edge">
 							<button class="column-button">View Account / Get Reimbursed</button>
@@ -1080,10 +662,17 @@ font-size: 1.071em;</pre>
             	<article class="desktop" class="toc">	
 					<ul style="margin-top:30px">
 						<li class="cat"><a href="#menu">MOBILE MENU</a></li>
-						<li class="sub"><a href="#defaultmitem">Default Menu Item</a></li>
-						<li class="sub"><a href="#backmitem">"Back" Menu Item</a></li>
-						<li class="sub"><a href="#commonmitem">Common Task Menu Item</a></li>
+							<li class="sub"><a href="#defaultmitem">Default Menu Item</a></li>
+							<li class="sub"><a href="#backmitem">"Back" Menu Item</a></li>
+							<li class="sub"><a href="#commonmitem">Common Task Menu Item</a></li>
 						<li class="cat"><a href="#mfooter">FOOTER</a></li>
+						<li class="cat"><a href="#mwindex">WINDEX<a></li>
+							<li class="sub"><a href="#mwindex-h2">Page Title</a></li>
+							<li class="sub"><a href="#mwindex-a">Link</a></li>
+							<li class="sub"><a href="#mwindex-p">Body Text</a></li>
+							<li class="sub"><a href="#mwindex-column-button">Column Button</a></li>
+							<li class="sub"><a href="#mwindex-rows-title">Subtitle - Rows Layout</a></li>
+							<li class="sub"><a href="#mwindex-column-title">Subtitle - Columns Layout</a></li>			
 					</ul>
 				</article>
             	
@@ -1169,7 +758,7 @@ border-right: 1px solid #333;
 padding-left: 7px;
 padding-right: 7px;
 </pre>
-					</div>
+					
 
 					<div class="example">
 						<img src="images/kp_hor_307.jpg" style="width:250px; padding-left:7px;">
@@ -1180,8 +769,125 @@ padding-right: 7px;
 						</ul>
 					</div>
 					
+					</div>
+
+<hr>                
                 
+                </article>
                 
+                <article id="mwindex">
+                	
+                	<h3>Mobile Windex</h3>
+                	
+                	<div id="mwindex-h2">
+                		<h5>mobile windex > h2</h5>
+                		<pre>font-family: 'Gotham 4r', verdana;
+font-size: 1.714em;
+color: #706259;
+</pre>
+
+						<div class="example">
+							<h2 class="mwindex-title">Flexible Spending Accounts</h2>
+						</div>
+						
+					</div>
+					
+<hr>					
+
+					<div id="mwindex-a">
+                		<h5>mobile windex > a</h5>
+                		<pre>font-family: 'Gotham 4r', verdana;
+font-size: 0.929em;
+color: #006BA6;
+</pre>
+
+						<div class="example">
+							<a href="#" class="mwindex-link">Plan Details</a><br>
+							<a href="#" class="mwindex-link">Eligible Expenses</a>
+						</div>
+						
+					</div>
+
+<hr>
+					
+					<div id="mwindex-p">
+                		<h5>mobile windex > p</h5>
+                		<pre>font-family: 'Gotham 4r', verdana;
+font-size: 0.929em;
+color: #555555;
+</pre>
+
+						<div class="example">
+							<p class="mwindex-body">Find out more about Health Care Spending Accounts</p>
+						</div>
+						
+					</div>
+					
+<hr>
+					
+					<div id="mwindex-column-button">
+                		<h5>mobile windex > button</h5>
+                		<pre>background-color: #006BA6;
+text-align: center;
+font-family: 'Gotham 7r', verdana;
+font-size: 0.929em;
+color: #ffffff;
+vertical-align: middle;
+width: 280px;
+height: 60px;
+border: 0px;
+border-radius: 5px;</pre>
+
+                		<div class="example">
+							<button class="mcolumn-button">View Account / Get Reimbursed</button>
+						</div>
+						
+                		
+                	</div>
+                	
+<hr>
+                	
+                	<div id="mwindex-rows-title">
+                		<h5>mobile windex > rows > subhead</h5>
+                		<pre>color: #3c431d;
+font-family: 'Gotham 7r', verdana;
+font-size: 1.071em;</pre>
+
+                		<div class="example">
+							<h3 class="mwindex-rows-subhead">Emotional Well-Being</h3>
+						</div>
+						
+                	</div>
+                	
+<hr>
+                	
+                	<div id="mwindex-column-title">
+                		<h5>Column Title: h4</h5>
+                			<pre>font-size: 1.5em;
+color: #3c431d;
+font-family: 'Gotham 4r', verdana;</pre>
+						<div class="example">
+						<h4 class="col-title">Health Care</h4>
+						</div>
+                	</div>
+
+<hr>                	
+
+					<div id="mwindex-column-title-icon">
+                		<h5>Column Title: icon</h5>
+                			<pre>width: 45px;
+margin-right: 10px;</pre>
+						<div class="example">
+						<img class="columnheadimage" src="icons/icon-employee.png"><h4 class="col-title" style="display:inline-block">Dependent Care</h4>
+						</div>
+                	</div>
+
+<hr>      
+                	
+					
+					
+					
+                	
                 </article>
                 
             </div>

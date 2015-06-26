@@ -1,0 +1,461 @@
+
+        
+        	a:hover{
+        		color: #003B71;
+        		text-decoration: underline;
+        	}
+        	
+        	header{
+        		margin-bottom: 40px;
+        	}
+        	
+        	ul{
+        		padding-left: 0px;
+        		list-style-type: none;
+        		}
+        	
+        	h3{
+        		padding-top: 20px;
+        		padding-bottom: 20px;
+        	}
+			
+        	h4{
+        		margin-top: 18px;
+        		color: #006BA6;
+        	}
+        	
+        	pre{
+        		display: inline-block;
+        		width: 40%;
+        	}
+        	
+        	.example{
+        		display: inline-block;
+        		vertical-align: top;
+        		margin-left: 150px; 
+        		padding:2px;
+        	}
+        	
+        	.wide{
+        		margin-left: 0px;
+        	}
+        	
+        	.edge{
+        		border-right: 1px solid #bdbdbd;
+        	}
+        	
+        	.tentative{
+        		opacity: 0.2;
+/*         		background-color: gray;
+				background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+ */
+        	}
+        	
+        	.tabblock{
+        		display:inline-block;
+        		border-right: 1px solid #bdbdbd;
+        		background-color: #f3f3f3;
+        		text-align: center;
+        		padding-right: 20px;
+        		padding-left: 20px;
+        		padding-top: 8px; 
+        		padding-bottom: 8px;
+        		cursor: pointer;
+        		}
+        	
+        	.menunav{
+        		font-size: 1.071em;
+        		color: #444445;
+        		text-decoration: none;
+        		font-family: 'Gotham 4r', verdana;
+        	}
+        	
+        	.menunav:hover{
+        		text-decoration: none;
+        		color: #444445;
+        		cursor: pointer;
+        	}
+        	
+        	.hover{
+        		background-color: #ffffff;
+        		border-top: 1px solid #bdbdbd;
+        		padding-top: 7px;
+        		cursor: pointer;
+        	}
+        	
+        	li.selected{
+        		padding-bottom: 4px;
+        		border-bottom: 4px solid #5FA621;
+        	}
+        	
+        	
+        	h5.subhead {
+        		color: #000;
+				font-size: 1em;
+				font-weight: bold; 
+				font-family: 'Gotham 7r', verdana;
+        	}
+        	
+        	a.menuitem{
+        		color: #006BA6;
+				font-size: 0.875em;
+				font-family: 'Gotham 4r', verdana; 
+				text-decoration: none;
+				cursor: pointer;
+        	}
+        	
+        	a.menuitem:hover{
+        		color: #003B71;
+        		text-decoration: underline;
+        		cursor: pointer;
+        	}
+        	
+        	a.hoveritem{
+        		color: #003B71;
+        		text-decoration: underline;
+        		cursor: pointer;
+        	}
+        	
+        	div#alertbar{
+        		background-color: #ffffff;
+        		border-right: 2px solid #BB1654;
+        		border-left: 2px solid #BB1654;
+        		border-bottom: 2px solid #BB1654;
+				text-align: center;
+				width: 390px;
+				padding-top: 7px;
+				padding-bottom: 7px;
+				cursor: pointer;
+        	}
+        	
+        	a#alerttext{
+        		font-size: 1em;
+        		color: #333;
+				font-family: 'Gotham 4r', verdana;
+				text-decoration: none;
+        	}
+        	
+        	span.warning{
+        		color: #BB1654;
+        		font-family: 'Gotham 7r', verdana;
+        	}
+        	
+        	li#greeting{
+        		display: inline-block;
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 0.929em;
+				border-right: 1px solid #555;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: #555;
+        	}
+        	
+        	span#username{
+        		font-family: 'Gotham 4r', verdana;
+        	}
+        	
+        	span#imperson{
+        		font-family: 'Gotham 4r', verdana;
+        		color: #BB1654;
+        	}
+        	
+        	a.headerlink{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 0.929em;
+        		border-right: 1px solid #555;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: #006BA6;
+				text-decoration: none;
+				cursor: pointer;
+        	}
+        	
+        	a.headerlink:hover {
+        		color: #003B71;
+        		text-decoration: underline;
+        	}
+        	
+        	
+        	a.footerlink{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 1em;
+        		border-right: 1px solid #555;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: #555;
+				text-decoration: none;
+			}
+			
+
+			
+			li.cat {
+				font-weight: bold;
+			}
+			
+			li.sub{
+				margin-left: 5px;
+			}
+			
+			.col-title{
+				font-size: 1.5em;
+				color: #3c431d;
+				font-family: 'Gotham 4r', verdana;
+			}
+			
+			.columnheadimage{
+				width: 45px;
+				margin-right: 10px;
+				display: inline-block;
+			}
+			
+			.col-stat{
+				font-family: 'Gotham 4r', verdana;
+				font-size: 1.071em;
+				display: inline-block;
+				float: left;
+				margin-bottom: 0px;
+				color: #555555;
+			}
+			
+			.statvalue{
+				float: right;
+			}
+			
+			.col-row{
+				width: 280px;
+			}
+			
+			.col-link{
+				color: #006BA6;
+				font-family: 'Gotham 4r', verdana;
+				font-size: 1.071em;
+				margin-bottom: 0px;
+				cursor: pointer;
+			}
+			
+			.windex-pagetitle{
+				color: #706259;
+				font-size: 2em;
+				font-family: 'Gotham 7r', verdana;
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			.windex-body{
+				color: #555555;
+				font-family: 'Gotham 4r', verdana;
+				font-size: 1.071em;
+			}
+			
+			.windex-breadcrumb{
+				color: #706259;
+				font-size: 0.929em;
+				font-family: 'Gotham 4r', verdana;
+				margin-right: 8px;
+			}
+			
+			.active-breadcrumb {
+				color: #006BA6;
+				cursor: pointer;
+			}
+			
+			a.active-breadcrumb:hover {
+				color: #003B71;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+        	
+        	.rows-subtitle{
+        		color: #3c431d;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.286em;
+        	}
+        	
+        	.submit-comment{
+        		background-color: #00625C;
+        		text-align: center;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 0.929em;
+        		width: 310px;
+        		height: 33px;
+        		color: #ffffff;
+        		vertical-align: middle;
+        		border: 0px;
+        		margin-top: 15px;
+        		margin-bottom: 25px;
+        		cursor: pointer;
+        	}
+        	
+        	.submit-comment:hover{
+        		background-color: #4A7628;
+        	}
+        	
+        	div.comments-area{
+        		width: 650px;
+        		color: #706259;
+        		padding: 15px;
+        		background-color: #f1f1f1;
+        	}	
+        	
+        	h5.commentsarea-head{
+        		color: #6f6158;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.214em;
+        		border-bottom: 1px solid #e1e1e1;
+        		padding-bottom: 10px;
+        	}
+        	
+        	.searchbar-text{
+        		color: #333333;
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 0.929em;
+        	}
+        	
+        	.searchbar-field{
+        		border: 1px solid #555555;
+        		width: 280px;
+        		height: 40px;
+        		padding: 10px;
+        	}
+        	
+        	.column-button{
+        		background-color: #006BA6;
+        		text-align: center;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.071em;
+        		width: 310px;
+        		height: 78px;
+        		color: #ffffff;
+        		vertical-align: middle;
+        		border: 0px;
+        		border-radius: 6px;
+        		-moz-border-radius: 6px 6px 6px 6px;
+				-webkit-border-radius: 6px 6px 6px 6px;
+        		margin-right: 8px;
+        		cursor: pointer;
+        	}
+        	
+        	.column-button:hover{
+        		background-color: #003B71;
+        	}
+        	
+        	textarea{
+        		font-family: 'Gotham 4r',verdana;
+        	}
+        	
+        	
+        	
+        	
+/* MOBILE STYLES  */
+        	
+        	
+        	
+        	  
+        	a.mmenulink{
+				font-family: 'Gotham 7r', verdana;
+        		font-size: 1em;
+        		color: #333;
+        		text-decoration: none;
+			}
+			
+			li.mmenublock{
+				padding-left: 15px;
+				padding-top: 7px;
+				padding-bottom: 7px;
+				border-bottom: 3px solid #ececec;
+				border-left: 1px solid #000;
+				display: block;
+				width: 200px;
+			}
+			
+			.commonblk{
+				background-color: #706259;
+			}
+			
+			a.commonlink{
+				color: #fff;
+			}
+			
+			a.mback {
+				color: #fff;
+			}
+			
+			li.mback{
+				background-color: #003B71;
+				padding-top: 5px;
+				padding-bottom: 10px; 
+			}
+			
+			li.mselected{
+				background-color: #8FCDF0;
+			}
+        		
+        	.backarrow{
+        		position: relative;
+        		top: 2px;
+        		font-size: 1.7em;
+        		font-family: 'Gotham 4s', verdana;
+        		margin-right: 2px;
+        	}     
+        	
+        	li.mfooterlink{
+        		display: inline-block; 
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 0.688em;
+        		border-right: 1px solid #333;
+				padding-left: 7px;
+				padding-right: 7px;
+			}  	
+			
+			.mfooterlink a {
+				text-decoration: none;
+				color: #333;
+			}       	
+        	.mwindex-title{
+        		width: 279px;
+        		font-family: 'Gotham 7r', verdana;
+        		color: #706259;
+        		font-size: 1.714em;
+        		margin: 0px;
+        	}
+        	
+        	a.mwindex-link{
+        		font-family: 'Gotham 4r', verdana;
+				font-size: 0.929em;
+				color: #006BA6;
+        	}
+        	
+        	.mwindex-body{
+        		width: 278px;
+        		font-family: 'Gotham 4r', verdana;
+				font-size: 0.929em;
+				color: #555555;
+        	}
+
+			.mcolumn-button{
+        		background-color: #006BA6;
+        		text-align: center;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 0.929em;
+        		width: 280px;
+        		height: 61px;
+        		color: #ffffff;
+        		vertical-align: middle;
+        		border: 0px;
+        		border-radius: 5px;
+        		-moz-border-radius: 5px 5px 5px 5px;
+				-webkit-border-radius: 5px 5px 5px 5px;
+        		cursor: pointer;
+        	}
+        	
+        	.mwindex-rows-subhead{
+        		color: #3c431d;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.071em;
+        		margin:0px;
+        		padding:0px;
+        	}
+        	
