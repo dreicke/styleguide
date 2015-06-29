@@ -451,6 +451,17 @@
         		cursor: pointer;
         	}
         	
+        	.disabled-button{
+        		background-color: #EBE7E4;
+        		color: #ffffff;
+        	}
+        	
+        	.disabled-button:hover{
+        		background-color: #EBE7E4;
+        		color: #ffffff;
+        		cursor: default;
+        	}
+        	
         	.mwindex-rows-subhead{
         		color: #3c431d;
         		font-family: 'Gotham 7r', verdana;
