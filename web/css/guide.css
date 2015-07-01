@@ -96,6 +96,22 @@
 				font-family: 'Gotham 7r', verdana;
         	}
         	
+        	ul.menulinklist{
+        		width: 250px;
+        		border-right: 1px solid #bdbdbd;
+        		padding-right: 10px;
+        		display: inline-block;
+        		margin-left: 15px;
+        		line-height: 1.2;
+        		vertical-align: top;
+        	}
+        	
+        	ul.menulinklist li{
+        		margin-bottom: 7px;
+        	}
+        	
+        	
+        	
         	a.menuitem{
         		color: #006BA6;
 				font-size: 0.875em;
