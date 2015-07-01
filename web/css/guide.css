@@ -90,7 +90,7 @@
         	
         	
         	h5.subhead {
-        		color: #000;
+        		color: #333;
 				font-size: 1em;
 				font-weight: bold; 
 				font-family: 'Gotham 7r', verdana;
@@ -110,7 +110,17 @@
         		margin-bottom: 7px;
         	}
         	
+        	.columnhead {
+        		border-bottom: 1px solid #dddddd;
+        		padding-bottom: 10px;
+        	}
         	
+        	.subhead-under-column{
+        		margin-top: 24px;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 0.875em;
+        		color: #333;
+        	}
         	
         	a.menuitem{
         		color: #006BA6;

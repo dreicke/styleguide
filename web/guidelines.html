@@ -156,28 +156,36 @@
                 
                 <div id="defaulttab">
                 <h5>Tab Blocks: megamenu > menulist > li</h5>
-                	<pre>background-color: #f3f3f3;
+                
+<pre>
+background-color: #f3f3f3;
 text-align: center;
 padding-right: 17px;
 padding-left: 17px;
 padding-top: 6px;
 padding-bottom: 6px;
-border-right: 1px solid #bdbdbd;</pre>
+border-right: 1px solid #bdbdbd;
+</pre>
+
                 	<div class="example">                		
                 		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>                		
                 	</div>
                 <h5>Tab Text: megamenu > menulist > a</h5>
-                	<pre>font-size: 1.071em;
+<pre>
+font-size: 1.071em;
 color: #555;
-font-family: 'Gotham 4r', verdana</pre>
+font-family: 'Gotham 4r', verdana
+</pre>
 				</div>
 
 <hr>
             <div id="hovertab">  
                 <h5>Tab Block on Hover: megamenu > menulist > li: hover</h5>
-                	<pre>background-color: #ffffff;
+<pre>
+background-color: #ffffff;
 border-top: 1px solid #bdbdbd;
-padding-top: 7px;</pre>
+padding-top: 7px;
+</pre>
                 	<div class="example">
                 		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>
                 	</div>  
@@ -208,9 +216,11 @@ border-bottom: 4px solid #5FA621;</pre>
                 
             <div id="menusubheader">
                 <h5>Subheaders: ul > li > h5</h5>
-                	<pre>color: #000;
+<pre>
+color: #333;
 font-size: 1em;
-font-family: 'Gotham 7r', verdana;</pre>
+font-family: 'Gotham 7r', verdana;
+</pre>
                 	<div class="example">
                 		<h5 class="subhead">Menu Item Subheader</h5>
                 	</div>
@@ -218,12 +228,15 @@ font-family: 'Gotham 7r', verdana;</pre>
 <hr>
             
             <div id="menulink_default">    	
-                <h5>Menu Item Hyperlinks: megamenu-list-items > li > a</h5>
+                <h5>Menu Items: megamenu-list-items > ul</h5>
 <pre>
-color: #006BA6;
-font-size: 0.875em;
-font-family: 'Gotham 4r', verdana;
-text-decoration: none;
+width: 250px;
+padding-right: 10px;
+border-right: 1px solid #bdbdbd;
+display: inline-block;
+margin-left: 15px;
+line-height: 1.2;
+vertical-align: top;
 </pre>
                 	<div class="example wide">
                 		<ul class="menulinklist">
@@ -237,33 +250,71 @@ text-decoration: none;
                 			<li class="menulistitem"><h5 class="subhead">Second Title</h5></li>
 							<li class="menulistitem"><a class="menuitem">Dominate Life</a></li>
 							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
-							<li class="menulistitem"><a class="menuitem">Old Clothes Deserve Homes</a></li>
+							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
 							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
                 		</ul>
                 	</div>
                 	
-                <h5>Menu Items: megamenu-list-items > ul</h5>
+                <h5>Menu Item Hyperlinks: megamenu-list-items > li > a</h5>
 <pre>
-width: 250px;
-padding-right: 10px;
-border-right: 1px solid #bdbdbd;
-display: inline-block;
-margin-left: 15px;
-line-height: 1.2;
-vertical-align: top;
-</pre>
+color: #006BA6;
+font-size: 0.875em;
+font-family: 'Gotham 4r', verdana;
+text-decoration: none;
+</pre>	
+                
 				<h5>Menu Items: megamenu-list-items > ul > li</h5>
                 	<pre>margin-bottom: 7px;</pre>
-
-        	
+   	
+            </div>   
+            
+<hr>
+            
+            <div id="menulink_columnhead">    	
+                <h5>Menu Items: megamenu-list-items > ul > column header</h5>
+<pre>
+border-bottom: 1px solid #dddddd;
+padding-bottom: 10px;
+</pre>
+                	<div class="example wide">
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 1</h5></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">A First Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
+							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
+							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
+                		</ul>
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 2</h5></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">Another Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
+							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
+							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">One More Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Even More Aspirations</a></li>
+							<li class="menulistitem"><a class="menuitem">Appropriate Pharmacuticals</a></li>
+							<li class="menulistitem"><a class="menuitem">Sleep Better</a></li>
+                		</ul>
+                	</div>
                 	
+                <h5>Menu Item Hyperlinks: megamenu-list-items > li > subheader for column</h5>
+<pre>
+margin-top: 24px;
+font-family: 'Gotham 7r', verdana;
+font-size: 0.875em;
+color: #333;
+</pre>	
+   	
             </div>   	
 <hr>
+
                 	
             <div id="menulink_hover">   	
                 <h5>Menu Item Hyperlinks: megamenu-list-items > li > a: hover</h5>
-                	<pre>color: #003B71;
-text-decoration: underline;</pre>
+<pre>
+color: #003B71;
+text-decoration: underline;
+</pre>
                 	<div class="example">
                 		<a class="menuitem hoveritem">Individual Menu Item</a>
                 	</div>
@@ -286,7 +337,8 @@ text-decoration: underline;</pre>
                 <h3>Alert</h3>
                 
                 <h5>Alert Bar:  div.alert ></h5>
-                	<pre>background-color: #ffffff;
+<pre>
+background-color: #ffffff;
 border: 2px solid #BB1654;
 text-align: center;
 </pre>
@@ -294,9 +346,11 @@ text-align: center;
                 		<div id="alertbar"><a id="alerttext"><span class="glyphicon glyphicon-warning-sign" style="color:#BB1654"></span> This is a test, this is only a test.</a></div>
                 	</div>
                 <h5>Alert Bar Text: div.alert > a</h5>
-                	<pre>font-size: 1em;
+<pre>
+font-size: 1em;
 color: #333;
-font-family: 'Gotham 4r', verdana</pre>
+font-family: 'Gotham 4r', verdana
+</pre>
 
 				<h5>Alert Bar Text: div.alert > a > warning icon</h5>
                 	<pre>color: #BB1654;</pre>
@@ -319,7 +373,8 @@ font-family: 'Gotham 4r', verdana</pre>
             <div id="pagegreeting">    
             
                 <h5>Greeting > li </h5>
-                	<pre>font-family: 'Gotham 4r', verdana;
+<pre>
+font-family: 'Gotham 4r', verdana;
 border-right: 1px solid #555;
 text-align: center;
 padding-left: 10px;
@@ -338,7 +393,8 @@ color: #555;
 <hr>
 			<div id="headerprimary">
 				<h5>Header > a </h5>
-                	<pre>font-family: 'Gotham 4r', verdana;
+<pre>
+font-family: 'Gotham 4r', verdana;
 font-size: 0.929em;
 border-right: 1px solid #555;
 text-align: center;
@@ -354,8 +410,10 @@ color: #006BA6;
                	
             
 				<h5>Header > a : hover </h5>
-                	<pre>color: #003B71;
-text-decoration: underline;</pre>    
+<pre>
+color: #003B71;
+text-decoration: underline;
+</pre>    
 	
 			</div> 
 
@@ -363,7 +421,8 @@ text-decoration: underline;</pre>
 <hr>
 			<div id="pagefooter">
 				<h5>Footer > li </h5>
-                	<pre>border-right: 1px solid #555;
+<pre>
+border-right: 1px solid #555;
 text-align: center;
 padding: 0 10px 0 5px;
 </pre>
@@ -374,16 +433,19 @@ padding: 0 10px 0 5px;
                 	</div>
                 	
 				<h5>Footer > li > a </h5>
-					<pre>font-family: 'Gotham 4r', verdana;
+<pre>
+font-family: 'Gotham 4r', verdana;
 font-size: 1em;
-color: #555;</pre>
+color: #555;
+</pre>
 
 			</div>
 			          	
 <hr>
 			<div id="searchbar">
 				<h5>Search Bar > preview text </h5>
-                	<pre>font-family: 'Gotham 4r', verdana;
+<pre>
+font-family: 'Gotham 4r', verdana;
 font-size: 0.929em;
 color: #333;
 </pre>
@@ -394,9 +456,11 @@ color: #333;
                 	</div>
                 	
 				<h5>Search Bar > field </h5>
-					<pre>border: 1px solid #555555;
+<pre>
+border: 1px solid #555555;
 height: 40px;
-padding: 10px;</pre>
+padding: 10px;
+</pre>
 
 			</div>		
 			
@@ -417,9 +481,11 @@ padding: 10px;</pre>
                 
                 	<div id="windex-title">
                 		<h5>Windex Page Title: h3 </h5>
-                			<pre>font-size: 2em;
+<pre>
+font-size: 2em;
 color: #706259;
-font-family: 'Gotham 7r', verdana;</pre>
+font-family: 'Gotham 7r', verdana;
+</pre>
 						<div class="example">
 								<h3 class="windex-pagetitle">Flexible Spending</h3>
 								<h3 class="windex-pagetitle">Healthy Me</h3>
@@ -430,9 +496,11 @@ font-family: 'Gotham 7r', verdana;</pre>
                 	
                 	<div id="column-title">
                 		<h5>Column Title: h4</h5>
-                			<pre>font-size: 1.5em;
+<pre>
+font-size: 1.5em;
 color: #3c431d;
-font-family: 'Gotham 4r', verdana;</pre>
+font-family: 'Gotham 4r', verdana;
+</pre>
 						<div class="example">
 						<h4 class="col-title">Health Care</h4>
 						</div>
@@ -442,8 +510,10 @@ font-family: 'Gotham 4r', verdana;</pre>
 
 					<div id="column-title-icon">
                 		<h5>Column Title: icon</h5>
-                			<pre>width: 45px;
-margin-right: 10px;</pre>
+<pre>
+width: 45px;
+margin-right: 10px;
+</pre>
 						<div class="example">
 						<img class="columnheadimage" src="icons/icon-employee.png"><h4 class="col-title" style="display:inline-block">Dependent Care</h4>
 						</div>
@@ -453,9 +523,11 @@ margin-right: 10px;</pre>
 					
                 	<div id="rows-subtitle">
                 		<h5>Rows Title: h4</h5>
-                			<pre>font-size: 1.286em;
+<pre>
+font-size: 1.286em;
 color: #3c431d;
-font-family: 'Gotham 4r', verdana;</pre>
+font-family: 'Gotham 4r', verdana;
+</pre>
 						<div class="example">
 						<h4 class="rows-subtitle">Emotional Well-Being</h4>
 						</div>
@@ -467,9 +539,11 @@ font-family: 'Gotham 4r', verdana;</pre>
 
                 	<div id="column-stat">
                 		<h5>Windex Body Text: p </h5>
-                			<pre>font-size: 1.071em;
+<pre>
+font-size: 1.071em;
 color: #555555;
-font-family: 'Gotham 4r', verdana;</pre>
+font-family: 'Gotham 4r', verdana;
+</pre>
 						<div class="example">
 							<div class="col-row">
 								<p class="col-stat">Annual Election</p>
@@ -488,17 +562,21 @@ font-family: 'Gotham 4r', verdana;</pre>
                 	
                 	<div id="column-link">
                 		<h5>Windex Link: a </h5>
-                			<pre>font-size: 1.071em;
+<pre>
+font-size: 1.071em;
 color: #006BA6;
-font-family: 'Gotham 4r', verdana;</pre>
+font-family: 'Gotham 4r', verdana;
+</pre>
 						<div class="example">
 								<a href="#" class="col-link">Plan Details</a><br>
 								<a href="#" class="col-link">Eligible Expenses</a>
 						</div>
 						
 						<h5>Windex Link: a: hover </h5>
-                			<pre>color: #003B71;
-text-decoration: underline;</pre>
+<pre>
+color: #003B71;
+text-decoration: underline;
+</pre>
                 	</div>
                 	
 
@@ -506,7 +584,8 @@ text-decoration: underline;</pre>
 
                 	<div id="column-button">
                 		<h5>Windex Column - Button</h5>
-                		<pre>background-color: #006BA6;
+<pre>
+background-color: #006BA6;
 text-align: center;
 font-family: 'Gotham 7r', verdana;
 font-size: 1.071em;
@@ -515,19 +594,24 @@ vertical-align: middle;
 width: 310px;
 height: 78px;
 border: 0px;
-border-radius: 6px;</pre>
+border-radius: 6px;
+</pre>
 
                 		<div class="example edge">
 							<button class="column-button">View Account / Get Reimbursed</button>
 						</div>
 						
 						<h5>Windex Column - Button: hover</h5>
-                		<pre>background-color: #003B71;</pre>
+<pre>
+background-color: #003B71;
+</pre>
                 		
                 		<h5>Windex Column - Button: Disabled</h5>
-                		<pre>background-color: #EBE4E7;
+<pre>
+background-color: #EBE4E7;
 color: #ffffff;
-cursor: default;</pre>
+cursor: default;
+</pre>
 						<div class="example edge">
 							<button class="column-button disabled-button">View Account / Get Reimbursed</button>
 						</div>
@@ -555,10 +639,12 @@ cursor: default;</pre>
                 	
                 	<div id="breadcrumbs">
                 		<h5>Global Breadcrumb: span </h5>
-                			<pre>font-size: 0.929em;
+<pre>
+font-size: 0.929em;
 color: #706259;
 font-family: 'Gotham 4r', verdana;
-margin-right: 8px;</pre>
+margin-right: 8px;
+</pre>
 						<div class="example">
 								<span class="windex-breadcrumb">Benefits & Wellness</span><span class="windex-breadcrumb">&rsaquo;</span><span class="windex-breadcrumb">Healthy Me</span><span class="windex-breadcrumb">&rsaquo;</span><span class="windex-breadcrumb">Gym Discounts</span>
 								<br><span class="windex-breadcrumb">Benefits & Wellness</span><span class="windex-breadcrumb">&rsaquo;</span><a href="#" class="windex-breadcrumb active-breadcrumb">Healthy Me</a><span class="windex-breadcrumb">&rsaquo;</span><a href="#" class="windex-breadcrumb active-breadcrumb">Gym Discounts</a>
@@ -606,7 +692,8 @@ margin-right: 8px;</pre>
 						
                 	<div id="comment-button">
                 		<h5>Comment Button </h5>
-                			<pre>background-color: #00625C;
+<pre>
+background-color: #00625C;
 color: #ffffff;
 text-align: center;
 vertical-align: middle;
@@ -614,7 +701,8 @@ font-family: 'Gotham 7r', verdana;
 font-size: 0.929em;
 width: 310px;
 height: 33px;
-border: 0px;</pre>
+border: 0px;
+</pre>
 						<div class="example">
 							<button class="submit-comment">Add your Comment</button>
 						</div>
@@ -624,8 +712,10 @@ border: 0px;</pre>
                 	</div>
                 	
                 	<h5>Comment Area</h5>
-                			<pre>background-color: #fbfbf8;
-padding: 15px;</pre>
+<pre>
+background-color: #fbfbf8;
+padding: 15px;
+</pre>
 
 						<div class="example">
 							<div class="comments-area" style="width:300px">&nbsp;</div>
@@ -634,11 +724,13 @@ padding: 15px;</pre>
 <hr>
                 	
                 		<h5>Comment Area Header</h5>
-                			<pre>color: #6f6158;
+<pre>
+color: #6f6158;
 font-family: 'Gotham 7r', verdana;
 font-size: 1.214em;
 border-bottom: 1px solid #e1e1e1;
-padding-bottom: 10px;</pre>
+padding-bottom: 10px;
+</pre>
 
 						<div class="example">
 							<h5 class="commentsarea-head">3 Comments</h5>
@@ -647,9 +739,11 @@ padding-bottom: 10px;</pre>
 <hr>
 						
 						<h5>Comment Body</h5>
-                			<pre>color: #555555;
+<pre>
+color: #555555;
 font-family: 'Gotham 4r', verdana;
-font-size: 1.071em;</pre>
+font-size: 1.071em;
+</pre>
 
 						<div class="example">
 							<p class="windex-body">Lorem ipsum</p>
@@ -658,9 +752,11 @@ font-size: 1.071em;</pre>
 <hr>						
 						
 						<h5>Comment Attribution</h5>
-                			<pre>color: #555555;
+<pre>
+color: #555555;
 font-family: 'Gotham 7r', verdana;
-font-size: 1.071em;</pre>
+font-size: 1.071em;
+</pre>
 
 						<div class="example">
 							<p class="windex-body" style="font-family: 'Gotham 7r', verdana">John Doe</p>
@@ -722,9 +818,11 @@ font-size: 1.071em;</pre>
                 		
                 	<div id="defaultmitem">
                 		<h5>menuitem > a</h5>
-                		<pre>font-family: 'Gotham 7r', verdana;
+<pre>
+font-family: 'Gotham 7r', verdana;
 font-size: 1em;
-color: #333;</pre>
+color: #333;
+</pre>
 						<div class="example">
 							<li class="mmenublock"><a class="mmenulink">Money</a></li>
 							<li class="mmenublock"><a class="mmenulink">Time</a></li>
@@ -732,9 +830,11 @@ color: #333;</pre>
 						</div>
 						
 						<h5>menuitem > li</h5>
-                		<pre>padding-left: 15px;
+<pre>
+padding-left: 15px;
 padding-top: 7px;
-padding-bottom: 7px;</pre>
+padding-bottom: 7px;
+</pre>
 					
 					</div>
 
@@ -742,9 +842,11 @@ padding-bottom: 7px;</pre>
 
 					<div id="backmitem">	
 						<h5>menuitem > li (Back)</h5>
-                		<pre>background-color: #003B71;
+<pre>
+background-color: #003B71;
 padding-top: 13px;
-padding-bottom: 13px;</pre>
+padding-bottom: 13px;
+</pre>
 
 						
 						<div class="example">
@@ -754,20 +856,26 @@ padding-bottom: 13px;</pre>
 						</div>
 						
 						<h5>Caret Character: span class="backarrow" &lsaquo; /span </h5>
-                		<pre>position: relative;
-top: -1px;</pre>
+<pre>
+position: relative;
+top: -1px;
+</pre>
 						<h5>menuitem > a (Back)</h5>
 						<pre>color: #fff;</pre>
 						
 						<h5>menuitem > li (Selected)</h5>
-                		<pre>background-color: #8FCDF0;</pre>
+<pre>
+background-color: #8FCDF0;
+</pre>
 					</div>	
 <hr>					
 						
 						
 					<div id="commonmitem">	
 						<h5>menuitem > a (Common Tasks)</h5>
-                		<pre>color: #fff;</pre>
+<pre>
+color: #fff;
+</pre>
 						
 						<div class="example">
 							<li class="mmenublock"><a class="mmenulink">Manager Tools</a></li>
@@ -777,7 +885,9 @@ top: -1px;</pre>
 						</div>
 						
 						<h5>menuitem > li (Common Tasks)</h5>
-                		<pre>background-color: #706259;</pre>
+<pre>
+background-color: #706259;
+</pre>
 						
 					</div>	
 <hr>
@@ -791,7 +901,8 @@ top: -1px;</pre>
                 	
                 	<div id="mfooter_item">
                 		<h5>footeritem > li</h5>
-                		<pre>font-family: 'Gotham 4r', verdana;
+<pre>
+font-family: 'Gotham 4r', verdana;
 font-size: 0.688em;
 color: #333;
 border-right: 1px solid #333;
@@ -821,7 +932,8 @@ padding-right: 7px;
                 	
                 	<div id="mwindex-h2">
                 		<h5>mobile windex > h2</h5>
-                		<pre>font-family: 'Gotham 7r', verdana;
+<pre>
+font-family: 'Gotham 7r', verdana;
 font-size: 1.714em;
 color: #706259;
 </pre>
@@ -836,7 +948,8 @@ color: #706259;
 
 					<div id="mwindex-a">
                 		<h5>mobile windex > a</h5>
-                		<pre>font-family: 'Gotham 4r', verdana;
+<pre>
+font-family: 'Gotham 4r', verdana;
 font-size: 0.929em;
 color: #006BA6;
 </pre>
@@ -852,7 +965,8 @@ color: #006BA6;
 					
 					<div id="mwindex-p">
                 		<h5>mobile windex > p</h5>
-                		<pre>font-family: 'Gotham 4r', verdana;
+<pre>
+font-family: 'Gotham 4r', verdana;
 font-size: 0.929em;
 color: #555555;
 </pre>
@@ -867,7 +981,8 @@ color: #555555;
 					
 					<div id="mwindex-column-button">
                 		<h5>mobile windex > button</h5>
-                		<pre>background-color: #006BA6;
+<pre>
+background-color: #006BA6;
 text-align: center;
 font-family: 'Gotham 7r', verdana;
 font-size: 0.929em;
@@ -876,15 +991,18 @@ vertical-align: middle;
 width: 280px;
 height: 60px;
 border: 0px;
-border-radius: 5px;</pre>
+border-radius: 5px;
+</pre>
 
                 		<div class="example">
 							<button class="mcolumn-button">View Account / Get Reimbursed</button>
 						</div>
 						
 						<h5>mobile windex > button: disabled</h5>
-						<pre>background-color: #EBE4E7;
-color: #ffffff;</pre>
+<pre>
+background-color: #EBE4E7;
+color: #ffffff;
+</pre>
 						
 						<div class="example">
 							<button class="mcolumn-button disabled-button">View Account / Get Reimbursed</button>
@@ -901,9 +1019,11 @@ color: #ffffff;</pre>
                 	
                 	<div id="mwindex-rows-title">
                 		<h5>mobile windex > rows > subhead</h5>
-                		<pre>color: #3c431d;
+<pre>
+color: #3c431d;
 font-family: 'Gotham 7r', verdana;
-font-size: 1.071em;</pre>
+font-size: 1.071em;
+</pre>
 
                 		<div class="example">
 							<h3 class="mwindex-rows-subhead">Emotional Well-Being</h3>
@@ -915,9 +1035,11 @@ font-size: 1.071em;</pre>
                 	
                 	<div id="mwindex-column-title">
                 		<h5>Column Title: h4</h5>
-                			<pre>font-size: 1.5em;
+<pre>
+font-size: 1.5em;
 color: #3c431d;
-font-family: 'Gotham 4r', verdana;</pre>
+font-family: 'Gotham 4r', verdana;
+</pre>
 						<div class="example">
 						<h4 class="col-title">Health Care</h4>
 						</div>
@@ -927,8 +1049,10 @@ font-family: 'Gotham 4r', verdana;</pre>
 
 					<div id="mwindex-column-title-icon">
                 		<h5>Column Title: icon</h5>
-                			<pre>width: 45px;
-margin-right: 10px;</pre>
+<pre>
+width: 45px;
+margin-right: 10px;
+</pre>
 						<div class="example">
 						<img class="columnheadimage" src="icons/icon-employee.png"><h4 class="col-title" style="display:inline-block">Dependent Care</h4>
 						</div>
