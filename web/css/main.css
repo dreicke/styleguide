@@ -64,6 +64,27 @@ article.next {
     background: #f2f2f2;
 }
 
+article table td.no-status {
+    text-align: center;
+    color: #428BCA;
+}
+
+article table td.in-progress {
+    text-align: center;
+    color: #F0AD4E;
+}
+
+article table td.complete {
+    text-align: center;
+    color: #5CB85C;
+}
+
+article table td.blocked {
+    text-align: center;
+    color: #D9534F;
+}
+
+
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
