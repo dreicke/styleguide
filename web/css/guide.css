@@ -426,6 +426,10 @@
 			li.mselected{
 				background-color: #8FCDF0;
 			}
+			
+			li.mselectedlevel2{
+				background-color: #C7E6F8;
+			}
         		
         	.backarrow{
         		position: relative;
