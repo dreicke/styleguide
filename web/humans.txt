@@ -3,20 +3,22 @@
 
 # TEAM
 
-    Kaiser Permanente - My HR Wed Delivery
+    Kaiser Permanente - My HR Web Delivery
     
-    Louis Rawlins -- Design Lead -- louis.rawlins@kp.org
-    David Wagoner -- Avent, Interaction Designer -- david...@avnet.com
-    Leslie Tom -- Design Researcher -- leslie.k.tom@kp.org
-    Josie Wulsin -- Content Strategist -- josie...
-    Phani Kadalya -- Front-end Engineer -- phani...@kp.org
+    Louis Rawlins     -- Lead Designer          -- louis.rawlins@kp.org
+    David Eicke       -- Design Intern          -- david.r.eicke@kp.org
+    David Wagoner     -- Interaction Designer   -- david.wagoner@avnet.com
+    Leslie Tom        -- Design Researcher      -- leslie.k.tom@kp.org
+    Josie Wulsin      -- Content Strategist     -- josie.wulsin@kp.org
+    Phani Kadalya     -- Front-end Engineer     -- phani.k.kadiyala@kp.org
 
 # THANKS
 
-    Gail Duffley -- Director -- gail...@kp.org
-    William Fairfax -- Development Manager -- william...
-    Nancy Ellen Buss -- Project Manager -- nancy...
-    Amy Jacobs --- Technical Lead -- amy.j.jacobs@kp.org
+    Gail Duffley      -- Director               -- gail.duffley@kp.org
+    William Fairfax   -- Product Owner          -- william.j.fairfax@kp.org
+    Nancy Ellen Buss  -- Project Manager        -- nancy.ellen.buss@kp.org
+    Amy Jacobs        -- Technical Lead         -- amy.j.jacobs@kp.org
+    Prakash Babu      -- Technical Lead         -- prakash.x.babu@kp.org
 
 # TECHNOLOGY COLOPHON
 
