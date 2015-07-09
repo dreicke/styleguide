@@ -229,7 +229,7 @@
 			
 			.col-title{
 				font-size: 1.5em;
-				color: #3c431d;
+				color: #706259;
 				font-family: 'Gotham 4r', verdana;
 			}
 			
@@ -278,6 +278,13 @@
 				font-size: 1.071em;
 			}
 			
+			img.rows-image{
+				width: 140px;
+				height: 100px;
+				margin-right: 20px;
+				display: inline-block;
+			}
+			
 			.windex-breadcrumb{
 				color: #706259;
 				font-size: 0.929em;
@@ -295,18 +302,63 @@
 				text-decoration: underline;
 				cursor: pointer;
 			}
+			
+			.global-icon-row{
+				display: inline-block;
+				color: #706259;
+				font-size: 1.714em;
+				margin-left: 13px;
+			}
+			
+			.global-icon-row span{
+				margin-right: 14px;
+			}
+			
+			.global-icon-separator{
+				margin-right: 14px;
+				font-size: 0.7em;
+				position: relative;
+				top: -5px;
+			}
+			
+			.global-helpful{	
+				font-size: 1.071em;
+				font-family: 'Gotham 4r', verdana;
+				margin-right: 8px;
+				color: #706259;
+			}
+			
+			.global-news-head{
+				font-size: 1.286em;
+				color: #706259;
+				font-family: 'Gotham 7r', verdana;
+				padding-bottom: 12px;
+				border-bottom: 1px solid #bdbdbd;
+				width: 290px;
+				padding-left: 10px;
+			}
+			
+			.global-news-link{
+				font-size: 0.929em;
+				color: #5F6DB3;
+				font-family: 'Gotham 4r', verdana;
+				width: 290px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			
         	
         	.rows-subtitle{
-        		color: #3c431d;
+        		color: #706259;
         		font-family: 'Gotham 7r', verdana;
         		font-size: 1.286em;
         	}
         	
         	.submit-comment{
-        		background-color: #00625C;
+        		background-color: #00A19B;
         		text-align: center;
         		font-family: 'Gotham 7r', verdana;
-        		font-size: 0.929em;
+        		font-size: 1em;
         		width: 310px;
         		height: 33px;
         		color: #ffffff;
@@ -318,7 +370,7 @@
         	}
         	
         	.submit-comment:hover{
-        		background-color: #4A7628;
+        		background-color: #00625C;
         	}
         	
         	div.comments-area{
@@ -327,6 +379,13 @@
         		padding: 15px;
         		background-color: #f1f1f1;
         	}	
+        	
+        	.comment-body{
+				color: #555555;
+				font-family: 'Gotham 4r', verdana;
+				font-size: 0.929em;
+				margin-bottom: 6px;		
+        	}
         	
         	h5.commentsarea-head{
         		color: #6f6158;
@@ -376,6 +435,49 @@
         		margin-right: 8px;
         	}
         	
+        	.detail-title{
+        		font-size: 2em;
+				color: #706259;
+				font-family: 'Gotham 7r', verdana;
+				margin-bottom: 6px;
+        	}
+        	
+        	.detail-subtitle{
+				font-size: 1.286em;
+				color: #706259;
+				font-family: 'Gotham 4r', verdana;   
+				margin-top: 6px;     		
+        	}
+        	
+        	.detail-body{
+				color: #555555;
+				font-family: 'Gotham 4r', verdana;
+				font-size: 1.071em;
+			}
+			
+			.detail-subsection-head{
+				font-size: 1.714em;
+				color: #706259;
+				font-family: 'Gotham 4r', verdana;
+				margin-bottom: 16px;
+			}
+			
+			.detail-narrative-image{
+				float: left;
+				width: 310px;
+				height: 200px;
+				margin-bottom: 5px;
+				margin-right: 20px;
+			}
+			
+			.detail-narrative-image-full{
+				float: left;
+				width: 645px;
+				height: 200px;
+				margin-bottom: 10px;
+				margin-right: 10px;
+			}
+        	
         	textarea{
         		font-family: 'Gotham 4r',verdana;
         	}
@@ -383,7 +485,7 @@
         	
         	
         	
-/* MOBILE STYLES  */
+/* MOBILE STYLES ------------------------------------------------------------------- */
         	
         	
         	
@@ -506,7 +608,7 @@
         	}
         	
         	.mwindex-rows-subhead{
-        		color: #3c431d;
+        		color: #706259;
         		font-family: 'Gotham 7r', verdana;
         		font-size: 1.071em;
         		margin:0px;
