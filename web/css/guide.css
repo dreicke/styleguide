@@ -305,18 +305,19 @@
 			
 			.global-icon-row{
 				display: inline-block;
-				color: #706259;
-				font-size: 1.714em;
 				margin-left: 13px;
 			}
 			
-			.global-icon-row span{
+			.global-icon{
 				margin-right: 14px;
+				color: #706259;
+				font-size: 1.714em;
 			}
 			
 			.global-icon-separator{
+				color: #706259;
 				margin-right: 14px;
-				font-size: 0.7em;
+				font-size: 1em;
 				position: relative;
 				top: -5px;
 			}
@@ -340,7 +341,7 @@
 			
 			.global-news-link{
 				font-size: 0.929em;
-				color: #5F6DB3;
+				color: #006BA6;
 				font-family: 'Gotham 4r', verdana;
 				width: 290px;
 				padding-left: 10px;
@@ -358,15 +359,22 @@
         		background-color: #00A19B;
         		text-align: center;
         		font-family: 'Gotham 7r', verdana;
-        		font-size: 1em;
-        		width: 310px;
+        		font-size: 0.929em;
+        		width: 140px;
         		height: 33px;
         		color: #ffffff;
         		vertical-align: middle;
         		border: 0px;
         		margin-top: 15px;
-        		margin-bottom: 25px;
+        		margin-bottom: 5px;
         		cursor: pointer;
+        		border-radius: 3px;
+        	}
+        	
+        	.legal-text{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 0.643em;
+        		color: #555555;
         	}
         	
         	.submit-comment:hover{
@@ -377,15 +385,32 @@
         		width: 650px;
         		color: #706259;
         		padding: 15px;
-        		background-color: #f1f1f1;
+        		background-color: #fafbfb;
         	}	
+        	
+        	.comment{
+        		margin-bottom: 25px;
+        	}
         	
         	.comment-body{
 				color: #555555;
 				font-family: 'Gotham 4r', verdana;
 				font-size: 0.929em;
-				margin-bottom: 6px;		
+				margin-bottom: 6px;	
         	}
+        	
+        	.comment-reply{
+        		margin-left: 30px;
+        	}
+        	
+        	.comment-datetime{
+        		font-size: 0.8em;
+        		color: #a8a8a8;
+        	}
+        	
+        	.reply-box{
+        		width: 480px;
+        	}	
         	
         	h5.commentsarea-head{
         		color: #6f6158;
@@ -466,7 +491,7 @@
 				float: left;
 				width: 310px;
 				height: 200px;
-				margin-bottom: 5px;
+				margin-bottom: 10px;
 				margin-right: 20px;
 			}
 			
@@ -478,8 +503,35 @@
 				margin-right: 10px;
 			}
         	
-        	textarea{
+        	.form-control{
         		font-family: 'Gotham 4r',verdana;
+        		font-size: 0.929em;
+        	}
+        	
+        	.icon-submitstory{
+        		font-size: 1.5em;
+        		color: #00A19B;
+        		margin-right: 5px;
+        		position: relative;
+        		top: 4px;
+        	}
+        	
+        	table.detail-table > tbody > tr:first-child > td {
+				border: none;
+			}
+        	
+        	table tbody tr td.detail-table-when{
+        		font-family: 'Gotham 7r',verdana;
+        		font-size: 1.071em;
+        		vertical-align: middle;
+        		color: #333333;
+        	}
+        	
+        	table tbody tr td.detail-table-what{
+        		font-family: 'Gotham 4r',verdana;
+        		font-size: 1.071em;
+        		color: #006BA6;
+        		vertical-align: middle;
         	}
         	
         	

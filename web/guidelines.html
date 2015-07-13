@@ -693,20 +693,52 @@ margin-right: 8px;
 
 
 					<div id="global_icons">
-                		<h5>Global Icons </h5>
+                		<h5>Global Icons</h5>
 <pre>
-font-size: 0.929em;
 color: #706259;
-font-family: 'Gotham 4r', verdana;
-margin-right: 8px;
+font-size: 1.714em;
+margin-right: 14px;
 </pre>
 						<div class="example">
 								<div style="display:inline-block"><span class="global-helpful"><a href="#">Helpful?</a></span><span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6; font-size:1.3em; position:relative; top:2px; margin-right:6px; "></span><span class="global-helpful"> 2 </span></div>
 								<div class="global-icon-row">
-								<span class="glyphicon glyphicon-print"></span><span class="global-icon-separator">|</span><span class="glyphicon glyphicon-share-alt"></span><span class="global-icon-separator">|</span><span class="glyphicon glyphicon-question-sign"></span>
+								<span class="glyphicon glyphicon-share-alt global-icon"></span><span class="global-icon-separator">|</span><span class="glyphicon glyphicon-print global-icon"></span><span class="global-icon-separator">|</span><span class="glyphicon glyphicon-question-sign global-icon"></span>
 								</div>
 						</div>
+						
+						
+						<h5>Icon Separators (vertical bars)</h5>
+<pre>
+color: #706259;
+font-size: 1em;
+margin-right: 14px;
+position: relative;
+top: -5px;  # centers vertically
+</pre>
+
+						<h5>Global Helpful? Component</h5>
+<pre>
+TEXT:
+color: #006BA6;
+font-size: 1.071em;
+margin-right: 8px;
+
+ICON:
+color:#006BA6; 
+font-size:1.3em; 
+position:relative; 
+top:2px; 
+margin-right:6px;
+
+NUMBER:
+color: #706259;
+</pre>
+								
+						
                 	</div>
+
+
+<hr>
 
 
 					<div id="recent_news">
@@ -715,6 +747,8 @@ margin-right: 8px;
 font-size: 1.286em;
 color: #706259;
 font-family: 'Gotham 7r', verdana;
+padding-left: 10px;
+padding-right: 10px;
 padding-bottom: 8px;
 border-bottom: 1px solid #bdbdbd;
 </pre>
@@ -727,8 +761,10 @@ border-bottom: 1px solid #bdbdbd;
                 		<h5>Global Recent News Module - Links</h5>
 <pre>
 font-size: 0.929em;
-color: #5F6DB3;
+color: #006BA6;
 font-family: 'Gotham 4r', verdana;
+padding-left: 10px;
+padding-right: 10px;
 </pre>
                 	
                 	
@@ -747,26 +783,44 @@ font-family: 'Gotham 4r', verdana;
      
                 
                 
-                <article class="desktop tentative" id="comment-module">
+                <article class="desktop" id="comment-module">
                 
 				<h3>Comment Module</h3>
 				
 					<div class="example wide">
 							<div class="comments-area">
-							<h5 class="commentsarea-head">3 Comments</h5>
-							<textarea class="form-control" rows="2" placeholder="Share your thoughts"></textarea>
-							<button class="submit-comment">Add your Comment</button>
-							<p class="comment-body" style="font-family: 'Gotham 7r', verdana">
-							John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
-							Just go on with your business as your normally would.</p>
-							<p class="comment-body">06/23/14  7:59 pm</p>
-							<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> Reply 2 &nbsp; &middot; &nbsp; Like <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
-							<hr>
-							<p class="comment-body" style="font-family: 'Gotham 7r', verdana">
-							John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
-							Just go on with your business as your normally would.</p>
-							<p class="comment-body">06/23/14  7:59 pm</p>
-							<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> Reply 2 &nbsp; &middot; &nbsp; Like <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+								<h5 class="commentsarea-head">3 Comments</h5>
+								<textarea class="form-control" rows="2" placeholder="Write a Comment"></textarea>
+								<button class="submit-comment">Submit</button>
+								<p class="legal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nisl nec mauris viverra, et viverra arcu mollis. Nunc sit amet orci eu ante porttitor molestie sed sed sapien. Nunc nec ligula lorem. Nunc laoreet elementum risus sed pretium. Fusce vulputate mi eu odio condimentum, at ornare ligula fermentum. Aliquam congue pharetra malesuada. Nullam sit amet ipsum eget lorem laoreet faucibus ac et 
+								ligula.</p>
+							
+								<div class=comment>
+									<p class="comment-body" style="font-family: 'Gotham 7r', verdana">
+									John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
+									Just go on with your business as your normally would.</p>
+									<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
+									<p class="comment-body"><span class="glyphicon glyphicon-triangle-bottom"></span> <a href="#">Reply</a> 2 &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+								</div>
+							
+								<div class=comment>
+									<p class="comment-body comment-reply" style="font-family: 'Gotham 7r', verdana">
+									John Commenter - KP Life Analytics</p><p class="comment-body comment-reply">Hello, I'm just a little comment. Nothing to see here.
+									Just go on with your business as your normally would.</p>
+									<p class="comment-body comment-datetime comment-reply ">06/23/14  7:59 pm</p>
+									<p class="comment-body comment-reply"><a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+									<textarea class="form-control reply-box comment-reply" rows="1" placeholder="Write reply..." style="margin-left:29px;"></textarea>
+								</div>
+								
+								
+							
+								<div class=comment>
+									<p class="comment-body" style="font-family: 'Gotham 7r', verdana">
+									John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
+									Just go on with your business as your normally would.</p>
+									<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
+									<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> <a href="#">Reply</a> 2 &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+								</div>
 							</div>
 					</div>
 						
@@ -775,19 +829,24 @@ font-family: 'Gotham 4r', verdana;
                 	<div id="comment-button">
                 		<h5>Comment Button </h5>
 <pre>
-background-color: #00625C;
+background-color: #00A19B;
 color: #ffffff;
 text-align: center;
 vertical-align: middle;
 font-family: 'Gotham 7r', verdana;
 font-size: 0.929em;
-width: 310px;
+width: 140px;
 height: 33px;
 border: 0px;
 </pre>
 						<div class="example">
-							<button class="submit-comment">Add your Comment</button>
+							<button class="submit-comment">Submit</button>
 						</div>
+						
+						<h5>Comment Button: hover </h5>
+<pre>
+background-color: #00625C;
+</pre>
 						
 <hr>
 
@@ -824,7 +883,7 @@ padding-bottom: 10px;
 <pre>
 color: #555555;
 font-family: 'Gotham 4r', verdana;
-font-size: 1.071em;
+font-size: 0.929em;
 </pre>
 
 						<div class="example">
@@ -837,7 +896,7 @@ font-size: 1.071em;
 <pre>
 color: #555555;
 font-family: 'Gotham 7r', verdana;
-font-size: 1.071em;
+font-size: 0.929em;
 </pre>
 
 						<div class="example">
@@ -857,7 +916,7 @@ font-size: 1.071em;
                 
                 
                 
-                <article class="desktop tentative" id="windex">
+                <article class="desktop" id="windex">
                 
                 	<h3>Detail Pages</h3>
                 	
@@ -909,14 +968,8 @@ margin-bottom: 16px;
                 	
                 	<div id="detail_image">
                 	
-                		<h5>Detail: Narrative: Image</h5>
-<!-- 
-<pre>
-width: 310px;
-height: 200px;
-margin: 20px;
-</pre>
- -->
+                		
+
 
 						<div class="example wide" style="width:660px; padding-right:10px; border-right: 1px solid #555555;">
 							<img class="detail-narrative-image" src="http://placehold.it/310x200">
@@ -947,10 +1000,107 @@ margin: 20px;
 							 non commodo. In et augue in mi ultricies accumsan in eu lorem. Vivamus dui ex, tincidunt 
 							 sed mollis a, facilisis vel nibh.</p>
 						</div>
+						
+						<h5>Detail: Narrative: Image Half (310px)</h5>						
+<pre>
+width: 310px;
+height: 200px;
+margin-right: 20px;
+margin-bottom: 10px;
+</pre>
+
+						<h5>Detail: Narrative: Image Full (645px)</h5>
+						
+<pre>
+width: 645px;
+height: 200px;
+margin-bottom: 10px;
+</pre>
                 	
                 	</div>
                 
                 
+<hr>
+
+                
+ 					<div id="detail_submitastory">
+ 					
+ 						<h5>"Submit A Story" Icon</h5>
+<pre>
+font-size: 1.5em;
+color: #00A19B;
+margin-right: 5px;
+
+# to bump icon lower to center w.r.t. text:
+
+position: relative;
+top: 4px;
+</pre>
+						<div class="example">
+							<span class="glyphicon glyphicon-edit icon-submitstory"></span> <span class="detail-body">Submit a Story</span>
+						</div>
+						
+						<h5>"Submit a Story" text</h5>
+<pre>
+font-size: 1.071em;
+color: #555555;
+font-family: 'Gotham 4r', verdana
+</pre>
+
+						
+ 						
+ 					</div>
+ 					
+ <hr>
+ 					
+ 					<div id="detail_table">
+ 						
+ 						<div class="example wide">
+ 							<table class="table detail-table" style="width:625px">
+ 								<tr>
+ 									<td class="detail-table-when">December 1, 2015<br>10:00am - 12:30am</td>
+ 									<td class="detail-table-what"><a href="#">Mystify the Masters of Microsoft PowerPoint</a></td>
+ 								</tr>
+ 								<tr>
+ 									<td class="detail-table-when">December 2, 2015<br>10:00am - 12:30am</td>
+ 									<td class="detail-table-what"><a href="#">Career Well-Being: The Importance of Loving What You Do</a></td>
+ 								</tr>
+ 								<tr>
+ 									<td class="detail-table-when">December 3, 2015<br>10:00am - 12:30am</td>
+ 									<td class="detail-table-what"><a href="#">Physical Well-Being: Exercise, Sleep, and Healthy Eating</a></td>
+ 								</tr>
+ 								<tr>
+ 									<td class="detail-table-when">December 4, 2015<br>10:00am - 12:30am</td>
+ 									<td class="detail-table-what"><a href="#">Mystify the Masters of Lotus Notes and Microsoft Access</a></td>
+ 								</tr>
+ 							</table>
+ 						</div>
+ 						
+ 						<h5>Detail: Table</h5>
+<pre>
+font-size: 1.071em;
+vertical-align: middle;
+width: 625px;
+
+# no border-top on first child
+</pre>
+ 						
+ 						<h5>Detail: Table: left side</h5>
+<pre>
+font-family: 'Gotham 7r',verdana;
+color: #333333;
+border-top: 1px solid #dddddd;
+</pre>
+
+						<h5>Detail: Table: right side</h5>
+<pre>
+font-family: 'Gotham 4r',verdana;
+border-top: 1px solid #dddddd;
+</pre>						
+
+
+ 					
+ 					</div>               
                 
                 
                 
