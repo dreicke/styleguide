@@ -168,7 +168,7 @@ border-top: 1px solid #d4d4d4;
 </pre>
 
                 	<div class="example">                		
-                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>                		
+                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>                		
                 	</div>
                 <h5>Tab Text: megamenu > menulist > a</h5>
 <pre>
@@ -187,7 +187,7 @@ border-top: 1px solid #bdbdbd;
 padding-top: 7px;
 </pre>
                 	<div class="example">
-                		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>
+                		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
                 	</div>  
             </div> 
                 	
@@ -200,7 +200,7 @@ padding-bottom: 4px;
 border-bottom: 4px solid #5FA621;
 </pre>
                 	<div class="example">
-                		<li class="tabblock"><a class="menunav">Item #1</a></li><li class="tabblock selected"><a class="menunav selected">Selected Item</a></li><li class="tabblock"><a class="menunav">Item #3</a></li>
+                		<li class="tabblock"><a class="menunav">Item #1</a></li><li class="tabblock selected"><a class="menunav selected">Selected Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
                 	</div>   
                 	       
                 	        	           	
@@ -458,9 +458,7 @@ font-size: 0.929em;
 color: #333;
 </pre>
 					<div class="example">
-                		<div class="searchbar-field">
-                			<span class="searchbar-text">Search person or topic</span>
-                		</div>
+                		<textarea class="form-control global-search-bar" rows="1" placeholder="Search person or topic"></textarea>
                 	</div>
                 	
 				<h5>Search Bar > field </h5>
@@ -652,12 +650,13 @@ width: 140px;
 height: 100px;
 margin-right: 20px;
 </pre>
-						<div class="example">
-						<img class="rows-image" src="http://placehold.it/140x100">
-							<div style="display:inline-block; vertical-align:top;"><h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Emotional Well-Being</h4>
-							<p class="windex-body">Lorem ipsum</p>
-							</div>
+						<div class="example wide">
+							<img class="rows-image" src="http://placehold.it/140x100">
+								<div style="display:inline-block; vertical-align:top; width:380px;"><h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Emotional Well-Being</h4>
+								<p class="windex-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lectus accumsan, mattis lacus eu, viverra nulla. Maecenas aliquam fermentum nulla et accumsan. Aliquam fermentum gravida massa, sed eleifend ipsum mattis in. Ut id placerat erat.</p>
+								</div>
 						</div>
+						
                 	</div>
                 	
                 	
@@ -803,8 +802,8 @@ border-bottom: 1px solid #bdbdbd;
 </pre>
 						<div class="example">
 								<h5 class="global-news-head">Recent News</h5>
-								<p class="global-news-link">Attend a screening Event for "In Our Boots - A Veteran's Journey"</p>
-								<p class="global-news-link">New Retirement Savings Plan Contribution Limits for December 2015 and beyond</p>
+								<p class="global-news-link"><a href="#">Attend a screening Event for "In Our Boots - A Veteran's Journey"</a></p>
+								<p class="global-news-link"><a href="#">New Retirement Savings Plan Contribution Limits for December 2015 and beyond</a></p>
                 		</div>
                 		
                 		<h5>Global Recent News Module - Links</h5>
@@ -849,7 +848,7 @@ padding-right: 10px;
 									John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
 									Just go on with your business as your normally would.</p>
 									<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
-									<p class="comment-body"><span class="glyphicon glyphicon-triangle-bottom"></span> <a href="#">Reply</a> 2 &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+									<p class="comment-body"><span class="glyphicon glyphicon-triangle-bottom"></span> <a href="#">2 Replies</a> &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
 								</div>
 							
 								<div class=comment>
@@ -868,7 +867,7 @@ padding-right: 10px;
 									John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
 									Just go on with your business as your normally would.</p>
 									<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
-									<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> <a href="#">Reply</a> 2 &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+									<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> <a href="#">2 Replies</a>&nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
 								</div>
 							</div>
 					</div>
@@ -1086,7 +1085,7 @@ position: relative;
 top: 4px;
 </pre>
 						<div class="example">
-							<span class="glyphicon glyphicon-edit icon-submitstory"></span> <span class="detail-body">Submit a Story</span>
+							<a href="#" class="submitstory-link"><div><span class="glyphicon glyphicon-edit icon-submitstory"></span> <span class="detail-body" style="text-decoration:none">Submit a Story</span></div></a>
 						</div>
 						
 						<h5>"Submit a Story" text</h5>
@@ -1656,7 +1655,7 @@ position: relative;
 top: 4px;
 </pre>
 						<div class="example">
-							<span class="glyphicon glyphicon-edit icon-submitstory"></span> <span class="detail-body">Submit a Story</span>
+							<a href="#" class="submitstory-link"><div><span class="glyphicon glyphicon-edit icon-submitstory"></span> <span class="detail-body" style="text-decoration:none">Submit a Story</span></div></a>
 						</div>
 						
 						<h5>Mobile Detail "Submit a Story" Text</h5>

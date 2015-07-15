@@ -331,6 +331,10 @@
 				font-size: 1.714em;
 			}
 			
+			.global-icon:hover{
+				color: #706259
+			}
+			
 			.global-icon-separator{
 				color: #A79C94;
 				margin-right: 14px;
@@ -344,6 +348,8 @@
 				font-family: 'Gotham 4r', verdana;
 				margin-right: 8px;
 				color: #706259;
+				position: relative;
+				top: -2px;
 			}
 			
 			.global-news-head{
@@ -442,12 +448,24 @@
         		font-family: 'Gotham 4r', verdana;
         		font-size: 0.929em;
         	}
+
         	
+/* 
         	.searchbar-field{
         		border: 1px solid #555555;
         		width: 280px;
         		height: 40px;
         		padding: 10px;
+        	}
+ */
+        	
+        	.global-search-bar{
+        		width: 280px;
+        		height: 40px;
+        		padding: 10px;
+        		border-radius: 0px;
+        		border: 1px solid #555555;
+        		resize: none;
         	}
         	
         	.column-button{
@@ -524,6 +542,10 @@
         		font-family: 'Gotham 4r',verdana;
         		font-size: 0.929em;
         	}
+ 
+ 			.submitstory-link:hover{
+ 				text-decoration: none;
+ 			}
         	
         	.icon-submitstory{
         		font-size: 1.5em;
@@ -618,6 +640,7 @@
         		border-right: 1px solid #333;
 				padding-left: 7px;
 				padding-right: 7px;
+				line-height: 1;
 			}  	
 			
 			.mfooterlink a {
