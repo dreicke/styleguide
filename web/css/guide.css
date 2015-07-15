@@ -262,6 +262,7 @@
 				font-size: 1.071em;
 				margin-bottom: 0px;
 				cursor: pointer;
+				display: block;
 			}
 			
 			.windex-pagetitle{
@@ -278,6 +279,20 @@
 				font-size: 1.071em;
 			}
 			
+			.windex-cards-subhead{
+				color: #706259;
+				font-family: 'Gotham 4r', verdana;
+				font-size: 1.714em;
+				margin:0px;
+			}
+			
+			.windex-cards-image{
+				width: 310px;
+				height: 222px;
+				margin-top: 8px;
+				margin-bottom: 10px;
+			}
+			
 			img.rows-image{
 				width: 140px;
 				height: 100px;
@@ -291,6 +306,8 @@
 				font-family: 'Gotham 4r', verdana;
 				margin-right: 8px;
 			}
+			
+			
 			
 			.active-breadcrumb {
 				color: #006BA6;
@@ -310,12 +327,12 @@
 			
 			.global-icon{
 				margin-right: 14px;
-				color: #706259;
+				color: #A79C94;
 				font-size: 1.714em;
 			}
 			
 			.global-icon-separator{
-				color: #706259;
+				color: #A79C94;
 				margin-right: 14px;
 				font-size: 1em;
 				position: relative;
@@ -514,6 +531,7 @@
         		margin-right: 5px;
         		position: relative;
         		top: 4px;
+        		cursor: pointer;
         	}
         	
         	table.detail-table > tbody > tr:first-child > td {
@@ -626,6 +644,21 @@
 				font-size: 0.929em;
 				color: #555555;
         	}
+        	
+        	.mwindex-cards-image{
+				width: 280px;
+				height: 200px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			
+			.mwindex-cards-subhead{
+				font-size: 1.429em;
+				color: #706259;
+				font-family: 'Gotham 4r', verdana;
+				margin-bottom: 0px;
+				margin-top: 0px;
+			}
 
 			.mcolumn-button{
         		background-color: #006BA6;
@@ -665,5 +698,51 @@
         		font-size: 1.071em;
         		margin:0px;
         		padding:0px;
+        	}
+        	
+        	.mdetail-title{
+        		font-size: 1.714em;
+        		color: #706259;
+        		font-family: 'Gotham 7r', verdana;
+        		margin: 2px;
+        	}
+        	
+        	.mdetail-subtitle{
+        		font-size: 1.429em;
+        		color: #706259;
+        		font-family: 'Gotham 4r', verdana;
+        		margin: 2px;
+        	}	
+        	
+        	.mdetail-narrative-image{
+        		width: 280px;
+        		margin-bottom: 10px;
+        	}
+        	
+        	.mdetail-bodytext{
+        		font-family: 'Gotham 4r', verdana;
+				font-size: 0.929em;
+				color: #555555;
+				width: 280px;
+        	}
+        	
+        	.mdetail-table-row{
+        		width: 280px;
+        		border-bottom: 2px solid #dddddd;
+        		padding-top: 15px;
+        		padding-right: 10px;
+        		padding-left: 10px;
+        	}
+        	
+        	.mdetail-table-col1{
+        		font-family: 'Gotham 7r', verdana;
+				font-size: 1.071em;
+				color: #333333;
+        	}
+        	
+        	.mdetail-table-col2{
+        		font-family: 'Gotham 4r', verdana;
+				font-size: 1.071em;
+				color: #006BA6;
         	}
         	
