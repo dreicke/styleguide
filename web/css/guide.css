@@ -1,4 +1,6 @@
-
+			a{
+				color: #006BA6;
+			}
         
         	a:hover{
         		color: #003B71;
@@ -573,6 +575,99 @@
         		color: #006BA6;
         		vertical-align: middle;
         	}
+        	
+        	.detail-list-search{
+        		height: 31px;
+        		width: 486px;
+        		border-radius: 0px;
+        		resize: none;
+        		padding-left: 30px;
+        		display: inline-block;
+        	}
+        	
+        	.detail-list-search-icon{
+        		position: absolute;
+        		top:11px;
+        		left:10px;
+        	}
+        	
+        	.detail-list-search-button{
+        		display: inline-block;
+        		vertical-align: top;
+        		background-color: #00A19B;
+        		text-align: center;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 0.929em;
+        		width: 135px;
+        		height: 31px;
+        		color: #ffffff;
+        		border: 0px;
+        		margin-left: 15px;
+        		margin-top: 0px;
+        		margin-bottom: 0px;
+        		cursor: pointer;
+        		border-radius: 3px;
+        	}
+        	
+        	.detail-list-topcat{
+        		margin-left: 20px;
+        		margin-bottom: 7px;
+        	}
+        	
+        	.detail-list-lev2doc{
+        		margin-left: 47px;
+        		margin-bottom: 7px;
+        	}
+        	
+        	.detail-list-lev2cat{
+        		margin-left: 47px;
+        		margin-bottom: 7px;
+        	}
+        	
+        	.detail-list-lev3doc{
+        		margin-left: 74px;
+        		margin-bottom: 7px;
+        	}
+        	
+        	.detail-list-topcat-text{
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.286em;	
+        		color: #706259;
+        	}
+        	
+        	.detail-list-share-icon{
+        		float: right;
+        		margin-right: 20px;
+        		color: #706259;
+        		font-size: 1.286em;
+        	}
+        	
+        	.detail-list-doc-icon{
+        		font-size: 1.286em;
+        		color: #003B71;
+        	}
+        	
+        	.detail-list-lev2doc-text{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 1.071em; 		
+        	}
+        	
+        	.detail-list-lev2cat-text{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 1.071em; 
+        	}
+        	
+        	.detail-list-downarrow {
+        		font-size: 0.929em;
+        		color: #706259;
+        		margin-right: 10px;
+        	}
+        		
+        	
+        	.
+        	
+        	
+        	
         	
         	
         	
