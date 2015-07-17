@@ -7,6 +7,15 @@
         		text-decoration: underline;
         	}
         	
+        	a.nochange{
+        		color: inherit;
+        	}
+        	
+        	a.nochange: hover{
+        		text-decoration: none;
+        		color: inherit;
+        	}
+        	
         	header{
         		margin-bottom: 40px;
         	}
