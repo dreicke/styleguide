@@ -416,6 +416,13 @@
         		border-radius: 3px;
         	}
         	
+        	.submit-reply{
+        		width: 100px;
+        		height: 31px;
+        		margin-left: 15px;
+        		margin-top: 0px;
+        	}
+        	
         	.legal-text{
         		font-family: 'Gotham 4r', verdana;
         		font-size: 0.643em;
