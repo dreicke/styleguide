@@ -9,9 +9,10 @@
         	
         	a.nochange{
         		color: inherit;
+        		text-decoration: none;
         	}
         	
-        	a.nochange: hover{
+        	a.nochange:hover{
         		text-decoration: none;
         		color: inherit;
         	}
@@ -382,6 +383,16 @@
 				padding-right: 10px;
 			}
 			
+			.global-related-link{
+				font-size: 0.929em;
+				font-family: 'Gotham 4r', verdana;
+				width: 290px;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-bottom: 7px;
+				display:block;
+			}
+			
         	
         	.rows-subtitle{
         		color: #706259;
@@ -671,9 +682,34 @@
         		color: #706259;
         		margin-right: 10px;
         	}
-        		
         	
-        	.
+        	.search-results {
+        		border: 3px solid #00A19B;
+        		margin-right: auto;
+        		margin-left: auto;
+        		padding: 20px;
+        		padding-top: 10px;
+        	}
+        	
+        	.search-results-doc {
+        		margin-left: 0px;
+        		margin-bottom: 7px;
+        	}
+        	
+        	.results-share-icon {
+        		margin-right: 0px;
+        	}
+        	
+        	.search-results-title{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 1.714em;	
+        		color: #706259;
+        		margin-bottom: 20px;
+        	}
+        	
+        	.search-results-header{
+        		margin-bottom: 20px;	
+        	}
         	
         	
         	
@@ -873,3 +909,41 @@
 				color: #006BA6;
         	}
         	
+        	div.mcomments-area{
+        		width: 280px;
+        		color: #706259;
+        		padding: 15px;
+        		background-color: #fafbfb;
+        	}	
+        	
+        	.mcommentsarea-head{
+        		color: #706259;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.214em;
+        		border-bottom: 1px solid #e1e1e1;
+        		padding-bottom: 10px;
+        		padding-left: 10px;
+        		padding-right: 10px;
+        		width: 100%;
+        	}
+        	
+        	.mobile-submit-comment{
+        		background-color: #00625C;
+        		text-align: center;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 0.929em;
+        		width: 100%;
+        		height: 33px;
+        		color: #ffffff;
+        		vertical-align: middle;
+        		border: 0px;
+        		border-radius: 3px;
+        		-moz-border-radius: 3px 3px 3px 3px;
+				-webkit-border-radius: 3px 3px 3px 3px;
+				margin-top: 10px;
+				margin-bottom: 10px;			
+        	}
+        	
+        	.mreply-box{
+        		width: 180px;
+        	}
