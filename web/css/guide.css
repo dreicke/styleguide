@@ -733,10 +733,91 @@
         		color: #000000;   		
         	}
         	
+        	.support-subcategory{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 1.071em;
+        		color: #555555;
+        		padding-bottom: 18px;
+        		text-align: right;
+        		line-height: 1.2;
+        		cursor: pointer;
+        		width: 124px;
+        		display: inline-block;
+        	}
+
+
+        	.support-subcategory:hover{
+        		color: #000000;
+        		width: 130px;
+        	}
+
+        	
+        	.support-subcategory:hover + li{
+        		display:inline-block;
+        	}
+        	
+        	
+        	.activechoice{
+        		color: #4A7628;
+        		width: 130px;
+        	}
+        	
+        	.activechoice:hover{
+        		color: #4A7628;
+        	}
+        	
+        	.activechoice + li {
+        		display: inline-block;
+        	}
+        	
+        	.activechoice3{
+        		background-image: url('../images/triangle-bgimage.png');
+        		background-position: right top;
+        		background-repeat: no-repeat;
+                background-position: right;
+        		margin-right: 5px;
+        	}
+        	
+        	.indicator{
+        		display: none;
+        		margin-right: -3px;
+        		float:right;
+        	}
+        	
+        	.indicator span{
+        		color: #dddddd;
+        		margin-right: -3px;
+        	}
+        	
+
         	.support-prompt{
         		font-family: 'Gotham 7r', verdana;
         		font-size: 1.286em;
         		color: #555555;
+        	}
+        	
+        	.support-question{
+        		margin-bottom: 10px;
+        	}
+        	
+        	.support-question-text{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 1.071em; 
+        		color: #555555;
+        	}
+        	
+        	.support-question-text-active{
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.071em;
+        		color: #003B71; 
+        	}
+        
+        	
+        	.support-share-icon{
+        		float: right;
+        		margin-right: 0px;
+        		color: #706259;
+        		font-size: 1.286em;
         	}
         	
         	.support-contact-head{
@@ -767,6 +848,14 @@
         		margin-bottom: 20px;
         	}
         	
+        	.icon-support-toggle{
+        		color: #00A19B;
+        		font-size: 1.286em;
+        		margin-right: 5px;
+        		position: relative;
+        		top: 4px;
+        		cursor: pointer;
+        	}
         	
         	
         	
