@@ -758,7 +758,7 @@
         	
         	
         	.activechoice{
-        		color: #4A7628;
+        		color: #003B71;
         		width: 130px;
         	}
         	
@@ -856,6 +856,45 @@
         		top: 4px;
         		cursor: pointer;
         	}
+        	
+        	.container-flyout-tab{
+        		display: inline-block;
+        		width: 94px;
+        		height: 45px;
+        		color: #ffffff;
+        		background-color: #4A7628;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 1.071em;
+        		text-align: center;
+        		padding-top: 12px;
+        		transform: rotate(90deg);
+        		-webkit-transform: rotate(90deg); 
+				-moz-transform: rotate(90deg);	
+				box-shadow: 1px 1px 2px #888888;
+				position: absolute;
+				top: 129px;
+				left:0px;
+        	}
+        	
+        	.container-flyout{
+        		border: 1px solid #bdbdbd;
+  				border-left: 5px solid #4A7628;
+  				height: 500px;
+  				width: 150px;
+  				display: inline-block;
+  				padding: 20px;
+  				box-shadow: -1px 1px 2px #888888;
+  				position: absolute;
+				top: 0px;
+				left:69px;
+        	}
+        	
+        	.action-tab{
+        		top: 25px;
+				left:0px;
+        	}
+        	
+        	
         	
         	
         	
@@ -1092,3 +1131,72 @@
         	.mreply-box{
         		width: 180px;
         	}
+        	
+        	.mdetail-search{
+        		height: 31px;
+        		width: 280px;
+        		border-radius: 0px;
+        		resize: none;
+        		padding-left: 30px;
+        		font-family: 'Gotham 7r', verdana;
+        	}
+        	
+        	.mdetail-search-icon{
+        		position: absolute;
+        		top:11px;
+        		left:10px;
+        	}
+        	
+        	.mdetail-search-button{
+        		display: inline-block;
+        		vertical-align: top;
+        		background-color: #00A19B;
+        		text-align: center;
+        		font-family: 'Gotham 7r', verdana;
+        		font-size: 0.929em;
+        		width: 280px;
+        		height: 33px;
+        		color: #ffffff;
+        		border: 0px;
+        		margin-top: 15px;
+        		cursor: pointer;
+        		border-radius: 3px;
+        	}
+        	
+        	.msearch-results {
+        		border: 3px solid #00A19B;
+        		margin-right: auto;
+        		margin-left: auto;
+        		padding: 15px;
+        		padding-top: 10px;
+        	}
+        	
+        	.msearch-results-doc {
+        		margin-left: 0px;
+        		margin-bottom: 7px;
+        	}
+        	
+        	.msearch-results-title{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 1.714em;	
+        		color: #706259;
+        		margin-bottom: 15px;
+        	}
+        	
+        	.msearch-results-header{
+        		margin-bottom: 15px;
+        	}
+        	
+        	.msearch-results-docname{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 1.071em; 	
+        		display: inline-block;
+        		width: 180px;
+        	}
+        	
+        	.msearch-doc-icon{
+        		vertical-align: top;
+        	}
+        	
+
+

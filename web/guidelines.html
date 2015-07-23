@@ -140,6 +140,12 @@
 							<li class="sub"><a href="#detail_image">Image Sizes (Narrative)</a></li>
 							<li class="sub"><a href="#detail-list-searchbar-section">List Search Bar</a></li>
 							<li class="sub"><a href="#detail-list-main-section">List</a></li>
+						<li class="cat"><a href="#support">SUPPORT/HELP</a></li>
+							<li class="sub"><a href="#support-category-bar">Category Selection Bar</a></li>
+							<li class="sub"><a href="#support-contact-us">Contact Us Sidebar</a></li>
+							<li class="sub"><a href="#detail_image">Image Sizes (Narrative)</a></li>
+						<li class="cat"><a href="#container-page">CONTAINER</a></li>
+							
 							
 						
 					</ul>
@@ -1582,11 +1588,11 @@ line-height: 1;
                 			</ul>
                 		</div>
                 		
-                		<div class="example wide edge" style="width:160px">
+                		<div class="example edge" style="width:160px; margin-top:40px;">
                 			<ul>
 								<li class="support-category">Pay</li>
 								<li class="support-category">Time Off</li>
-								<li class="support-category" style="color:#4A7628">Performance Management</li>
+								<li class="support-category" style="color:#003B71">Performance Management</li>
 									<ul>
 										<li class="support-subcategory">Goal Setting</li>
 										<li class="indicator"><span class="glyphicon glyphicon-triangle-left"></span></li>
@@ -1598,6 +1604,31 @@ line-height: 1;
 								<li class="support-category">Benefits</li>
                 			</ul>
                 		</div>
+                		
+                		<div class="example wide edge" style="padding:20px; margin-top:40px;">
+                			<div style="width:496px">
+								<div class="support-question">								
+									<span class="support-question-text"><a href="#">How do I set my goals?</a></span>
+									<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
+								</div>
+								<div class="support-question">				
+									<span class="support-question-text"><a href="#">What is a SMART goal?</a></span>
+									<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
+								</div>
+								<div class="support-question">				
+									<span class="support-question-text-active"><a href="#" class="nochange">How do I update my goals?</a></span>
+									<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
+								</div>
+								<p class="support-question-text" style="margin-left:15px; margin-right:20px;">Click the Edit button in performance menu for goals or if you just wanna mess around and try to break stuff. That's cool too. </p>
+								<div class="support-question">								
+									<span class="support-question-text"><a href="#">I have another question.</a></span>
+									
+								</div>
+								
+ 							</div>
+                		</div>
+                		
+                		
                 	
                 	</div>
                 	
@@ -1623,15 +1654,16 @@ color: #555555;
 						<h5>Support - Questions</h5>
                 		
 <pre>
-module width: 420px;
+module width: 496px;
+padding: 20px;
 
 font-family: 'Gotham 4r', verdana;
 font-size: 1.071em;
 color: #006BA6;  (normal link treatment) 
 </pre>
 
-                		<div class="example wide" style="margin-left:30px">
-                			<div style="width:420px">
+                		<div class="example wide edge" style="padding:20px">
+                			<div style="width:496px">
 								<div class="support-question">								
 									<span class="support-question-text"><a href="#">How do I set my goals?</a></span>
 									<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
@@ -1644,7 +1676,7 @@ color: #006BA6;  (normal link treatment)
 									<span class="support-question-text-active"><a href="#" class="nochange">How do I update my goals?</a></span>
 									<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
 								</div>
-								<p class="support-question-text" style="margin-left:15px">Click the Edit button in performance menu for goals or if you just wanna mess around and try to break stuff. That's cool too. </p>
+								<p class="support-question-text" style="margin-left:15px; margin-right:20px;">Click the Edit button in performance menu for goals or if you just wanna mess around and try to break stuff. That's cool too. </p>
 								<div class="support-question">								
 									<span class="support-question-text"><a href="#">I have another question.</a></span>
 									
@@ -1721,6 +1753,8 @@ margin-bottom: 20px;
 					</div>                
                 
 <hr>                
+
+					<div id="support-toggle">
        
        				    <h5>Support - Support Forum/Topic toggle</h5>         
 <pre>
@@ -1752,15 +1786,90 @@ position: relative;
 top: 4px;
 cursor: pointer;
 </pre>
+
+
+					</div>
                 
                 
-                
+<hr>              
                 </article>
                 
                 
                 
                 
+                
+                
+                
+                <article class="desktop" id="container-page">
+                	
+                	<h3>Container Page</h3>
+                	
+                	<h5>Flyout Tab</h5>
+                	
+<pre>
+width: 94px;   # note div rotation
+height: 45px;
+color: #ffffff;
+background-color: #4A7628;
+font-family: 'Gotham 7r', verdana;
+font-size: 1.071em;
+text-align: center;
+padding-top: 12px;
+transform: rotate(90deg);
+box-shadow: 1px 1px 2px #888888;
+
+Distance from top of window:
+
+Actions: 0px
+Help: 104px
+</pre>
+
+					<div class="example wide" style="position:relative; width:200px; height:550px;">
+						<div class="container-flyout">
+						</div>
+						<div class="container-flyout-tab">
+							<span>Help</span>
+						</div>
+						
+					</div>
+					
+					<div class="example wide" style="position:relative; width:200px; height:550px;">
+						<div class="container-flyout action-box">
+						</div>
+						<div class="container-flyout-tab action-tab">
+							<span>Action</span>
+						</div>
+						
+					</div>
+					
+					<h5>Flyout Window</h5>
+                	
+<pre>
+distance from top: 200px
+
+border: 1px solid #bdbdbd;
+border-left: 5px solid #4A7628;
+height: [flexible, min:105px]
+width: [flexible]
+padding: 20px;
+box-shadow: -1px 1px 2px #888888;
+</pre>
+					
+					
+					
+					
+					
+                	
+                </article>
+                
+                
+                
+                
+                
+                
             </div>
+            
+            	
             
             
             
@@ -2390,10 +2499,124 @@ margin-bottom: 10px;
                 	
                 	</div>
                 	
-                	
-					
-                	
+                </article>
                 
+                <article id="msearch">
+                	
+                	<h5>Mobile Search Bar</h5>
+                	
+<pre>
+height: 31px;
+width: 280px;
+border-radius: 0px;
+resize: none;
+padding-left: 30px;
+font-family: 'Gotham 7r', verdana;
+        	
+ICON:
+  position: absolute;
+  top:11px;
+  left:10px;
+</pre>
+                	
+					<div class="example" style="position:relative">
+						<span class="glyphicon glyphicon-search mdetail-search-icon"></span><textarea class="form-control mdetail-search" rows="1" placeholder="Search for a policy"></textarea>
+						<button class="mdetail-search-button">Submit</button>
+					</div>
+					
+					<h5>Mobile Search Submit Button</h5>
+					
+<pre>
+display: inline-block;
+vertical-align: top;
+background-color: #00A19B;
+text-align: center;
+font-family: 'Gotham 7r', verdana;
+font-size: 0.929em;
+width: 280px;
+height: 33px;
+color: #ffffff;
+border: 0px;
+margin-top: 15px;
+border-radius: 3px;
+</pre>
+
+					<h5>Mobile Search Results: Box</h5>
+					
+<pre>
+width: 280px;
+border: 3px solid #00A19B;
+padding: 15px;
+padding-top: 10px;
+</pre>
+
+					<div class="example">
+							<div class="msearch-results" style="width:280px">
+ 								<div class="msearch-results-header">
+ 									<span class="msearch-results-title">Top 5 Results</span>
+ 									<span class="glyphicon glyphicon-remove" style="float:right; color:#555555; margin-top:5px; font-size:0.857em;"></span>
+ 								</div>
+								<div class="msearch-results-doc">
+									<span class="glyphicon glyphicon-file detail-list-doc-icon msearch-doc-icon"></span>
+									<p class="msearch-results-docname"><a href="#">At Will Employment NATL.HR.37</a></p>
+									<span class="glyphicon glyphicon-share-alt detail-list-share-icon results-share-icon"></span>
+								</div>
+								<div class="msearch-results-doc">
+									<span class="glyphicon glyphicon-file detail-list-doc-icon msearch-doc-icon"></span>
+									<p class="msearch-results-docname"><a href="#">Authorized States for KP Employment Natl 17 Employment Screening</a></p>
+									<span class="glyphicon glyphicon-share-alt detail-list-share-icon results-share-icon"></span>
+								</div>
+								<div class="msearch-results-doc">
+									<span class="glyphicon glyphicon-file detail-list-doc-icon msearch-doc-icon"></span>
+									<p class="msearch-results-docname"><a href="#">Immigration Visa Sponsorship Guidelines</a></p>
+									<span class="glyphicon glyphicon-share-alt detail-list-share-icon results-share-icon"></span>
+								</div>
+ 							</div>
+					</div>
+					
+					<h5>Mobile Search Results: Title</h5>
+					
+<pre>
+font-family: 'Gotham 4r', verdana;
+font-size: 1.714em;	
+color: #706259;
+
+margin below: 15px
+</pre>
+
+					<h5>Mobile Search Results: Icons</h5>
+					
+<pre>
+DOCUMENT ICON
+font-size: 1.286em;
+color: #003B71;
+# span glyphicon glyphicon-file
+
+SHARE ICON
+font-size: 1.286em;
+color: #706259;
+# span glyphicon glyphicon-share-alt
+
+</pre>
+
+					<h5>Mobile Search Results: Document Name (link)</h5>
+					
+<pre>
+font-size: 1.071em;
+color: #006BA6;
+
+margin-below: 15px
+</pre>
+
+					<h5>Mobile Search Results: 'Close' Icon</h5>
+<pre>
+font-size: 0.857em;
+color: #555555;
+
+# span glyphicon glyphicon-remove
+</pre>
+
+                	
                 </article>
                 
             </div>
