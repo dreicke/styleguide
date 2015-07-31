@@ -4,11 +4,13 @@
 			
 			nav.toc{
 				width: 250px;
-				right: 0px;
-				top: 0px;
-				background-color: #ffffff;
+				right: 10px;
+				top: 10px;
+				bottom: 10px;
+				background-color: #ededed;
 				padding:20px
 				padding-top: 40px;
+				opacity: 0.9;
 			}
 			
 			nav.mobiletoc{
@@ -28,12 +30,12 @@
 			}
 			
 			li.cat {
-				font-family: 'Gotham 7r', verdana;
+				font-family: verdana;
 			}
 			
 			li.sub{
 				margin-left: 8px;
-				font-family: 'Gotham 4r', verdana;
+				font-family: verdana;
 			}
 			
 			a{
@@ -67,8 +69,18 @@
         	h3{
         		padding-top: 20px;
         		padding-bottom: 20px;
-        		font-family: 'Gotham 7r', verdana;
+        		font-family: verdana;
+        		background-color: #96DDA7;
+        		text-align: center;
+        		margin-bottom: 30px;
+        		border-radius: 4px;
         	}
+        	
+        	.mobilehead{
+        		background-color: #892461;
+        		color: #F7F7F7;
+        	}
+        	
 			
         	h4{
         		margin-top: 18px;
@@ -121,6 +133,12 @@
         	
         	.edge{
         		border-right: 2px solid #dddddd;
+        	}
+        	
+        	.fullwidth{
+        		display: block;
+        		margin-top: 30px;
+        		margin-bottom:30px;
         	}
         	
         	.tentative{
@@ -296,9 +314,6 @@
 				text-decoration: none;
 			}
 			
-
-			
-
 			
 			.col-title{
 				font-size: 1.5em;
@@ -371,6 +386,7 @@
 				height: 100px;
 				margin-right: 20px;
 				display: inline-block;
+				vertical-align: top;
 			}
 			
 			.windex-breadcrumb{
@@ -499,16 +515,15 @@
         		color: #706259;
         		padding: 15px;
         		background-color: #fafbfb;
+        		margin:auto;
         	}	
         	
         	div.top-comments-area{
         		width: 650px;
         		color: #706259;
-        		padding-right: 45px;
-        		padding-left: 45px;
-        		padding-top: 15px;
-        		padding-bottom: 15px;
+        		padding: 15px;
         		background-color: #fafbfb;
+        		margin:auto;
         	}	
         	
         	
@@ -544,6 +559,7 @@
 				border-bottom: 2px solid #dddddd;
 				font-size: 0.929em;
 				padding-bottom: 5px;
+				color: #706259;
         	}
         	
         	.reply-box{
@@ -984,6 +1000,10 @@
 				left:0px;
         	}
         	
+        	.tab-inactive{
+        		background-color: #004A00;
+        	}
+        	
         	
         	
         	
@@ -1076,7 +1096,7 @@
         	}
         	
         	.mwindex-body{
-        		width: 278px;
+        		width: 100%;
         		font-family: 'Gotham 4r', verdana;
 				font-size: 0.929em;
 				color: #555555;
@@ -1160,11 +1180,11 @@
         		font-family: 'Gotham 4r', verdana;
 				font-size: 0.929em;
 				color: #555555;
-				width: 280px;
+				width: 100%;
         	}
         	
         	.mdetail-table-row{
-        		width: 280px;
+        		width: 100%;
         		border-bottom: 2px solid #dddddd;
         		padding-top: 15px;
         		padding-right: 10px;
@@ -1341,7 +1361,7 @@
         		font-family: 'Gotham 4r', verdana;
         		font-size: 1.071em; 	
         		display: inline-block;
-        		width: 180px;
+        		width: 80%;
         	}
         	
         	.msearch-doc-icon{

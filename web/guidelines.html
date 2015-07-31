@@ -64,43 +64,49 @@
 				<nav class="toc affix">	
 					<h4 style="padding-left:20px; font-size:20px;">Table of Contents</h4>
 					<ul class="nav navbar-stacked master-toc">
+							
+							<li class="cat"><a href="#basic-elements">BASIC DESKTOP ELEMENTS</a>
+								<ul class="nav">
+								</ul>
+							</li>
+							<li class="cat"><a href="#megamenu">REUSABLE COMPONENTS</a>
+								<ul class="nav">
+									<li class="sub"><a href="#breadcrumbs">Global Navigation</a></li>
+									<li class="sub"><a href="#comment-module">Discussion/Comments</a></li>
+									<li class="sub"><a href="#recent_news">Sidebar Modules</a></li>
+								</ul>
+							</li>
 							<li class="cat"><a href="#megamenu">MEGAMENU</a>
 								<ul class="nav">
 									<li class="sub"><a href="#defaulttab">Top-Level Tab Styles</a></li>
-									<li class="sub"><a href="#menusubheader">Menu Subheader</a></li>
-									<li class="sub"><a href="#menulink_default">Menu Item</a></li>
+									<li class="sub"><a href="#menusubheader">In-Menu Styles</a></li>
 								</ul>
 							</li>
 							<li class="cat"><a href="#alert">ALERT BAR</a>
+								<ul class="nav">
+								</ul>
 							</li>
 							<li class="cat"><a href="#headfoot">HEADER AND FOOTER</a>
 								<ul class="nav">
-									<li class="sub"><a href="#pagegreeting">Header</a></li>
-									<li class="sub"><a href="#pagefooter">Footer</a></li>									
 								</ul>
 							</li>
 							<li class="cat"><a href="#windex">WINDEX</a>
 								<ul class="nav">
 									<li class="sub"><a href="#windex-title">General</a></li>
 									<li class="sub"><a href="#column-title">Columns</a></li>
-									<li class="sub"><a href="#rows-subtitle">Rows</a></li>
+									<li class="sub"><a href="#windex-rows-layout">Rows</a></li>
 									<li class="sub"><a href="#windex-cards-section">Cards</a></li>			
 								</ul>
 							</li>
 							<li class="cat"><a href="#detail">DETAIL</a>
 								<ul class="nav">
-									<li class="sub"><a href="#detail_title">Page Title & Subtitle</a></li>
-									<li class="sub"><a href="#detail_subsection_head">Subsection Header</a></li>
-									<li class="sub"><a href="#detail_image">Image Sizes (Narrative)</a></li>
-									<li class="sub"><a href="#detail-list-searchbar-section">List Search Bar</a></li>
-									<li class="sub"><a href="#detail-list-main-section">List</a></li>
+									<li class="sub"><a href="#detail_title">General</a></li>
+									<li class="sub"><a href="#detail_subsection_head">Narrative</a></li>
+									<li class="sub"><a href="#detail-list-searchbar-section">List</a></li>
 								</ul>
 							</li>
 							<li class="cat"><a href="#support">SUPPORT/HELP</a>
 								<ul class="nav">
-									<li class="sub"><a href="#support-category-bar">Category Selection Bar</a></li>
-									<li class="sub"><a href="#support-contact-us">Contact Us Sidebar</a></li>
-									<li class="sub"><a href="#support-toggle">Toggle Link (Forum/Topics)</a></li>
 								</ul>
 							</li>
 							<li class="cat"><a href="#container-page">CONTAINER</a>
@@ -112,8 +118,12 @@
 				<nav class="toc affix mobiletoc">
 					<ul class="nav navbar-stacked master-toc">
 							<li class="cat"><a href="#menu">MOBILE MENU</a>
+								<ul class="nav">
+								</ul>
 							</li>
 							<li class="cat"><a href="#mfooter">FOOTER</a>
+								<ul class="nav">
+								</ul>
 							</li>
 							<li class="cat"><a href="#mwindex">WINDEX</a>
 								<ul class="nav">
@@ -130,13 +140,14 @@
 									<li class="sub"><a href="#mwindex-rows-title">List</a></li>
 								</ul>
 							</li>
-							<li class="cat"><a href="#mwindex">SUPPORT</a>
+							<li class="cat"><a href="#msearch">SEARCH</a>
 								<ul class="nav">
-									<li class="sub"><a href="#mwindex-h2">Search Bar</a></li>
-									<li class="sub"><a href="#mwindex-column-button">Search Results</a></li>
-									<li class="sub"><a href="#mwindex-rows-title">Topic Selection</a></li>
 								</ul>
-							</li>					
+							</li>
+							<li class="cat"><a href="#msupport">SUPPORT/HELP</a>
+								<ul class="nav">
+								</ul>
+							</li>							
 					</ul>
 				</nav>
 				
@@ -148,27 +159,6 @@
                         <p>Design specifications including brand usage, and general styles, content editorial standards, and front-end development guidelines.</p>
                     </header>
                 </article>
-
-<!-- Start tabs -->
-
-<!-- 
-<div role="tabpanel">
-
-<!~~ Nav tabs ~~>
-
-	  <ul class="nav nav-tabs" role="tablist" id="myTab">
-		<li role="presentation" class="active">
-			<a href="#desktop" role="tab" data-toggle="tab">Desktop Styles</a>
-		</li>
-		<li role="presentation">
-			<a href="#mobile" role="tab" data-toggle="tab">Mobile Styles</a>
-		</li>
-	  </ul>
-	  
-<!~~ Start tab content ~~>
-
-		<div class="tab-content">
- -->
 
 
 
@@ -197,598 +187,63 @@
 
 					  
 <!-- 			<div role="tabpanel" class="tab-pane active" id="desktop"> -->
-			
 
+				<article id="basic-elements">
 				
-				<article class="mobile toc">	
-					<ul style="margin-top:30px">
-						<li class="cat"><a href="#menu">MOBILE MENU</a></li>
-							<li class="sub"><a href="#defaultmitem">Default Menu Item</a></li>
-							<li class="sub"><a href="#backmitem">"Back" Menu Item</a></li>
-							<li class="sub"><a href="#commonmitem">Common Task Menu Item</a></li>
-						<li class="cat"><a href="#mfooter">FOOTER</a></li>
-						<li class="cat"><a href="#mwindex">WINDEX<a></li>
-							<li class="sub"><a href="#mwindex-h2">Page Title</a></li>
-							<li class="sub"><a href="#mwindex-a">Link</a></li>
-							<li class="sub"><a href="#mwindex-p">Body Text</a></li>
-							<li class="sub"><a href="#mwindex-column-button">Column Button</a></li>
-							<li class="sub"><a href="#mwindex-rows-title">Subtitle - Rows Layout</a></li>
-							<li class="sub"><a href="#mwindex-column-title">Subtitle - Columns Layout</a></li>			
-					</ul>
-				</article>
-
-
-                <article class="desktop" id="megamenu">
-                <h3>Megamenu</h3>
-                
- 
-   
-   <!-- Tabs ---------------------------------->                
-                
-                
-                
-                <h4>Tabs</h4>
-                
-                
-                
-                <div id="defaulttab">
-                <h5>Tab Blocks</h5>
-                
-<pre>
-background-color: #f3f3f3;
-text-align: center;
-padding-right: 20px;
-padding-left: 20px;
-padding-top: 8px;
-padding-bottom: 8px;
-border-right: 1px solid #bdbdbd;
-border-top: 1px solid #d4d4d4;
-</pre>
-
-                	<div class="example">                		
-                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>                		
-                	</div>
-                <h5>Tab Text</h5>
-<pre>
-font-size: 1.071em;
-color: #555;
-font-family: 'Gotham 4r', verdana
-</pre>
-				</div>
-
-<hr>
-            <div id="hovertab">  
-                <h5>Tab Block on Hover</h5>
-<pre>
-background-color: #ffffff;
-border-top: 1px solid #bdbdbd;
-padding-top: 7px;
-</pre>
-                	<div class="example">
-                		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
-                	</div>  
-            </div> 
-                	
-<hr>
-            <div id="selectedtab">	
-                <h5>Tab Block Selected</h5>
-                
-<pre>
-padding-bottom: 5px;
-border-bottom: 4px solid #5FA621;
-</pre>
-                	<div class="example">
-                		<li class="tabblock"><a class="menunav">Item #1</a></li><li class="tabblock selected"><a class="menunav selected">Selected Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
-                	</div>   
-                	       
-                	        	           	
-                <h5>Tab Text Selected</h5>
-<pre>
-color: #fff;
-</pre>
-            </div> 	
-<hr>
-
-
-
-   <!-- Menu Items ------------------------------> 
-    
-    
-                
-                <h4>List Items</h4>
-                
-            <div id="menusubheader">
-                <h5>Subheaders</h5>
-<pre>
-color: #333;
-font-size: 1em;
-font-family: 'Gotham 7r', verdana;
-</pre>
-                	<div class="example">
-                		<h5 class="subhead">Menu Item Subheader</h5>
-                	</div>
-            </div>
-<hr>
-            
-            <div id="menulink_default">    	
-                <h5>Menu Items</h5>
-<pre>
-width: 250px;
-padding-right: 10px;
-border-right: 1px solid #bdbdbd;
-display: inline-block;
-margin-left: 15px;
-line-height: 1.2;
-vertical-align: top;
-</pre>
-                	<div class="example wide">
-                		<ul class="menulinklist">
-                			<li class="menulistitem"><h5 class="subhead">Menu Category Title</h5></li>
-							<li class="menulistitem"><a class="menuitem">Individual Menu Item</a></li>
-							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
-							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
-							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
-                		</ul>
-                		<ul class="menulinklist">
-                			<li class="menulistitem"><h5 class="subhead">Second Title</h5></li>
-							<li class="menulistitem"><a class="menuitem">Dominate Life</a></li>
-							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
-							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
-							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
-                		</ul>
-                	</div>
-                	
-                <h5>Menu Item Hyperlinks</h5>
+				<h3>Basic Elements</h3>
+				
+					<h5>Text Links (Desktop & Mobile)</h5>
+					
 <pre>
 color: #006BA6;
-font-size: 0.875em;
 font-family: 'Gotham 4r', verdana;
-text-decoration: none;
-</pre>	
-                
-				<h5>Menu Items</h5>
-                	<pre>margin-bottom: 7px;</pre>
-   	
-            </div>   
-            
-<hr>
-            
-            <div id="menulink_columnhead">    	
-                <h5>Menu Items</h5>
-<pre>
-border-bottom: 1px solid #dddddd;
-padding-bottom: 10px;
 </pre>
-                	<div class="example wide">
-                		<ul class="menulinklist">
-                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 1</h5></li>
-							<li class="menulistitem"><h5 class="subhead-under-column">A First Subheader</h5></li>
-							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
-							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
-							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
-                		</ul>
-                		<ul class="menulinklist">
-                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 2</h5></li>
-							<li class="menulistitem"><h5 class="subhead-under-column">Another Subheader</h5></li>
-							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
-							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
-							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
-							<li class="menulistitem"><h5 class="subhead-under-column">One More Subheader</h5></li>
-							<li class="menulistitem"><a class="menuitem">Even More Aspirations</a></li>
-							<li class="menulistitem"><a class="menuitem">Appropriate Pharmacuticals</a></li>
-							<li class="menulistitem"><a class="menuitem">Sleep Better</a></li>
-                		</ul>
-                	</div>
-                	
-                <h5>Menu Item Hyperlinks</h5>
-<pre>
-margin-top: 24px;
-font-family: 'Gotham 7r', verdana;
-font-size: 0.875em;
-color: #333;
-</pre>	
-   	
-            </div>   	
-<hr>
 
-                	
-            <div id="menulink_hover">   	
-                <h5>Menu Item Hyperlinks: hover</h5>
+					<div class="example">
+						<a href="#" style="font-size:1.2em">Hello, I'm a link!</a>
+					</div>
+					
+					<h5>Text Links (Desktop): Hover</h5>
 <pre>
 color: #003B71;
-text-decoration: underline;
-</pre>
-                	<div class="example">
-                		<a class="menuitem hoveritem">Individual Menu Item</a>
-                	</div>
-            </div>   	
-<hr>
-            
-                </article>
-                
-
-          
-          
-              
-   <!-- Alert Bar ------------------------------------------>                 
-             
-             
-             
-             
-                
-                <article class="desktop" id="alert">
-                <h3>Alert</h3>
-                
-                <h5>Alert Bar:  div.alert ></h5>
+text-decoration: underline;	
+</pre>				
+				
+<hr>	
+				
+					<h5>Body Text (Desktop)</h5>
+					
 <pre>
-background-color: #ffffff;
-border: 2px solid #BB1654;
-text-align: center;
-</pre>
-                	<div class="example">
-                		<div id="alertbar"><a id="alerttext"><span class="glyphicon glyphicon-bullhorn" style="color:#BB1654; margin-right:5px;"></span> This is a test, this is only a test.</a></div>
-                	</div>
-                <h5>Alert Bar Text: div.alert > a</h5>
-<pre>
-font-size: 1em;
-color: #333;
-font-family: 'Gotham 4r', verdana
-</pre>
-
-				<h5>Alert Bar Text: div.alert > a > warning icon</h5>
-<pre>
-color: #BB1654;
-margin-right: 5px;
-</pre>
-<hr>
-                </article>
-
-
-                
-                
-   <!-- - Header and Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       -->  
-                
-                
-                
-                
-                
-                <article class="desktop" id="headfoot">
-                <h3>Header and Footer</h3>
-                
-                
-            <div id="pagegreeting">    
-            
-                <h5>Greeting > li </h5>
-<pre>
-font-family: 'Gotham 4r', verdana;
-border-right: 1px solid #555;
-text-align: center;
-padding-left: 10px;
-padding-right: 10px;
-color: #555;
-</pre>
-                	<div class="example">
-                		<li id="greeting">Welcome, <span id="username">Margaret</span> <span id="imperson">(as Dave)</span></li>
-                	</div>
-
-				<h5>Greeting > li > span# impersonate</h5>
-                	<pre>color: #BB1654;</pre>
-
-			</div>
-
-<hr>
-			<div id="headerprimary">
-				<h5>Header link </h5>
-<pre>
-font-family: 'Gotham 4r', verdana;
-font-size: 0.929em;
-border-right: 1px solid #555;
-text-align: center;
-padding-left: 10px;
-padding-right: 10px;
-color: #006BA6;
-</pre>
-                	<div class="example">
-                		<a class="headerlink" href="#">My Profile
-                		</a><a class="headerlink" href="#">Sign Off
-                		</a><a class="headerlink" href="#">Help</a>
-                	</div>
-               	
-            
-				<h5>Header link: hover </h5>
-<pre>
-color: #003B71;
-text-decoration: underline;
-</pre>    
-	
-			</div> 
-
-                	
-<hr>
-			<div id="pagefooter">
-				<h5>Footer item </h5>
-<pre>
-border-right: 1px solid #555;
-text-align: center;
-padding: 0 10px 0 5px;
-</pre>
-					<div class="example">
-                		<a class="footerlink" href="#">Terms and Conditions</a>
-                		<a class="footerlink" href="#">Privacy</a>
-                		<a class="footerlink" href="#">Legal</a>
-                	</div>
-                	
-				<h5>Footer link </h5>
-<pre>
-font-family: 'Gotham 4r', verdana;
-font-size: 1em;
-color: #555;
-</pre>
-
-			</div>
-			          	
-<hr>
-			<div id="searchbar">
-				<h5>Search Bar > preview text </h5>
-<pre>
-font-family: 'Gotham 4r', verdana;
-font-size: 0.929em;
-color: #333;
-</pre>
-					<div class="example">
-                		<textarea class="form-control global-search-bar" rows="1" placeholder="Search person or topic"></textarea>
-                	</div>
-                	
-				<h5>Search Bar > field </h5>
-<pre>
-border: 1px solid #555555;
-height: 40px;
-padding: 10px;
-</pre>
-
-			</div>		
-			
-<hr>
-			
-
-                </article>
-                
-
-
-   <!-- Windex  ------------------------------------------>    
-
-
-                
-                <article class="desktop" id="windex">
-                
-                <h3>Windex</h3>
-                
-                	<div id="windex-title">
-                		<h5>Windex Page Title</h5>
-<pre>
-font-size: 2em;
-color: #706259;
-font-family: 'Gotham 7r', verdana;
-</pre>
-						<div class="example">
-								<h3 class="windex-pagetitle">Flexible Spending</h3>
-								<h3 class="windex-pagetitle">Healthy Me</h3>
-						</div>
-                	</div>
-                	
-<hr>              	
-
-
-                	<div id="windex-body-section">
-                		<h5>Windex Body Text </h5>
-<pre>
-font-size: 1.071em;
 color: #555555;
 font-family: 'Gotham 4r', verdana;
-</pre>
-						<div class="example">
-							<div class="col-row">
-								<p class="col-stat"><br>Lorem ipsum dolor sit amet, 
-								consectetur adipiscing elit. Nunc rutrum.</p>
-							</div>
-						</div>
-                	</div>
-
-
-<hr>            
-
-       
-                	<div id="column-link">
-                		<h5>Windex Link </h5>
-<pre>
 font-size: 1.071em;
-color: #006BA6;
-font-family: 'Gotham 4r', verdana;
-</pre>
-						<div class="example">
-								<a href="#" class="col-link">Total Health Incentive Plan</a>
-								<a href="#" class="col-link">Total Health Assessment</a>
-								<a href="#" class="col-link">Health Education Classes</a>
-						</div>
-						
-						<h5>Windex Link: hover </h5>
-<pre>
-color: #003B71;
-text-decoration: underline;
-</pre>
-                	</div>
-                	
-
-<hr>  	
-
-
-                	<div id="column-title">
-                		<h5>Windex Column Title </h5>
-<pre>
-font-size: 1.5em;
-color: #706259;
-font-family: 'Gotham 4r', verdana;
-</pre>
-						<div class="example">
-						<h4 class="col-title">Health Care</h4>
-						</div>
-                	</div>
-
-<hr>                	
-
-					<div id="column-title-icon">
-                		<h5>Windex Column Title icon</h5>
-<pre>
-width: 45px;
-margin-right: 10px;
-</pre>
-						<div class="example">
-						<img class="columnheadimage" src="icons/icon-employee.png"><h4 class="col-title" style="display:inline-block">Dependent Care</h4>
-						</div>
-                	</div>
-
-<hr>      
-
-
-                	<div id="column-button">
-                		<h5>Windex Column - Button</h5>
-<pre>
-background-color: #006BA6;
-text-align: center;
-font-family: 'Gotham 7r', verdana;
-font-size: 1.071em;
-color: #ffffff;
-vertical-align: middle;
-width: 310px;
-height: 78px;
-border: 0px;
-border-radius: 5px;
 </pre>
 
-                		<div class="example edge">
-							<button class="column-button">View Account / Get Reimbursed</button>
-						</div>
-						
-						<h5>Windex Column - Button: hover</h5>
-<pre>
-background-color: #003B71;
-</pre>
-                		
-                		<h5>Windex Column - Button: Disabled</h5>
-<pre>
-background-color: #EBE4E7;
-color: #ffffff;
-cursor: default;
-</pre>
-						<div class="example edge">
-							<button class="column-button disabled-button">View Account / Get Reimbursed</button>
-						</div>
-						
-                		
-                	</div>
-
-
-<hr> 
-
-                    <div id="column-button">
-						<h5>Windex Column - Image</h5>
-<pre>
-width: 310px;
-height: 222px;
-</pre>                    	
-                    	<div class="example edge">
-                    		<img src="http://placehold.it/310x222" class="column-image">
-                    	</div>
-                    	
-                    </div>
-                    
-<hr>
-
+					<div class="example" style="width:250px">
+						<p class="windex-body">Hello, I'm a section of body text. Lorem ipsum dolor 
+						sit amet, consectetur adipiscing elit. Nunc ultricies metus non 
+						posuere hendrerit. Phasellus gravida, lorem ut sollicitudin 
+						pharetra, turpis leo faucibus sapien, at egestas tortor odio et 
+						ante. Nullam sodales cursus nisl ac fringilla.</p>
+					</div>	
 					
-                	<div id="rows-subtitle">
-                		<h5>Windex Rows Title </h5>
+<hr>				
+					<h5>Page Titles (Desktop)</h5>
+					
 <pre>
-font-size: 1.286em;
-color: #706259;
 font-family: 'Gotham 7r', verdana;
-</pre>
-						<div class="example">
-						<h4 class="rows-subtitle">Emotional Well-Being</h4>
-						</div>
-                	</div>
-                	
-                	
-<hr>
-
-            	
-                	<div id="rows-image-section">
-                		<h5>Windex Rows Image</h5>
-<pre>
-width: 140px;
-height: 100px;
-margin-right: 20px;
-</pre>
-						<div class="example wide">
-							<img class="rows-image" src="http://placehold.it/140x100">
-								<div style="display:inline-block; vertical-align:top; width:380px;"><h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Emotional Well-Being</h4>
-								<p class="windex-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lectus accumsan, mattis lacus eu, viverra nulla. Maecenas aliquam fermentum nulla et accumsan. Aliquam fermentum gravida massa, sed eleifend ipsum mattis in. Ut id placerat erat.</p>
-								</div>
-						</div>
-						
-                	</div>
-                	
-                	
-<hr>
-
-            	
-                	<div id="windex-cards-section">
-                		<h5>Windex Cards Headline</h5>
-<pre>
+font-size: 2em;
 color: #706259;
-font-family: 'Gotham 4r', verdana;
-font-size: 1.714em;
 </pre>
-						<div class="example">
-							<div style="width:310px">
-							<h5 class="windex-cards-subhead">Prevention</h5>
-							<img class="windex-cards-image" src="http://placehold.it/310x222">
-							<p class="windex-body" style="margin-bottom:20px">Lorem ipsum dolor sit amet, consectetur 
-							adipiscing elit. Ut venenatis ornare aliquam. Quisque in fringilla tellus. 
-							Suspendisse quis scelerisque quam. Nunc ac ex nec orci rhoncus feugiat.</p>
-							<a href="#" class="col-link">Total Health Incentive Plan</a>
-							<a href="#" class="col-link">Total Health Assessment</a>
-							<a href="#" class="col-link">Fitness Classes Available</a>
-							</div>
-						</div>
-						
-						
-						<h5>Windex Cards Image</h5>
-<pre>
-width: 310px;
-height: 222px;
-margin-top: 8px;
-margin-bottom: 10px;
-</pre>						
-						
-						<h5>Windex Cards Body Text</h5>
-<pre>
-See "Windex Body Text"
-</pre>							
-						
-						<h5>Windex Cards Links</h5>
-<pre>
-See "Windex Link"
-</pre>				
-						
-						
-                	</div>
 
-<hr>                  
-                    
-                	</article>
-                	
-                	
-                	
+					<div class="example">
+						<h6 class="windex-pagetitle">I'm a Page Title</h6>
+					</div>	
+					
+<hr>					
+				</article>
+				
+				
                 	
                 	
    <!-- Global Stuff ----------------- -->    
@@ -799,7 +254,7 @@ See "Windex Link"
                 
                 <article class="desktop" id="global-styles"> 
                 
-                <h3>Global Styles</h3>	
+                <h3>Reusable Components</h3>	
                 	
                 	<div id="breadcrumbs">
                 		<h5>Global Breadcrumb: span </h5>
@@ -943,9 +398,9 @@ padding-bottom: 7px;
                 
                 <article class="desktop" id="comment-module">
                 
-				<h3>Comment Module</h3>
+				<h3>Discussion Module</h3>
 				
-					<div class="example wide">
+					<div class="example wide fullwidth">
 							<div class="comments-area">
 								<p class="comments-intro-text" style="margin-bottom:15px">Context for the conversation you can read below. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at augue aliquet, pretium nunc non.</p>
 								<h5 class="commentsarea-head">3 Comments</h5>
@@ -1019,12 +474,12 @@ background-color: #00625C;
 
                 	</div>
                 	
- 						<div class="example wide">
-							<textarea class="form-control" rows="2" placeholder="Write a Comment" style="width:600px"></textarea>
+ 						<div class="example wide fullwidth">
+							<textarea class="form-control" rows="2" placeholder="Write a Comment" style="width:600px; margin:auto;"></textarea>
 						</div> 
 						 
-						<div class="example wide">
-							<textarea class="form-control reply-box comment-reply" rows="1" placeholder="Write reply..."></textarea>
+						<div class="example wide fullwidth">
+							<textarea class="form-control reply-box comment-reply" rows="1" placeholder="Write reply..." style="margin:auto"></textarea>
 						</div>  
 						
 						            	
@@ -1137,7 +592,7 @@ font-family: 'Gotham 4r', verdana;
 						
 
 						
-						<h5>Comment 'Reply' and 'Helpful' Links</h5>
+						<h5>Comment Action Links</h5>
 						
 <pre>
 font-size: 1.071em
@@ -1161,60 +616,656 @@ Thumbs Up:
 							<p class="comment-body">
 							<span class="glyphicon glyphicon-triangle-bottom"></span> 
 							<a href="#">2 Replies</a> &nbsp; &middot; &nbsp; <a href="#">Like</a> 
-							<span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 
-							1</p>
+							<span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span>
+							1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
 						</div>
 						
 <hr>
 
-					<div class="example wide">
-							<div class="top-comments-area">
-								<h5 class="commentsarea-head">3 Comments</h5>
-								<textarea class="form-control" rows="2" placeholder="Write a Comment"></textarea>
-								<button class="submit-comment">Submit</button>
-								<p class="legal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nisl nec mauris viverra, et viverra arcu mollis. Nunc sit amet orci eu ante porttitor molestie sed sed sapien. Nunc nec ligula lorem. Nunc laoreet elementum risus sed pretium. Fusce vulputate mi eu odio condimentum, at ornare ligula fermentum. Aliquam congue pharetra malesuada. Nullam sit amet ipsum eget lorem laoreet faucibus ac et 
-								ligula.</p>
+					<h3>Top Comments <br>(Same as Discussion Module except for Popular/Recent toggle)</h3>
+					
+					
+
+						<div class="example wide fullwidth">
+								<div class="top-comments-area">
+									<h5 class="commentsarea-head">3 Comments</h5>
+									<textarea class="form-control" rows="2" placeholder="Write a Comment"></textarea>
+									<button class="submit-comment">Submit</button>
+									<p class="legal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nisl nec mauris viverra, et viverra arcu mollis. Nunc sit amet orci eu ante porttitor molestie sed sed sapien. Nunc nec ligula lorem. Nunc laoreet elementum risus sed pretium. Fusce vulputate mi eu odio condimentum, at ornare ligula fermentum. Aliquam congue pharetra malesuada. Nullam sit amet ipsum eget lorem laoreet faucibus ac et 
+									ligula.</p>
 								
-								<p class="comments-popular-toggle"><a href="#">Popular</a> | <a href="#" class="nochange" style="font-family:'Gotham 7r',verdana">Recent</a></p>
+									<p class="comments-popular-toggle"><a href="#">Popular</a> | <a href="#" class="nochange" style="font-family:'Gotham 7r',verdana">Recent</a></p>
 							
-								<div class=comment>
-									<p class="comment-body" style="font-family: 'Gotham 7r', verdana">
-									John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
-									Just go on with your business as your normally would.</p>
-									<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
-									<p class="comment-body"><span class="glyphicon glyphicon-triangle-bottom"></span> <a href="#">2 Replies</a> &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
-								</div>
+									<div class=comment>
+										<p class="comment-body" style="font-family: 'Gotham 7r', verdana">
+										John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
+										Just go on with your business as your normally would.</p>
+										<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
+										<p class="comment-body"><span class="glyphicon glyphicon-triangle-bottom"></span> <a href="#">2 Replies</a> &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
+									</div>
 							
-								<div class=comment>
-									<p class="comment-body comment-reply" style="font-family: 'Gotham 7r', verdana">
-									John Commenter - KP Life Analytics</p><p class="comment-body comment-reply">Hello, I'm just a little comment. Nothing to see here.
-									Just go on with your business as your normally would.</p>
-									<p class="comment-body comment-datetime comment-reply ">06/23/14  7:59 pm</p>
-									<p class="comment-body comment-reply"><a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
-								</div>
+									<div class=comment>
+										<p class="comment-body comment-reply" style="font-family: 'Gotham 7r', verdana">
+										John Commenter - KP Life Analytics</p><p class="comment-body comment-reply">Hello, I'm just a little comment. Nothing to see here.
+										Just go on with your business as your normally would.</p>
+										<p class="comment-body comment-datetime comment-reply ">06/23/14  7:59 pm</p>
+										<p class="comment-body comment-reply"><a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
+									</div>
 								
-								<div class=comment>
-									<p class="comment-body comment-reply" style="font-family: 'Gotham 7r', verdana">
-									John Commenter - KP Life Analytics</p><p class="comment-body comment-reply">Hello, I'm just a little comment. Nothing to see here.
-									Just go on with your business as your normally would.</p>
-									<p class="comment-body comment-datetime comment-reply ">06/23/14  7:59 pm</p>
-									<p class="comment-body comment-reply"><a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
-									<textarea class="form-control reply-box comment-reply" rows="1" placeholder="Write reply..." style="margin-left:29px; width: 400px; display:inline-block; vertical-align:top;"></textarea><button class="submit-comment submit-reply">Submit</button>
-								</div>
+									<div class=comment>
+										<p class="comment-body comment-reply" style="font-family: 'Gotham 7r', verdana">
+										John Commenter - KP Life Analytics</p><p class="comment-body comment-reply">Hello, I'm just a little comment. Nothing to see here.
+										Just go on with your business as your normally would.</p>
+										<p class="comment-body comment-datetime comment-reply ">06/23/14  7:59 pm</p>
+										<p class="comment-body comment-reply"><a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
+										<textarea class="form-control reply-box comment-reply" rows="1" placeholder="Write reply..." style="margin-left:29px; width: 400px; display:inline-block; vertical-align:top;"></textarea><button class="submit-comment submit-reply">Submit</button>
+									</div>
 							
-								<div class=comment>
-									<p class="comment-body" style="font-family: 'Gotham 7r', verdana">
-									John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
-									Just go on with your business as your normally would.</p>
-									<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
-									<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> <a href="#">2 Replies</a>&nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
+									<div class=comment>
+										<p class="comment-body" style="font-family: 'Gotham 7r', verdana">
+										John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
+										Just go on with your business as your normally would.</p>
+										<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
+										<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> <a href="#">2 Replies</a>&nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
+									</div>
 								</div>
-							</div>
-					</div>
+						</div>
+						
+						<h5>Popular/Recent Toggle</h5>
+						
+						
+<pre>
+width: 100%
+margin-top: 25px;
+padding-bottom: 5px;
+border-bottom: 2px solid #dddddd;
+font-size: 0.929em;
+color: #706259;
+
+Selected Toggle: font-family:'Gotham 7r', verdana 
+Unselected Toggle: [normal link style]
+</pre>
+					
+						<div class="example" style="width:350px">
+							<p class="comments-popular-toggle"><a href="#">Popular</a> | <a href="#" class="nochange" style="font-family:'Gotham 7r',verdana">Recent</a></p>
+						</div>
+						
 						
 						
                 	
+                </article>	
+                
+                
+    
+      <!-- Megamenu  -->     		
+      
+      
+      
+				
+                <article class="desktop" id="megamenu">
+                <h3>Megamenu</h3>
+                
+ 
+   
+   <!-- Tabs ---------------------------------->                
+            
+                
+                
+                
+                <div id="defaulttab">
+                <h5>Tab Blocks</h5>
+                
+<pre>
+background-color: #f3f3f3;
+text-align: center;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 8px;
+padding-bottom: 8px;
+border-right: 1px solid #bdbdbd;
+border-top: 1px solid #d4d4d4;
+</pre>
+
+                	<div class="example">                		
+                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>                		
+                	</div>
+                <h5>Tab Text</h5>
+<pre>
+font-size: 1.071em;
+color: #555;
+font-family: 'Gotham 4r', verdana
+</pre>
+				</div>
+
+<hr>
+            <div id="hovertab">  
+                <h5>Tab Block on Hover</h5>
+<pre>
+background-color: #ffffff;
+border-top: 1px solid #bdbdbd;
+padding-top: 7px;
+</pre>
+                	<div class="example">
+                		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
+                	</div>  
+            </div> 
+                	
+<hr>
+            <div id="selectedtab">	
+                <h5>Tab Block Selected</h5>
+                
+<pre>
+padding-bottom: 5px;
+border-bottom: 4px solid #5FA621;
+</pre>
+                	<div class="example">
+                		<li class="tabblock"><a class="menunav">Item #1</a></li><li class="tabblock selected"><a class="menunav selected">Selected Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
+                	</div>   
+                	       
+                	        	           	
+                <h5>Tab Text Selected</h5>
+<pre>
+color: #fff;
+</pre>
+            </div> 	
+<hr>
+
+
+
+   <!-- Menu Items ------------------------------> 
+    
+    
+                	<div class="example wide fullwidth">
+                		<ul class="menulinklist" style="margin-left:200px;">
+                			<li class="menulistitem"><h5 class="subhead">Menu Category Title</h5></li>
+							<li class="menulistitem"><a class="menuitem">Individual Menu Item</a></li>
+							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
+							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
+							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
+                		</ul>
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead">Second Title</h5></li>
+							<li class="menulistitem"><a class="menuitem">Dominate Life</a></li>
+							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
+							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
+							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
+                		</ul>
+                	</div>                
+
+            <div id="menusubheader">
+                <h5>Subheaders</h5>
+<pre>
+color: #333;
+font-size: 1em;
+font-family: 'Gotham 7r', verdana;
+</pre>
+                	<div class="example">
+                		<h5 class="subhead">Menu Item Subheader</h5>
+                	</div>
+            </div>
+            
+            <div id="menulink_default">    	
+                <h5>Individual Menu Items</h5>
+<pre>
+width: 250px;
+padding-right: 10px;
+border-right: 1px solid #bdbdbd;
+display: inline-block;
+margin-left: 15px;
+margin-bottom: 7px;
+line-height: 1.2;
+vertical-align: top;
+
+font-size: 0.875em;
+[normal <a href="#basic-elements">link style</a>]
+</pre>	
+
+					<div class="example" style="border-left: 1px solid #bdbdbd;">
+						<ul class="menulinklist">
+							<li class="menulistitem"><a class="menuitem">Individual Menu Item</a></li>
+							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
+							<li class="menulistitem"><a class="menuitem">Collaborate Effectively</a></li>
+                		</ul>
+					</div>
+   	
+            </div>   
+            
+<hr>
+
+					<div class="example wide fullwidth" style="margin-left:200px;">
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 1</h5></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">A First Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
+							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
+							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
+                		</ul>
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 2</h5></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">Another Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
+							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
+							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">One More Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Even More Aspirations</a></li>
+							<li class="menulistitem"><a class="menuitem">Appropriate Pharmacuticals</a></li>
+							<li class="menulistitem"><a class="menuitem">Sleep Better</a></li>
+                		</ul>
+                	</div>
+            
+            <div id="menulink_columnhead">    	
+                <h5>Megamenu Column Headers</h5>
+<pre>
+border-bottom: 1px solid #dddddd;
+padding-bottom: 10px;
+
+color: #333;
+font-size: 1em;
+font-family: 'Gotham 7r', verdana;
+</pre>
+
+                	
+                <h5>Megamenu Subheaders Under Columns</h5>
+<pre>
+margin-top: 24px;
+font-family: 'Gotham 7r', verdana;
+font-size: 0.875em;
+color: #333;
+</pre>	
+   	
+            </div>   	
+
+<hr>
+            
                 </article>
+                
+
+          
+          
+              
+   <!-- Alert Bar ------------------------------------------>                 
+             
+             
+             
+             
+                
+                <article class="desktop" id="alert">
+                <h3>Alert</h3>
+                
+                <h5>Alert Bar:  div.alert ></h5>
+<pre>
+background-color: #ffffff;
+border: 2px solid #BB1654;
+text-align: center;
+</pre>
+                	<div class="example">
+                		<div id="alertbar"><a id="alerttext"><span class="glyphicon glyphicon-bullhorn" style="color:#BB1654; margin-right:5px;"></span> This is a test, this is only a test.</a></div>
+                	</div>
+                <h5>Alert Bar Text: div.alert > a</h5>
+<pre>
+font-size: 1em;
+color: #333;
+font-family: 'Gotham 4r', verdana
+</pre>
+
+				<h5>Alert Bar Text: div.alert > a > warning icon</h5>
+<pre>
+color: #BB1654;
+margin-right: 5px;
+</pre>
+<hr>
+                </article>
+
+
+                
+                
+   <!-- - Header and Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       -->  
+                
+                
+                
+                
+                
+                <article class="desktop" id="headfoot">
+                <h3>Header and Footer</h3>
+                
+                
+            <div id="pagegreeting">    
+            
+                <h5>Greeting</h5>
+<pre>
+font-family: 'Gotham 4r', verdana;
+border-right: 1px solid #555;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+color: #555;
+</pre>
+                	<div class="example">
+                		<li id="greeting">Welcome, <span id="username">Margaret</span> <span id="imperson">(as Dave)</span></li>
+                	</div>
+
+				<h5>Greeting ("as...")</h5>
+                	<pre>color: #BB1654;</pre>
+
+			</div>
+
+<hr>
+			<div id="headerprimary">
+				<h5>Header link </h5>
+<pre>
+font-family: 'Gotham 4r', verdana;
+font-size: 0.929em;
+border-right: 1px solid #555;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+color: #006BA6;
+</pre>
+                	<div class="example">
+                		<a class="headerlink" href="#">My Profile
+                		</a><a class="headerlink" href="#">Sign Off
+                		</a><a class="headerlink" href="#">Help</a>
+                	</div>
+               	
+            
+				<h5>Header link: hover </h5>
+<pre>
+color: #003B71;
+text-decoration: underline;
+</pre>    
+	
+			</div> 
+
+                	
+<hr>
+			<div id="pagefooter">
+				<h5>Footer item </h5>
+<pre>
+border-right: 1px solid #555;
+text-align: center;
+padding: 0 10px 0 5px;
+</pre>
+					<div class="example">
+                		<a class="footerlink" href="#">Terms and Conditions</a>
+                		<a class="footerlink" href="#">Privacy</a>
+                		<a class="footerlink" href="#">Legal</a>
+                	</div>
+                	
+				<h5>Footer link </h5>
+<pre>
+font-family: 'Gotham 4r', verdana;
+font-size: 1em;
+color: #555;
+</pre>
+
+			</div>
+			          	
+<hr>
+			<div id="searchbar">
+				<h5>Search Bar > preview text </h5>
+<pre>
+font-family: 'Gotham 4r', verdana;
+font-size: 0.929em;
+color: #333;
+</pre>
+					<div class="example">
+                		<textarea class="form-control global-search-bar" rows="1" placeholder="Search person or topic"></textarea>
+                	</div>
+                	
+				<h5>Search Bar > field </h5>
+<pre>
+border: 1px solid #555555;
+height: 40px;
+padding: 10px;
+</pre>
+
+			</div>		
+			
+<hr>
+			
+
+                </article>
+                
+
+
+   <!-- Windex  ------------------------------------------>    
+
+
+                
+                <article class="desktop" id="windex">
+                
+                <h3>Windex</h3>
+                
+                	<div id="windex-title">
+                		<h5>Windex Page Title</h5>
+<pre>
+font-size: 2em;
+color: #706259;
+font-family: 'Gotham 7r', verdana;
+</pre>
+						<div class="example">
+								<h6 class="windex-pagetitle">Flexible Spending</h6>
+								<h6 class="windex-pagetitle">Healthy Me</h6>
+						</div>
+                	</div>
+                	
+<hr>              	
+
+
+       
+                	<div id="column-link">
+                		<h5>Windex Link </h5>
+<pre>
+font-size: 1.071em;
+</pre>
+						<div class="example">
+								<a href="#" class="col-link">Total Health Incentive Plan</a>
+								<a href="#" class="col-link">Total Health Assessment</a>
+								<a href="#" class="col-link">Health Education Classes</a>
+						</div>
+						
+                	</div>
+                	
+
+<hr>  	
+
+
+                	<div id="column-title">
+                		<h5>Windex Column Title </h5>
+<pre>
+font-size: 1.5em;
+color: #706259;
+font-family: 'Gotham 4r', verdana;
+</pre>
+						<div class="example">
+						<h4 class="col-title">Health Care</h4>
+						</div>
+                	</div>
+
+<hr>                	
+
+					<div id="column-title-icon">
+                		<h5>Windex Column Title icon</h5>
+<pre>
+width: 45px;
+margin-right: 10px;
+</pre>
+						<div class="example">
+						<img class="columnheadimage" src="icons/icon-employee.png"><h4 class="col-title" style="display:inline-block">Dependent Care</h4>
+						</div>
+                	</div>
+
+<hr>      
+
+
+                	<div id="column-button">
+                		<h5>Windex Column - Button</h5>
+<pre>
+background-color: #006BA6;
+text-align: center;
+font-family: 'Gotham 7r', verdana;
+font-size: 1.071em;
+color: #ffffff;
+vertical-align: middle;
+width: 310px;
+height: 78px;
+border: 0px;
+border-radius: 5px;
+</pre>
+
+                		<div class="example edge">
+							<button class="column-button">View Account / Get Reimbursed</button>
+						</div>
+						
+						<h5>Windex Column - Button: hover</h5>
+<pre>
+background-color: #003B71;
+</pre>
+                		
+                		<h5>Windex Column - Button: Disabled</h5>
+<pre>
+background-color: #EBE4E7;
+color: #ffffff;
+cursor: default;
+</pre>
+						<div class="example edge">
+							<button class="column-button disabled-button">View Account / Get Reimbursed</button>
+						</div>
+						
+                		
+                	</div>
+
+
+<hr> 
+
+                    <div id="column-button">
+						<h5>Windex Column - Image</h5>
+<pre>
+width: 310px;
+height: 222px;
+</pre>                    	
+                    	<div class="example edge">
+                    		<img src="http://placehold.it/310x222" class="column-image">
+                    	</div>
+                    	
+                    </div>
+                    
+<hr>
+
+					
+                	<div id="windex-rows-layout">
+
+						<div class="example wide" style="width:930px; border-bottom:2px solid #dddddd;">
+							<img class="rows-image" src="http://placehold.it/140x100">
+							<div style="display:inline-block; vertical-align:top;">
+							<h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Emotional Well-Being</h4>
+								<div>
+									<p class="windex-body" style="width:480px; display:inline-block;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lectus accumsan, mattis lacus eu, viverra nulla. Maecenas aliquam fermentum nulla et accumsan. Aliquam fermentum gravida massa, sed eleifend ipsum mattis in. Ut id placerat erat.</p>
+									<ul style="display:inline-block; vertical-align:top; margin-left: 20px;">
+										<li><a>Total Health Incentive Plan</a></li>
+										<li><a>Total Health Assessment</a></li>
+										<li><a>Health Education Classes</a></li>
+										<li><a>Healthy Living Webinars</a></li>
+										<li><a>Wellness Coaching</a></li>
+									</ul>
+								</div>	
+							</div>
+						</div>
+						<div class="example wide" style="width:940px; padding-top:15px; padding-bottom:25px;">
+							<img class="rows-image" src="http://placehold.it/140x100">
+							<div style="display:inline-block; vertical-align:top;">
+							<h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Eat Well</h4>
+								<div>
+									<p class="windex-body" style="width:480px; display:inline-block;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lectus accumsan, mattis lacus eu, viverra nulla. Maecenas aliquam fermentum nulla et accumsan.</p>
+									<ul style="display:inline-block; vertical-align:top; margin-left: 20px;">
+										<li><a>Total Health Incentive Plan</a></li>
+										<li><a>Total Health Assessment</a></li>
+										<li><a>Health Education Classes</a></li>
+									</ul>
+								</div>	
+							</div>
+						</div>
+						
+						<h5>Windex Rows: Title </h5>
+<pre>
+font-size: 1.286em;
+color: #706259;
+font-family: 'Gotham 7r', verdana;
+</pre>
+						<div class="example">
+						<h4 class="rows-subtitle">Emotional Well-Being</h4>
+						</div>
+						
+                	</div>
+                	
+
+            	
+                	<div id="rows-image-section">
+                		<h5>Windex Rows: Image</h5>
+<pre>
+width: 140px;
+height: 100px;
+margin-right: 20px;
+</pre>
+						<div class="example">
+							<img class="rows-image" src="http://placehold.it/140x100">
+						</div>
+						
+                	</div>
+                	
+                	
+<hr>
+
+            	
+                	<div id="windex-cards-section">
+                		<h5>Windex Cards Headline</h5>
+<pre>
+color: #706259;
+font-family: 'Gotham 4r', verdana;
+font-size: 1.714em;
+</pre>
+						<div class="example">
+							<div style="width:310px">
+							<h5 class="windex-cards-subhead">Prevention</h5>
+							<img class="windex-cards-image" src="http://placehold.it/310x222">
+							<p class="windex-body" style="margin-bottom:20px">Lorem ipsum dolor sit amet, consectetur 
+							adipiscing elit. Ut venenatis ornare aliquam. Quisque in fringilla tellus. 
+							Suspendisse quis scelerisque quam. Nunc ac ex nec orci rhoncus feugiat.</p>
+							<a href="#" class="col-link">Total Health Incentive Plan</a>
+							<a href="#" class="col-link">Total Health Assessment</a>
+							<a href="#" class="col-link">Fitness Classes Available</a>
+							</div>
+						</div>
+						
+						
+						<h5>Windex Cards Image</h5>
+<pre>
+width: 310px;
+height: 222px;
+margin-top: 8px;
+margin-bottom: 10px;
+</pre>						
+						
+						<h5>Windex Cards Body Text</h5>
+<pre>
+See <a href="#basic-elements">Body Text</a>
+</pre>							
+						
+						<h5>Windex Cards Links</h5>
+<pre>
+margin-top: 20px;
+</pre>				
+						
+						
+                	</div>
+
+<hr>                  
+                    
+                	</article>
+                	
+                	
+                	
+
                 
                 
                 
@@ -1281,7 +1332,7 @@ margin-bottom: 16px;
                 		
 
 
-						<div class="example wide" style="width:660px; padding-right:10px; border-right: 1px solid #555555;">
+						<div class="example wide fullwidth" style="width:660px; padding-right:10px; border-right: 1px solid #555555;">
 							<img class="detail-narrative-image" src="http://placehold.it/310x200">
 							<p class="detail-body narra-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Nulla sapien est, sagittis a facilisis dapibus, feugiat eleifend magna. Vestibulum quam 
@@ -1296,7 +1347,7 @@ margin-bottom: 16px;
 							 sed mollis a, facilisis vel nibh.</p>
 						</div>
 						
-						<div class="example wide" style="width:660px; padding-right:10px; border-right: 1px solid #555555;">
+						<div class="example wide fullwidth" style="width:660px; padding-right:10px; border-right: 1px solid #555555;">
 							<img class="detail-narrative-image-full" src="http://placehold.it/645x200">
 							<p class="detail-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Nulla sapien est, sagittis a facilisis dapibus, feugiat eleifend magna. Vestibulum quam 
@@ -1347,7 +1398,7 @@ position: relative;
 top: 4px;
 </pre>
 						<div class="example">
-							<a href="#" class="submitstory-link"><div><span class="glyphicon glyphicon-edit icon-submitstory"></span> <span class="detail-body" style="text-decoration:none">View Support Forums</span></div></a>
+							<a href="#" class="submitstory-link"><div><span class="glyphicon glyphicon-edit icon-submitstory"></span> <span class="detail-body" style="text-decoration:none">Submit a Story</span></div></a>
 						</div>
 						
 						<h5>"Submit a Story" text</h5>
@@ -1364,9 +1415,8 @@ font-family: 'Gotham 4r', verdana
  <hr>
  					
  					<div id="detail_table">
- 						
- 						<div class="example wide">
- 							<table class="table detail-table" style="width:625px">
+ 						<div class="example wide fullwidth">
+ 							<table class="table detail-table" style="width:625px; margin:auto;">
  								<tr>
  									<td class="detail-table-when">December 1, 2015<br>10:00am - 12:30am</td>
  									<td class="detail-table-what"><a href="#">Mystify the Masters of Microsoft PowerPoint</a></td>
@@ -1412,10 +1462,10 @@ border-top: 1px solid #dddddd;
  					
 <hr> 					
  					<div id="detail-list-searchbar-section">
- 						<h5>Detail List: Search Bar</h5>
+
 
  						
- 						<div class="example wide" style="position:relative">
+ 						<div class="example wide fullwidth" style="position:relative; margin-left:140px;">
  							<span class="glyphicon glyphicon-search detail-list-search-icon"></span><textarea class="form-control detail-list-search" rows="1" placeholder="Search for a policy"></textarea>
  							<button class="detail-list-search-button">Search</button>
  						</div>
@@ -1462,7 +1512,7 @@ cursor: pointer;
  					 <div id="detail-list-main-section">
  						
  						
- 						<div class="example wide edge" style="width:685px">
+ 						<div class="example wide edge fullwidth" style="width:685px">
  							<div class="detail-list-topcat">
  								<span class="glyphicon glyphicon-triangle-bottom detail-list-downarrow"></span>
  								<span class="detail-list-topcat-text"><a href="#" class="nochange">Employment</a></span>
@@ -1569,7 +1619,7 @@ space between triangle and text: 14px;
 <hr> 					
  					
  					<div id="detail-list-search-results-section">
- 						<div class="example wide edge" style="width:685px">
+ 						<div class="example wide edge fullwidth" style="width:685px">
  							<div class="search-results" style="width:645px">
  								<div class="search-results-header">
  									<span class="search-results-title">Search Results</span>
@@ -1647,6 +1697,46 @@ color: #555555;
                 <article class="desktop" id="support">
                 	
                 	<h3>Support/Help Pages</h3>
+                	
+						<div class="example edge" style="width:160px; margin-top:40px; margin-left: 100px;">
+								<ul>
+									<li class="support-category">Pay</li>
+									<li class="support-category">Time Off</li>
+									<li class="support-category" style="color:#003B71">Performance Management</li>
+										<ul>
+											<li class="support-subcategory activechoice">Goal Setting</li>
+											<li class="indicator"><span class="glyphicon glyphicon-triangle-left"></span></li>
+											<li class="support-subcategory">Ongoing Feedback</li>
+											<li class="indicator"><span class="glyphicon glyphicon-triangle-left"></span></li>
+											<li class="support-subcategory">Formal Feedback</li>
+											<li class="indicator"><span class="glyphicon glyphicon-triangle-left"></span></li>
+										</ul>
+									<li class="support-category">Benefits</li>
+								</ul>
+							</div>
+						
+							<div class="example wide edge" style="padding:20px; margin-top:40px;">
+								<div style="width:496px">
+									<div class="support-question">								
+										<span class="support-question-text"><a href="#">How do I set my goals?</a></span>
+										<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
+									</div>
+									<div class="support-question">				
+										<span class="support-question-text"><a href="#">What is a SMART goal?</a></span>
+										<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
+									</div>
+									<div class="support-question">				
+										<span class="support-question-text-active"><a href="#" class="nochange">How do I update my goals?</a></span>
+										<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
+									</div>
+									<p class="support-question-text" style="margin-left:15px; margin-right:20px;">Click the Edit button in performance menu for goals or if you just wanna mess around and try to break stuff. That's cool too. </p>
+									<div class="support-question">								
+										<span class="support-question-text"><a href="#">I have another question.</a></span>
+									
+									</div>
+								
+								</div>
+							</div>
                 	
                 	<div id="support-category-bar">
                 	
@@ -1737,45 +1827,7 @@ float:right;
                 		
                 		
                 		
-                		<div class="example edge" style="width:160px; margin-top:40px;">
-                			<ul>
-								<li class="support-category">Pay</li>
-								<li class="support-category">Time Off</li>
-								<li class="support-category" style="color:#003B71">Performance Management</li>
-									<ul>
-										<li class="support-subcategory activechoice">Goal Setting</li>
-										<li class="indicator"><span class="glyphicon glyphicon-triangle-left"></span></li>
-										<li class="support-subcategory">Ongoing Feedback</li>
-										<li class="indicator"><span class="glyphicon glyphicon-triangle-left"></span></li>
-										<li class="support-subcategory">Formal Feedback</li>
-										<li class="indicator"><span class="glyphicon glyphicon-triangle-left"></span></li>
-									</ul>
-								<li class="support-category">Benefits</li>
-                			</ul>
-                		</div>
                 		
-                		<div class="example wide edge" style="padding:20px; margin-top:40px;">
-                			<div style="width:496px">
-								<div class="support-question">								
-									<span class="support-question-text"><a href="#">How do I set my goals?</a></span>
-									<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
-								</div>
-								<div class="support-question">				
-									<span class="support-question-text"><a href="#">What is a SMART goal?</a></span>
-									<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
-								</div>
-								<div class="support-question">				
-									<span class="support-question-text-active"><a href="#" class="nochange">How do I update my goals?</a></span>
-									<span class="glyphicon glyphicon-share-alt support-share-icon results-share-icon"></span>
-								</div>
-								<p class="support-question-text" style="margin-left:15px; margin-right:20px;">Click the Edit button in performance menu for goals or if you just wanna mess around and try to break stuff. That's cool too. </p>
-								<div class="support-question">								
-									<span class="support-question-text"><a href="#">I have another question.</a></span>
-									
-								</div>
-								
- 							</div>
-                		</div>
                 		
                 		
                 	
@@ -1800,18 +1852,10 @@ color: #555555;
                 
 <hr>
 
-						<h5>Support - Questions</h5>
-                		
-<pre>
-module width: 496px;
-padding: 20px;
-
-font-family: 'Gotham 4r', verdana;
-font-size: 1.071em;
-color: #006BA6;  (normal link treatment) 
-</pre>
-
-                		<div class="example wide edge" style="padding:20px">
+						
+						
+						
+                		<div class="example edge" style="padding:20px">
                 			<div style="width:496px">
 								<div class="support-question">								
 									<span class="support-question-text"><a href="#">How do I set my goals?</a></span>
@@ -1832,7 +1876,18 @@ color: #006BA6;  (normal link treatment)
 								</div>
 								
  							</div>
-                		</div>
+                		</div>             
+                		
+                		<h5>Support - Questions Module</h5>   		
+<pre>
+module width: 496px;
+padding: 20px;
+
+font-family: 'Gotham 4r', verdana;
+font-size: 1.071em;
+</pre>
+
+
                 		
 						<h5>Support - Active Question (on click)</h5>
                 		
@@ -1979,11 +2034,17 @@ Help: 104px
 						<div class="container-flyout-tab">
 							<span>Help</span>
 						</div>
+						<div class="container-flyout-tab action-tab tab-inactive">
+							<span>Action</span>
+						</div>
 						
 					</div>
 					
 					<div class="example wide" style="position:relative; width:200px; height:550px;">
 						<div class="container-flyout action-box">
+						</div>
+						<div class="container-flyout-tab tab-inactive">
+							<span>Help</span>
 						</div>
 						<div class="container-flyout-tab action-tab">
 							<span>Action</span>
@@ -1994,12 +2055,12 @@ Help: 104px
 					<h5>Flyout Window</h5>
                 	
 <pre>
-distance from top: 200px
+distance from top of page: 200px
 
 border: 1px solid #bdbdbd;
 border-left: 5px solid #4A7628;
-height: [flexible, min:105px]
-width: [flexible]
+width: 389px
+min-height: 350px
 padding: 20px;
 box-shadow: -1px 1px 2px #888888;
 </pre>
@@ -2038,20 +2099,14 @@ box-shadow: -1px 1px 2px #888888;
  
  
  
- 
- 
-<!-- 
- 
- 
-            <div role="tabpanel" class="tab-pane fade" id="mobile">
- -->
+
             
             
 
             	
             	<article class="mobile" id="menu">
                 
-                	<h3>Menu</h3>
+                	<h3 class="mobilehead">Mobile Menu</h3>
                 		
                 	<div id="defaultmitem">
                 		<h5>Mobile menu item text</h5>
@@ -2143,7 +2198,7 @@ background-color: #706259;
                 </article>
                 
                 <article class="mobile" id="mfooter">
-                <h3>Mobile Footer</h3>
+                <h3 class="mobilehead">Mobile Footer</h3>
                 	
                 	<div id="mfooter_item">
                 		<h5>Footer Item</h5>
@@ -2176,7 +2231,7 @@ padding-right: 7px;
                 
                 <article id="mwindex">
                 	
-                	<h3>Mobile Windex</h3>
+                	<h3 class="mobilehead">Mobile Windex</h3>
                 	
                 	<div id="mwindex-h2">
                 		<h5>Mobile Windex Page Title</h5>
@@ -2285,7 +2340,7 @@ font-size: 1.071em;
 </pre>
 
                 		<div class="example mobile-ex">
-							<h3 class="mwindex-rows-subhead">Emotional Well-Being</h3>
+							<h6 class="mwindex-rows-subhead">Emotional Well-Being</h6>
 						</div>
 						
                 	</div>
@@ -2322,12 +2377,7 @@ margin-right: 10px;
 
 					<div id="mwindex-cards-title">
                 		
-						<h5>Mobile Windex Card</h5>
-<pre class="mbl">
-margin-top: 20px;
-margin-bottom: 20px;
-horizontal separators: 2px solid #dddddd;
-</pre>		
+						
 
                 		<div class="example mobile-ex">
                 			<div>
@@ -2342,6 +2392,13 @@ horizontal separators: 2px solid #dddddd;
 							</div>					
 						</div>
 						
+						<h5>Mobile Windex Card</h5>
+<pre class="mbl">
+margin-top: 20px;
+margin-bottom: 20px;
+horizontal separators: 2px solid #dddddd;
+</pre>		
+
 						<h5>Mobile Windex Card: Subhead</h5>
 <pre class="mbl">
 color: #706259;
@@ -2374,7 +2431,7 @@ See "Mobile Windex Links"
                 
                 <article id="mobile_detail">
                 
-                <h3>Mobile Detail Pages</h3>
+                <h3 class="mobilehead">Mobile Detail Pages</h3>
                 
                 	<div id="mobile_detail_title">
                 	
@@ -2526,7 +2583,7 @@ font-family: 'Gotham 4r', verdana
 
 					<div id="mdetail_list">
 						
-						<div class="example mobile-ex" style="display:block">
+						<div class="example mobile-ex fullwidth" style="display:block">
 						
 							<div class="mdetail-list-topcat">
  								<span class="glyphicon glyphicon-triangle-bottom mdetail-list-downarrow"></span>
@@ -2599,11 +2656,11 @@ color: #706259;
 <pre class="mbl">
 margin-left: 23px;
 margin-bottom: 7px;
-
+width: 70%; 	
 display: inline-block;
+
 font-family: 'Gotham 4r', verdana;
 font-size: 0.929em;
-width: 70%; 	
 </pre>	
 
 						<div class="example mobile-ex">
@@ -2661,6 +2718,10 @@ margin-bottom: 7px;
 	#span glyphicon glyphicon-share-alt
 </pre>	
 
+						<div class="example mobile-ex">
+							<span class="glyphicon glyphicon-share-alt mdetail-list-share-icon"></span> 
+                		</div>
+
 						<h5>Mobile Detail List: Document Icon</h5>
 <pre class="mbl">
 	font-size: 1.286em;
@@ -2669,21 +2730,13 @@ margin-bottom: 7px;
 
 #span glyphicon glyphicon-file
 </pre>	
+						
+						<div class="example mobile-ex">
+							<span class="glyphicon glyphicon-file mdetail-list-doc-icon"></span>
+                		</div>
 
 			
-						
-						
-						
-						
-						
-						
-						<h5>Mobile Detail "Submit a Story" Text</h5>
-						
-<pre class="mbl">
-font-size: 1.071em;
-color: #555555;
-font-family: 'Gotham 4r', verdana
-</pre>
+
 					
 					
 					</div>
@@ -2726,7 +2779,7 @@ width: 280px; or 12 xs cols
 <hr>               	
                 	
                 	<div id="mcomment_area">
-                			<div class="example mobile-ex">
+                			<div class="example mobile-ex fullwidth">
 								<div class="mcomments-area">
 									<h5 class="mcommentsarea-head">3 Comments</h5>
 									<textarea class="form-control mobile-input" rows="3" placeholder="Write a Comment"></textarea>
@@ -2739,7 +2792,7 @@ width: 280px; or 12 xs cols
 										John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
 										Just go on with your business as your normally would.</p>
 										<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
-										<p class="comment-body"><span class="glyphicon glyphicon-triangle-bottom"></span> <a href="#">2 Replies</a> &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+										<p class="comment-body"><span class="glyphicon glyphicon-triangle-bottom"></span> <a href="#">2 Replies</a> &nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
 									</div>
 							
 									<div class=comment>
@@ -2747,7 +2800,7 @@ width: 280px; or 12 xs cols
 										John Commenter - KP Life Analytics</p><p class="comment-body comment-reply">Hello, I'm just a little comment. Nothing to see here.
 										Just go on with your business as your normally would.</p>
 										<p class="comment-body comment-datetime comment-reply ">06/23/14  7:59 pm</p>
-										<p class="comment-body comment-reply"><a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+										<p class="comment-body comment-reply"><a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
 										<textarea class="form-control mreply-box comment-reply" rows="1" placeholder="Write reply..." style="margin-left:29px;"></textarea>
 									</div>
 							
@@ -2756,7 +2809,7 @@ width: 280px; or 12 xs cols
 										John Commenter - KP Life Analytics</p><p class="comment-body">Hello, I'm just a little comment. Nothing to see here.
 										Just go on with your business as your normally would.</p>
 										<p class="comment-body comment-datetime">06/23/14  7:59 pm</p>
-										<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> <a href="#">2 Replies</a>&nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1</p>
+										<p class="comment-body"><span class="glyphicon glyphicon-triangle-right"></span> <a href="#">2 Replies</a>&nbsp; &middot; &nbsp; <a href="#">Like</a> <span class="glyphicon glyphicon-thumbs-up" style="color:#006BA6"></span> 1 &nbsp; &middot; &nbsp; <a href="#">Delete</a></p>
 									</div>
 								</div>
 							</div>
@@ -2830,6 +2883,8 @@ margin-bottom: 10px;
                 </article>
                 
                 <article id="msearch">
+                
+                <h3 class="mobilehead">Mobile Search</h3>
                 	
                 	<h5>Mobile Search Bar</h5>
                 	
@@ -2877,17 +2932,10 @@ border-radius: 3px;
 
 <hr>
 
-					<h5>Mobile Search Results: Box</h5>
-					
-<pre class="mbl">
-width: 280px;
-border: 3px solid #00A19B;
-padding: 15px;
-padding-top: 10px;
-</pre>
 
-					<div class="example mobile-ex">
-							<div class="msearch-results" style="width:280px">
+
+					<div class="example mobile-ex fullwidth">
+							<div class="msearch-results" style="width:100%">
  								<div class="msearch-results-header">
  									<span class="msearch-results-title">Top 5 Results</span>
  									<span class="glyphicon glyphicon-remove" style="float:right; color:#555555; margin-top:5px; font-size:0.857em;"></span>
@@ -2909,6 +2957,15 @@ padding-top: 10px;
 								</div>
  							</div>
 					</div>
+					
+					<h5>Mobile Search Results: Frame</h5>
+					
+<pre class="mbl">
+width: 280px;
+border: 3px solid #00A19B;
+padding: 15px;
+padding-top: 10px;
+</pre>
 					
 					<h5>Mobile Search Results: Title</h5>
 					
@@ -2954,14 +3011,17 @@ color: #555555;
 </pre>
 
 
+<hr>
 
-					<h5>Mobile Support Topics</h5>
+				</article>
+				
+				<article id="msupport">
+
+				<h3 class="mobilehead">Mobile Support</h3>
+				
 					
-<pre class="mbl">
-width: 100%;
-</pre>
 
-					<div class="example mobile-ex">
+					<div class="example mobile-ex fullwidth">
 							<div class="msupport-topics">
  								<div class="msupport-topics-top-cat">
  									<span class="glyphicon glyphicon-triangle-right mdetail-list-downarrow"></span>
