@@ -62,16 +62,19 @@
         <div class="main-container">
         
 				<nav class="toc affix">	
-					<h4 style="padding-left:20px; font-size:20px;">Table of Contents</h4>
-					<ul class="nav navbar-stacked master-toc">
+					<h1 style="padding-left:15px; font-size:20px;">Desktop Styles</h4>
+					<ul class="nav navbar-stacked desktoptoc">
 							
-							<li class="cat"><a href="#basic-elements">BASIC DESKTOP ELEMENTS</a>
+							<li class="cat"><a href="#basic-elements">BASIC ELEMENTS</a>
 								<ul class="nav">
 								</ul>
 							</li>
-							<li class="cat"><a href="#megamenu">REUSABLE COMPONENTS</a>
+							<li class="cat"><a href="#breadcrumbs">GLOBAL NAVIGATION</a>
 								<ul class="nav">
-									<li class="sub"><a href="#breadcrumbs">Global Navigation</a></li>
+								</ul>
+							</li>
+							<li class="cat"><a href="#comment-module">REUSABLE COMPONENTS</a>
+								<ul class="nav">
 									<li class="sub"><a href="#comment-module">Discussion/Comments</a></li>
 									<li class="sub"><a href="#recent_news">Sidebar Modules</a></li>
 								</ul>
@@ -112,12 +115,10 @@
 							<li class="cat"><a href="#container-page">CONTAINER</a>
 							</li>
 					</ul>
-				</nav>
 				
-				
-				<nav class="toc affix mobiletoc">
-					<ul class="nav navbar-stacked master-toc">
-							<li class="cat"><a href="#menu">MOBILE MENU</a>
+					<h1 style="padding-left:15px; font-size:20px;">Mobile Styles</h4>
+					<ul class="nav navbar-stacked master-toc mobiletoc">
+							<li class="cat"><a href="#menu">MENU</a>
 								<ul class="nav">
 								</ul>
 							</li>
@@ -149,6 +150,7 @@
 								</ul>
 							</li>							
 					</ul>
+					<button class="landscape-toggle">Portrait/Landscape</button>
 				</nav>
 				
 				
@@ -159,10 +161,6 @@
                         <p>Design specifications including brand usage, and general styles, content editorial standards, and front-end development guidelines.</p>
                     </header>
                 </article>
-
-
-
-
 
 
 
@@ -457,7 +455,9 @@ border: 0px;
 							<button class="submit-comment">Submit</button><br>
 							<button class="submit-comment submit-reply">Submit</button>
 						</div>
-
+						
+						
+						<h5>Reply Button</h5>
 <pre>
 width: 100px;
 height: 31px;
@@ -465,7 +465,7 @@ margin-left: 15px;
 margin-top: 0px;
 </pre>
 						
-						<h5>Comment Button: hover </h5>
+						<h5>Comment/Reply Button: hover </h5>
 <pre>
 background-color: #00625C;
 </pre>
@@ -621,8 +621,6 @@ Thumbs Up:
 						</div>
 						
 <hr>
-
-					<h3>Top Comments <br>(Same as Discussion Module except for Popular/Recent toggle)</h3>
 					
 					
 
@@ -776,7 +774,7 @@ color: #fff;
     
     
                 	<div class="example wide fullwidth">
-                		<ul class="menulinklist" style="margin-left:200px;">
+                		<ul class="menulinklist">
                 			<li class="menulistitem"><h5 class="subhead">Menu Category Title</h5></li>
 							<li class="menulistitem"><a class="menuitem">Individual Menu Item</a></li>
 							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
@@ -832,7 +830,7 @@ font-size: 0.875em;
             
 <hr>
 
-					<div class="example wide fullwidth" style="margin-left:200px;">
+					<div class="example wide fullwidth">
                 		<ul class="menulinklist">
                 			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 1</h5></li>
 							<li class="menulistitem"><h5 class="subhead-under-column">A First Subheader</h5></li>
@@ -1145,7 +1143,7 @@ width: 310px;
 height: 222px;
 </pre>                    	
                     	<div class="example edge">
-                    		<img src="http://placehold.it/310x222" class="column-image">
+                    		<img src="http://unsplash.it/310/222/?random" class="column-image">
                     	</div>
                     	
                     </div>
@@ -1156,7 +1154,7 @@ height: 222px;
                 	<div id="windex-rows-layout">
 
 						<div class="example wide" style="width:930px; border-bottom:2px solid #dddddd;">
-							<img class="rows-image" src="http://placehold.it/140x100">
+							<img class="rows-image" src="http://unsplash.it/140/100/?random">
 							<div style="display:inline-block; vertical-align:top;">
 							<h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Emotional Well-Being</h4>
 								<div>
@@ -1172,7 +1170,7 @@ height: 222px;
 							</div>
 						</div>
 						<div class="example wide" style="width:940px; padding-top:15px; padding-bottom:25px;">
-							<img class="rows-image" src="http://placehold.it/140x100">
+							<img class="rows-image" src="http://unsplash.it/140/100/?random">
 							<div style="display:inline-block; vertical-align:top;">
 							<h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Eat Well</h4>
 								<div>
@@ -1208,7 +1206,7 @@ height: 100px;
 margin-right: 20px;
 </pre>
 						<div class="example">
-							<img class="rows-image" src="http://placehold.it/140x100">
+							<img class="rows-image" src="http://unsplash.it/140/100/?random">
 						</div>
 						
                 	</div>
@@ -1227,7 +1225,7 @@ font-size: 1.714em;
 						<div class="example">
 							<div style="width:310px">
 							<h5 class="windex-cards-subhead">Prevention</h5>
-							<img class="windex-cards-image" src="http://placehold.it/310x222">
+							<img class="windex-cards-image" src="http://unsplash.it/310/222/?random">
 							<p class="windex-body" style="margin-bottom:20px">Lorem ipsum dolor sit amet, consectetur 
 							adipiscing elit. Ut venenatis ornare aliquam. Quisque in fringilla tellus. 
 							Suspendisse quis scelerisque quam. Nunc ac ex nec orci rhoncus feugiat.</p>
@@ -1333,7 +1331,7 @@ margin-bottom: 16px;
 
 
 						<div class="example wide fullwidth" style="width:660px; padding-right:10px; border-right: 1px solid #555555;">
-							<img class="detail-narrative-image" src="http://placehold.it/310x200">
+							<img class="detail-narrative-image" src="http://unsplash.it/310/200/?random">
 							<p class="detail-body narra-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Nulla sapien est, sagittis a facilisis dapibus, feugiat eleifend magna. Vestibulum quam 
 							ante, eleifend in neque vitae, viverra pulvinar dolor. Etiam ullamcorper tempor nulla, 
@@ -1348,7 +1346,7 @@ margin-bottom: 16px;
 						</div>
 						
 						<div class="example wide fullwidth" style="width:660px; padding-right:10px; border-right: 1px solid #555555;">
-							<img class="detail-narrative-image-full" src="http://placehold.it/645x200">
+							<img class="detail-narrative-image-full" src="http://unsplash.it/645/200/?random">
 							<p class="detail-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Nulla sapien est, sagittis a facilisis dapibus, feugiat eleifend magna. Vestibulum quam 
 							ante, eleifend in neque vitae, viverra pulvinar dolor. Etiam ullamcorper tempor nulla, 
@@ -1416,7 +1414,7 @@ font-family: 'Gotham 4r', verdana
  					
  					<div id="detail_table">
  						<div class="example wide fullwidth">
- 							<table class="table detail-table" style="width:625px; margin:auto;">
+ 							<table class="table detail-table" style="width:625px;">
  								<tr>
  									<td class="detail-table-when">December 1, 2015<br>10:00am - 12:30am</td>
  									<td class="detail-table-what"><a href="#">Mystify the Masters of Microsoft PowerPoint</a></td>
@@ -1698,7 +1696,7 @@ color: #555555;
                 	
                 	<h3>Support/Help Pages</h3>
                 	
-						<div class="example edge" style="width:160px; margin-top:40px; margin-left: 100px;">
+						<div class="example wide edge" style="width:160px; margin-top:40px; margin-bottom:30px;">
 								<ul>
 									<li class="support-category">Pay</li>
 									<li class="support-category">Time Off</li>
@@ -2322,7 +2320,7 @@ width: 280px;
 height: 200px;
 </pre>                    	
                     	<div class="example mobile-ex">
-                    		<img src="http://placehold.it/280x200" class="mcolumn-image">
+                    		<img src="http://unsplash.it/280/200/?random" class="mcolumn-image">
                     	</div>
                     	
                     </div>
@@ -2382,7 +2380,7 @@ margin-right: 10px;
                 		<div class="example mobile-ex">
                 			<div>
 							<h4 class="mwindex-cards-subhead">Prevention</h4>
-							<img src="http://placehold.it/280x200" class="mwindex-cards-image">
+							<img src="http://unsplash.it/280/200/?random" class="mwindex-cards-image">
 							<p class="mwindex-body" style="margin-bottom:20px">Lorem ipsum dolor sit amet, consectetur 
 							adipiscing elit. Ut venenatis ornare aliquam. Quisque in fringilla tellus. 
 							Suspendisse quis scelerisque quam. Nunc ac ex nec orci rhoncus feugiat.</p>
@@ -2405,6 +2403,13 @@ color: #706259;
 font-family: 'Gotham 4r', verdana;
 font-size: 1.429em;
 </pre>						
+						<div class="example mobile-ex">
+							<h4 class="mwindex-cards-subhead">Prevention</h4>				
+						</div>
+						
+					
+						
+						
 						<h5>Mobile Windex Card: Image</h5>				
 <pre class="mbl">
 width: 280px; or 100% in 12 xs cols
@@ -2412,6 +2417,10 @@ height: 200px;
 margin-top: 10px;
 margin-bottom: 10px;
 </pre>
+
+						<div class="example mobile-ex">
+							<img src="http://unsplash.it/280/200/?random" class="mwindex-cards-image">		
+						</div>
 
 						<h5>Mobile Windex Card: Body Text</h5>
 <pre class="mbl">
@@ -2432,6 +2441,7 @@ See "Mobile Windex Links"
                 <article id="mobile_detail">
                 
                 <h3 class="mobilehead">Mobile Detail Pages</h3>
+                <button class="landscape-toggle">Landscape Me!</button>
                 
                 	<div id="mobile_detail_title">
                 	
@@ -2817,7 +2827,7 @@ width: 280px; or 12 xs cols
                 	
                 		<h5>Mobile Comments Area</h5>
 <pre class="mbl">
-width: 280px;
+width: 100%;
 padding: 15px;
 background-color: #fafbfb;
 </pre>
@@ -2890,7 +2900,7 @@ margin-bottom: 10px;
                 	
 <pre class="mbl">
 height: 31px;
-width: 280px;
+width: 280px or 100%;
 border-radius: 0px;
 resize: none;
 padding-left: 30px;
@@ -2922,7 +2932,7 @@ background-color: #00A19B;
 text-align: center;
 font-family: 'Gotham 7r', verdana;
 font-size: 0.929em;
-width: 280px;
+width: 280px or 100%;
 height: 33px;
 color: #ffffff;
 border: 0px;
@@ -2961,7 +2971,7 @@ border-radius: 3px;
 					<h5>Mobile Search Results: Frame</h5>
 					
 <pre class="mbl">
-width: 280px;
+width: 280px or 100%;
 border: 3px solid #00A19B;
 padding: 15px;
 padding-top: 10px;
@@ -2976,6 +2986,10 @@ color: #706259;
 
 margin below: 15px
 </pre>
+					<div class="example mobile-ex">
+ 						<span class="msearch-results-title">Top 5 Results</span>
+					</div>
+                    
 
 					<h5>Mobile Search Results: Icons</h5>
 					
@@ -2997,10 +3011,16 @@ color: #706259;
 <pre class="mbl">
 font-size: 1.071em;
 color: #006BA6;
-width: 180px;
+width: 180px or 80%;
 
 margin-below: 15px
 </pre>
+
+                    <div class="example mobile-ex">
+							<div class="msearch-results" style="width:100%">
+									<p class="msearch-results-docname"><a href="#">At Will Employment NATL.HR.37</a></p>
+ 							</div>
+					</div>
 
 					<h5>Mobile Search Results: 'Close' Icon</h5>
 <pre class="mbl">
@@ -3069,6 +3089,13 @@ border-top: 2px solid #dddddd;
 padding-top: 7px;
 padding-bottom: 7px;
 </pre>
+					<div class="example mobile-ex">
+						<div class="msupport-topics-top-cat">
+							<span class="glyphicon glyphicon-triangle-right mdetail-list-downarrow"></span>
+							<span class="detail-list-topcat-text">Time Off</span>
+						</div>
+ 					</div>
+					
 
 					<h5>Mobile Support Topics: Second-Level Header</h5>
         	
@@ -3079,21 +3106,44 @@ font-size: 1.071em;
 color: #706259;
 padding-top:10px;
 </pre>
+
+					<div class="example mobile-ex">
+						<ul>
+							<li class="msupport-topics-lev2-cat">Goal Setting</li>
+						</ul>
+ 					</div>
+ 					
+ 					
 					<h5>Mobile Support Topics: Question</h5>
 					
-<pre class="mbl">      	
+<pre class="mbl">
 padding-left: 33px;	
 padding-top: 10px;
 font-size: 1.071em;
+font-family: 'Gotham 4r', verdana;
 
 [normal link style]
 </pre>
 
+					<div class="example mobile-ex">		
+							<div class="msupport-topics-question-area">
+									<span class="msupport-topics-question"><a href="#">How do I set my goals?</a></span>
+									<span class="glyphicon glyphicon-share-alt detail-list-share-icon results-share-icon"></span>
+							</div>
+					</div>
+
 					<h5>Mobile Support Topics: Selected Question</h5>
-<pre class="mbl">    	
+<pre class="mbl">
 color: #003B71;
 font-family: 'Gotham 7r', verdana;
 </pre>
+
+					<div class="example mobile-ex">		
+						<div class="msupport-topics-question-area">
+							<span class="msupport-topics-question msupport-selected-question"><a href="#">What is a SMART goal?</a></span>
+							<span class="glyphicon glyphicon-share-alt detail-list-share-icon results-share-icon"></span>
+						</div>
+					</div>
 
 					<h5>Mobile Support Topics: Answer</h5>       	
 <pre class="mbl">
@@ -3123,13 +3173,39 @@ margin-top: 10px;
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
-        <div class="footer-container">
+        <div class="footer-container" style="border: 0px">
             <footer class="wrapper">
                 <p><a style="color:#fff"href="#">Back to top</a></p>
             </footer>
         </div>
 
+		<script>
+		
+				$(document).ready(function(){
+					$("li.cat").click(function(){
+						$(this).children().children().show();
+						$("li.cat").not(this).children().children().hide();
+					});
+				});	
+				
+				
+// 				$(document).scroll(function () {
+// 					var y = $(this).scrollTop();
+// 					if (y > 140) {
+// 						$('nav.toc').animate({top:"30px"},1000);
+// 					}
+// 					 
+// 				});
 
+				$(document).ready(function(){
+					$("button.landscape-toggle").click(function(){
+						$("div.mobile-ex").toggleClass("landscape");
+					});
+				});	
+
+				
+				
+		</script>
         
 
     </body>
