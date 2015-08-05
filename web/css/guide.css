@@ -98,16 +98,16 @@
         	h3{
         		padding-top: 20px;
         		padding-bottom: 20px;
-        		font-weight: bold;
         		background-color: #96DDA7;
         		text-align: center;
         		margin-bottom: 30px;
         		border-radius: 4px;
+        		font-size: 2.5em;
         	}
         	
         	.mobilehead{
-        		background-color: #892461;
-        		color: #F7F7F7;
+        		background-color: #DD969B;
+                color: #333333;
         	}
         	
 			
@@ -163,16 +163,16 @@
         	}
         	
         	.landscape-toggle{
-        		margin-left: 15px;
+        		margin-left: 14px;
         		margin-top: 10px;
-        		border: 2px solid #555555;
-        		background-color: #ffffff;
-        		border-radius: 2px;
         	}
         	
-        	.landscape-toggle{
-        		outline:none;
+        	#portrait{
+        		background-color: #EEEFF9;
+        		font-weight: bold;
         	}
+        	
+        	
         	
         	.wide{
         		margin-left: 0px;

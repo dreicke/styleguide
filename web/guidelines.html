@@ -134,11 +134,17 @@
 									<li class="sub"><a href="#mwindex-column-title">Cards</a></li>
 								</ul>
 							</li>
-							<li class="cat"><a href="#mwindex">DETAIL</a>
+							<li class="cat"><a href="#mobile_detail">DETAIL</a>
 								<ul class="nav">
-									<li class="sub"><a href="#mwindex-h2">General</a></li>
-									<li class="sub"><a href="#mwindex-column-button">Narrative</a></li>
-									<li class="sub"><a href="#mwindex-rows-title">List</a></li>
+									<li class="sub"><a href="#mobile_detail">General</a></li>
+									<li class="sub"><a href="#mobile_detail_image">Narrative</a></li>
+									<li class="sub"><a href="#mdetail_list">List</a></li>
+								</ul>
+							</li>
+							<li class="cat"><a href="#mreusable">REUSABLE COMPONENTS</a>
+								<ul class="nav">
+									<li class="sub"><a href="#mcomment_area">Discussion/Comments</a></li>
+									<li class="sub"><a href="#mreusable">Content Modules</a></li>
 								</ul>
 							</li>
 							<li class="cat"><a href="#msearch">SEARCH</a>
@@ -150,7 +156,11 @@
 								</ul>
 							</li>							
 					</ul>
-					<button class="landscape-toggle">Portrait/Landscape</button>
+					<!-- <button class="landscape-toggle">Portrait/Landscape</button> -->
+					<div class="btn-group landscape-toggle" role="group" aria-label="...">
+					  <button type="button" id="portrait" class="btn btn-default">Portrait</button>
+					  <button type="button" id="landscape" class="btn btn-default">Landscape</button>
+					</div>
 				</nav>
 				
 				
@@ -244,7 +254,7 @@ color: #706259;
 				
                 	
                 	
-   <!-- Global Stuff ----------------- -->    
+   <!-- Global Navigation ----------------- -->    
 
 
                 
@@ -252,7 +262,7 @@ color: #706259;
                 
                 <article class="desktop" id="global-styles"> 
                 
-                <h3>Reusable Components</h3>	
+                <h3>Global Navigation</h3>	
                 	
                 	<div id="breadcrumbs">
                 		<h5>Global Breadcrumb: span </h5>
@@ -319,9 +329,24 @@ color: #706259;
 
 <hr>
 
+				</article>
+				
+				
+				
+				
+<!-- 	___________________________Reusable Components___________________ 	 -->		
+				
+				
+				
+				
+				
+				<article id="reusable-components">
+				
+				<h3>Reusable Components</h3>	
+
 
 					<div id="recent_news">
-                		<h5>Global Recent News Module - Title</h5>
+                		<h5>Recent News Module - Title</h5>
 <pre>
 font-size: 1.286em;
 color: #706259;
@@ -337,7 +362,7 @@ border-bottom: 1px solid #bdbdbd;
 								<p class="global-news-link"><a href="#">New Retirement Savings Plan Contribution Limits for December 2015 and beyond</a></p>
                 		</div>
                 		
-                		<h5>Global Recent News Module - Links</h5>
+                		<h5>Recent News Module - Links</h5>
 <pre>
 font-size: 0.929em;
 color: #006BA6;
@@ -350,7 +375,7 @@ padding-right: 10px;
 <hr>
 
 					<div id="related-links-section">
-                		<h5>Global Related Links Module - Title</h5>
+                		<h5>Related Links Module - Title</h5>
 <pre>
 font-size: 1.286em;
 color: #706259;
@@ -368,7 +393,7 @@ border-bottom: 1px solid #bdbdbd;
 								<span class="global-related-link"><a href="#">Leaving KP</a></span>
                 		</div>
                 		
-                		<h5>Global Related Links Module - Links</h5>
+                		<h5>Related Links Module - Links</h5>
 <pre>
 font-size: 0.929em;
 color: #006BA6;
@@ -388,7 +413,7 @@ padding-bottom: 7px;
           
                 
                 
-     <!-- Comment Area  -->     
+     <!-- ________________________Discussion / Comment Area_______  -->     
      
      
      
@@ -1159,7 +1184,7 @@ height: 222px;
 							<h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Emotional Well-Being</h4>
 								<div>
 									<p class="windex-body" style="width:480px; display:inline-block;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lectus accumsan, mattis lacus eu, viverra nulla. Maecenas aliquam fermentum nulla et accumsan. Aliquam fermentum gravida massa, sed eleifend ipsum mattis in. Ut id placerat erat.</p>
-									<ul style="display:inline-block; vertical-align:top; margin-left: 20px;">
+									<ul style="display:inline-block; vertical-align:top; margin-left: 20px; font-family:'Gotham 4r',verdana;">
 										<li><a>Total Health Incentive Plan</a></li>
 										<li><a>Total Health Assessment</a></li>
 										<li><a>Health Education Classes</a></li>
@@ -1175,7 +1200,7 @@ height: 222px;
 							<h4 class="rows-subtitle" style="vertical-align:top; margin-top:0px;">Eat Well</h4>
 								<div>
 									<p class="windex-body" style="width:480px; display:inline-block;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lectus accumsan, mattis lacus eu, viverra nulla. Maecenas aliquam fermentum nulla et accumsan.</p>
-									<ul style="display:inline-block; vertical-align:top; margin-left: 20px;">
+									<ul style="display:inline-block; vertical-align:top; margin-left: 20px; font-family:'Gotham 4r',verdana;">
 										<li><a>Total Health Incentive Plan</a></li>
 										<li><a>Total Health Assessment</a></li>
 										<li><a>Health Education Classes</a></li>
@@ -2441,7 +2466,7 @@ See "Mobile Windex Links"
                 <article id="mobile_detail">
                 
                 <h3 class="mobilehead">Mobile Detail Pages</h3>
-                <button class="landscape-toggle">Landscape Me!</button>
+                
                 
                 	<div id="mobile_detail_title">
                 	
@@ -2752,9 +2777,10 @@ margin-bottom: 7px;
 					</div>
 					
 <hr>
+				</article>
 
-
-
+				<article id="mreusable">
+				<h3 class="mobilehead">Mobile Reusable Components</h3>
 					
 					<div id="recent_news">
                 		<h5>Mobile Recent News Module - Title</h5>
@@ -2787,6 +2813,8 @@ width: 280px; or 12 xs cols
                 	
                 	
 <hr>               	
+				
+				<h3 class="mobilehead">Mobile Discussion Module</h3>
                 	
                 	<div id="mcomment_area">
                 			<div class="example mobile-ex fullwidth">
@@ -3151,6 +3179,12 @@ padding-left: 39px;
 margin-top: 10px;
 </pre>
 
+					<div class="example mobile-ex">		
+						<div class="msupport-topics-top-cat">
+							<p class="msupport-topics-answer">KP defines a SMART goal as one that is concrete and achievable and has been discussed with your supervisor.</p>
+						</div>
+					</div>
+
 					
 					
 
@@ -3198,8 +3232,18 @@ margin-top: 10px;
 // 				});
 
 				$(document).ready(function(){
-					$("button.landscape-toggle").click(function(){
+					$("button#landscape").click(function(){
 						$("div.mobile-ex").toggleClass("landscape");
+						$(this).css({"background-color": "#EEEFF9", "font-weight": "bold"});
+						$("button#portrait").css({"background-color": "#FFFFFF", "font-weight": "normal"});
+					});
+				});	
+				
+				$(document).ready(function(){
+					$("button#portrait").click(function(){
+						$("div.mobile-ex").toggleClass("landscape");
+						$(this).css({"background-color": "#EEEFF9", "font-weight": "bold"});
+						$("button#landscape").css({"background-color": "#FFFFFF", "font-weight": "normal"});
 					});
 				});	
 
