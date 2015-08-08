@@ -26,24 +26,27 @@
 				color: #555555;
 				width: 100%;
 				text-align: left;
-				font-size: 12px;
+				font-size: 13px;
 				font-weight: inherit;
 				color: inherit;
 			}
 			
 			nav.toc ul.desktoptoc li.cat:hover{
 				color: #000000;
-				background-color: #ffffff;
 			}
 			
 			nav.toc ul.mobiletoc li.cat:hover{
 				color: #000000;
-				background-color: #ffffff;
-			}			
+			}	
+			
+			.active-scroll{
+				background-color: #EEEFF9;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
 			
 			.desktoptoc li>ul>li>a{
 				color: #555555;
-				background-color: #ffffff;
 			}
 			
 
@@ -52,13 +55,14 @@
 				padding-bottom: 0px;
 			}
 			
-			li.cat {
+			li.cat{
 				font-weight: bold;
 			}
 			
 			li.sub{
 				margin-left: 8px;
 				font-weight: normal;
+				font-size: 12px;
 				display: none;
 			}
 			
@@ -244,7 +248,7 @@
         	ul.menulinklist{
         		width: 250px;
         		border-right: 1px solid #bdbdbd;
-        		padding-right: 10px;
+        		padding-right: 15px;
         		display: inline-block;
         		margin-left: 15px;
         		line-height: 1.2;
@@ -605,7 +609,7 @@
         	}
         	
         	.reply-box{
-        		width: 480px;
+        		width: 400px;
         	}	
         	
         	h5.commentsarea-head{
@@ -959,7 +963,6 @@
         		font-size: 1.071em;
         		color: #003B71; 
         	}
-        
         	
         	.support-share-icon{
         		float: right;
@@ -1124,7 +1127,7 @@
 				color: #333;
 			}       	
         	.mwindex-title{
-        		width: 279px;
+        		width: 100%;
         		font-family: 'Gotham 7r', verdana;
         		color: #706259;
         		font-size: 1.714em;
@@ -1145,8 +1148,8 @@
         	}
         	
         	.mwindex-cards-image{
-				width: 280px;
-				height: 200px;
+				width: 100%;
+				height: auto;
 				margin-top: 10px;
 				margin-bottom: 10px;
 			}
@@ -1164,7 +1167,7 @@
         		text-align: center;
         		font-family: 'Gotham 7r', verdana;
         		font-size: 0.929em;
-        		width: 280px;
+        		width: 100%;
         		height: 61px;
         		color: #ffffff;
         		vertical-align: middle;
@@ -1176,8 +1179,8 @@
         	}
         	
         	.mcolumn-image{
-        		width: 280px;
-        		height: 200px;
+        		width: 100%;
+        		height: auto;
         	}
         	
         	.disabled-button{
@@ -1214,7 +1217,8 @@
         	}	
         	
         	.mdetail-narrative-image{
-        		width: 280px;
+        		width: 100%;
+        		height: auto;
         		margin-bottom: 10px;
         	}
         	
@@ -1429,7 +1433,7 @@
         	}
         	
         	.msupport-topics-question-area{
-        		padding-left: 33px;	
+        		padding-left: 23px;	
         		padding-top: 10px;
         	}
         	
@@ -1445,6 +1449,10 @@
         	.msupport-selected-question a{
         		color: #003B71;
         		font-family: 'Gotham 7r', verdana;
+        	}
+        	
+        	.msupport-active{
+        		color: #006BA6;
         	}
         	
 
