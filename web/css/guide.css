@@ -842,6 +842,51 @@
         		margin-right: 10px;
         	}
         	
+        	
+        	.detail-video-actions-bar{
+        		margin-top: 7px;
+        		color: #706259;
+        		position:relative;
+        	}
+        	
+        	.detail-video-actions{
+        		font-size: 1.071em;
+        		font-family: 'Gotham 4r', verdana;
+        		margin-right: 10px;
+        	}
+        	
+        	.video-viewcount{
+        		float:right;
+        		margin-right: 5px;
+        	}
+        	
+        	.video-action-icons{
+        		position: relative;
+        		top: 3px;
+        		font-size: 1.286em;
+        	}
+        	
+        	.detail-video-thumb{
+        		width: 300px;
+        		height: 100px;
+        	}
+        	
+        	.detail-video-thumb-description{
+        		font-family: 'Gotham 4r', verdana;
+        		font-size: 0.929em;
+        		margin-left: 15px;
+        		margin-bottom: 5px;
+        		line-height: 1.2;
+        		vertical-align: top;
+        		float: left;
+        		clear: both;
+        	}
+        	
+        	.detail-video-thumb-title{
+        		font-family: 'Gotham 7r', verdana;
+        	}
+
+        	
         	.search-results {
         		border: 3px solid #00A19B;
         		margin-right: auto;
