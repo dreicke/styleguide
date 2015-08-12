@@ -62,34 +62,36 @@
         <div class="main-container">
         
 				<nav class="toc affix">	
-					<h1 style="padding-left:15px; font-size:20px;">Desktop Styles</h4>
+					<h1 style="padding-left:15px; font-size:20px;">Desktop Styles</h1>
 					<ul class="nav navbar-stacked desktoptoc active-scroll">
 							
 							<li class="cat"><a href="#basic-elements">Basic Elements</a>
 								<ul class="nav">
 								</ul>
 							</li>
-							<li class="cat"><a href="#breadcrumbs">Global Navigation</a>
+							<li class="cat"><a href="#breadcrumbs">Global Navigation Elements</a>
 								<ul class="nav">
 								</ul>
 							</li>
-							<li class="cat"><a href="#comment-module">Reusable Components</a>
-								<ul class="nav">
-									<li class="sub"><a href="#comment-module">Discussion/Comments</a></li>
-									<li class="sub"><a href="#recent_news">Sidebar Modules</a></li>
-								</ul>
-							</li>
+
 							<li class="cat"><a href="#megamenu">Megamenu</a>
 								<ul class="nav">
 									<li class="sub"><a href="#defaulttab">Top-Level Tab Styles</a></li>
 									<li class="sub"><a href="#menusubheader">In-Menu Styles</a></li>
 								</ul>
 							</li>
-							<li class="cat"><a href="#alert">Alert Bar</a>
+							<li class="cat"><a href="#headfoot">Header and Footer</a>
+								<ul class="nav">
+									<li class="sub"><a href="#headfoot">Header</a></li>
+									<li class="sub"><a href="#pagefooter">Footer</a></li>
+									<li class="sub"><a href="#alert">Alert Bar</a></li>
+								</ul>
+							</li>
+							<li class="cat"><a href="#comment-module">Discussion/Comments</a>
 								<ul class="nav">
 								</ul>
 							</li>
-							<li class="cat"><a href="#headfoot">Header and Footer</a>
+							<li class="cat"><a href="#reusable-components">Reusable Components</a>
 								<ul class="nav">
 								</ul>
 							</li>
@@ -106,6 +108,7 @@
 									<li class="sub"><a href="#detail_title">General</a></li>
 									<li class="sub"><a href="#detail_subsection_head">Narrative</a></li>
 									<li class="sub"><a href="#detail-list-searchbar-section">List</a></li>
+									<li class="sub"><a href="#detail-video">Video</a></li>
 								</ul>
 							</li>
 							<li class="cat"><a href="#support">Support/Help</a>
@@ -116,9 +119,9 @@
 							</li>
 					</ul>
 				
-					<h1 style="padding-left:15px; font-size:20px;">Mobile Styles</h4>
+					<h1 style="padding-left:15px; font-size:20px;">Mobile Styles</h1>
 					<ul class="nav navbar-stacked master-toc mobiletoc">
-							<li class="cat"><a href="#mbasic-elements">Basic Elements</a>
+							<li class="cat"><a href="#mobile-basic">Basic Elements</a>
 								<ul class="nav">
 								</ul>
 							</li>
@@ -143,6 +146,7 @@
 									<li class="sub"><a href="#mobile_detail">General</a></li>
 									<li class="sub"><a href="#mobile_detail_image">Narrative</a></li>
 									<li class="sub"><a href="#mdetail_list">List</a></li>
+									
 								</ul>
 							</li>
 							<li class="cat"><a href="#mreusable">Reusable Components</a>
@@ -169,7 +173,7 @@
 				
 				
             <div class="main wrapper clearfix">
-                <article>
+                <article style="padding:45px">
                     <header>
                         <h1>Guidelines</h1>
                         <p>Design specifications including brand usage, and general styles, content editorial standards, and front-end development guidelines.</p>
@@ -200,7 +204,7 @@
 					  
 <!-- 			<div role="tabpanel" class="tab-pane active" id="desktop"> -->
 
-				<article id="mbasic-elements">
+				<article id="basic-elements">
 				
 				<h3>Basic Elements</h3>
 				
@@ -212,7 +216,7 @@ font-family: 'Gotham 4r', verdana;
 </pre>
 
 					<div class="example">
-						<a href="#" style="font-size:1.2em">Hello, I'm a link!</a>
+						<a href="#" style="font-size:1.2em; font-family:'Gotham 4r', verdana;">Hello, I'm a link!</a>
 					</div>
 					
 					<h5>Text Links: Hover</h5>
@@ -338,82 +342,181 @@ color: #706259;
 				
 				
 				
-<!-- 	___________________________Reusable Components___________________ 	 -->		
+   <!-- Megamenu ----------------- -->   				
 				
 				
 				
-				
-				
-				<article id="reusable-components">
-				
-				<h3>Reusable Components</h3>	
-
-
-					<div id="recent_news">
-                		<h5>Recent News Module - Title</h5>
+                <article class="desktop" id="megamenu">
+                <h3>Megamenu</h3>
+                           
+            
+                <div id="defaulttab">
+                <h5>Tab Blocks</h5>
+                
 <pre>
-font-size: 1.286em;
-color: #706259;
-font-family: 'Gotham 7r', verdana;
-padding-left: 10px;
-padding-right: 10px;
+background-color: #f3f3f3;
+text-align: center;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 8px;
 padding-bottom: 8px;
-border-bottom: 1px solid #bdbdbd;
+border-right: 1px solid #bdbdbd;
+border-top: 1px solid #d4d4d4;
 </pre>
-						<div class="example">
-								<h5 class="global-news-head">Recent News</h5>
-								<p class="global-news-link"><a href="#">Attend a screening Event for "In Our Boots - A Veteran's Journey"</a></p>
-								<p class="global-news-link"><a href="#">New Retirement Savings Plan Contribution Limits for December 2015 and beyond</a></p>
-                		</div>
-                		
-                		<h5>Recent News Module - Links</h5>
-<pre>
-font-size: 0.929em;
-color: #006BA6;
-font-family: 'Gotham 4r', verdana;
-padding-left: 10px;
-padding-right: 10px;
-</pre>
+
+                	<div class="example">                		
+                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>                		
                 	</div>
+                <h5>Tab Text</h5>
+<pre>
+font-size: 1.071em;
+color: #555;
+font-family: 'Gotham 4r', verdana
+</pre>
+				</div>
+
+<hr>
+            <div id="hovertab">  
+                <h5>Tab Block on Hover</h5>
+<pre>
+background-color: #ffffff;
+border-top: 1px solid #bdbdbd;
+padding-top: 7px;
+</pre>
+                	<div class="example">
+                		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
+                	</div>  
+            </div> 
                 	
 <hr>
-
-					<div id="related-links-section">
-                		<h5>Related Links Module - Title</h5>
+            <div id="selectedtab">	
+                <h5>Tab Block Selected</h5>
+                
 <pre>
-font-size: 1.286em;
-color: #706259;
-font-family: 'Gotham 7r', verdana;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 8px;
-border-bottom: 1px solid #bdbdbd;
+padding-bottom: 5px;
+border-bottom: 4px solid #5FA621;
 </pre>
-						<div class="example">
-								<h5 class="global-news-head">Related Links</h5>
-								<span class="global-related-link"><a href="#">Compliance</a></span>
-								<span class="global-related-link"><a href="#">Intent of Policies</a></span>
-								<span class="global-related-link"><a href="#">Violations & Consequences</a></span>
-								<span class="global-related-link"><a href="#">Leaving KP</a></span>
-                		</div>
-                		
-                		<h5>Related Links Module - Links</h5>
+                	<div class="example">
+                		<li class="tabblock"><a class="menunav">Item #1</a></li><li class="tabblock selected"><a class="menunav selected">Selected Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
+                	</div>   
+                	       
+                	        	           	
+                <h5>Tab Text Selected</h5>
 <pre>
-font-size: 0.929em;
-color: #006BA6;
-font-family: 'Gotham 4r', verdana;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 7px;
+color: #fff;
 </pre>
-                	</div>
-                	
+            </div> 	
 <hr>
 
+
+    
+                	<div class="example wide fullwidth">
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead">Menu Category Title</h5></li>
+							<li class="menulistitem"><a class="menuitem">Individual Menu Item</a></li>
+							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
+							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
+							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
+                		</ul>
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead">Second Title</h5></li>
+							<li class="menulistitem"><a class="menuitem">Dominate Life</a></li>
+							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
+							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
+							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
+                		</ul>
+                	</div>                
+
+            <div id="menusubheader">
+                <h5>Subheaders</h5>
+<pre>
+color: #333;
+font-size: 1em;
+font-family: 'Gotham 7r', verdana;
+</pre>
+                	<div class="example">
+                		<h5 class="subhead">Menu Item Subheader</h5>
+                	</div>
+            </div>
+            
+            <div id="menulink_default">    	
+                <h5>Individual Menu Items</h5>
+<pre>
+width: 250px;
+padding-right: 10px;
+border-right: 1px solid #bdbdbd;
+display: inline-block;
+margin-left: 15px;
+margin-bottom: 7px;
+line-height: 1.2;
+vertical-align: top;
+
+font-size: 0.875em;
+[normal <a href="#basic-elements">link style</a>]
+</pre>	
+
+					<div class="example" style="border-left: 1px solid #bdbdbd;">
+						<ul class="menulinklist">
+							<li class="menulistitem"><a class="menuitem">Individual Menu Item</a></li>
+							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
+							<li class="menulistitem"><a class="menuitem">Collaborate Effectively</a></li>
+                		</ul>
+					</div>
+   	
+            </div>   
+            
+<hr>
+
+					<div class="example wide fullwidth">
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 1</h5></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">A First Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
+							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
+							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
+                		</ul>
+                		<ul class="menulinklist">
+                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 2</h5></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">Another Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
+							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
+							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
+							<li class="menulistitem"><h5 class="subhead-under-column">One More Subheader</h5></li>
+							<li class="menulistitem"><a class="menuitem">Even More Aspirations</a></li>
+							<li class="menulistitem"><a class="menuitem">Appropriate Pharmacuticals</a></li>
+							<li class="menulistitem"><a class="menuitem">Sleep Better</a></li>
+                		</ul>
+                	</div>
+            
+            <div id="menulink_columnhead">    	
+                <h5>Megamenu Column Headers</h5>
+<pre>
+border-bottom: 1px solid #dddddd;
+padding-bottom: 10px;
+
+color: #333;
+font-size: 1em;
+font-family: 'Gotham 7r', verdana;
+</pre>
+
+                	
+                <h5>Megamenu Subheaders Under Columns</h5>
+<pre>
+margin-top: 24px;
+font-family: 'Gotham 7r', verdana;
+font-size: 0.875em;
+color: #333;
+</pre>	
+   	
+            </div>   	
+
+<hr>
+            
                 </article>
-          
-          
-          
+                
+
+				
+				
           
                 
                 
@@ -725,226 +828,88 @@ Unselected Toggle: [normal link style]
                 	
                 </article>	
                 
-                
-    
-      <!-- Megamenu  -->     		
-      
+                	
       
       
 				
-                <article class="desktop" id="megamenu">
-                <h3>Megamenu</h3>
-                
- 
-   
-   <!-- Tabs ---------------------------------->                
-            
-                
-                
-                
-                <div id="defaulttab">
-                <h5>Tab Blocks</h5>
-                
-<pre>
-background-color: #f3f3f3;
-text-align: center;
-padding-right: 20px;
-padding-left: 20px;
-padding-top: 8px;
-padding-bottom: 8px;
-border-right: 1px solid #bdbdbd;
-border-top: 1px solid #d4d4d4;
-</pre>
-
-                	<div class="example">                		
-                		<li class="tabblock"><a class="menunav">Menu Nav Item</a></li><li class="tabblock"><a class="menunav">Item #2</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>                		
-                	</div>
-                <h5>Tab Text</h5>
-<pre>
-font-size: 1.071em;
-color: #555;
-font-family: 'Gotham 4r', verdana
-</pre>
-				</div>
-
-<hr>
-            <div id="hovertab">  
-                <h5>Tab Block on Hover</h5>
-<pre>
-background-color: #ffffff;
-border-top: 1px solid #bdbdbd;
-padding-top: 7px;
-</pre>
-                	<div class="example">
-                		<li class="tabblock "><a class="menunav">Item #1</a></li><li class="tabblock hover"><a class="menunav">Hovered Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
-                	</div>  
-            </div> 
-                	
-<hr>
-            <div id="selectedtab">	
-                <h5>Tab Block Selected</h5>
-                
-<pre>
-padding-bottom: 5px;
-border-bottom: 4px solid #5FA621;
-</pre>
-                	<div class="example">
-                		<li class="tabblock"><a class="menunav">Item #1</a></li><li class="tabblock selected"><a class="menunav selected">Selected Item</a></li><li class="tabblock" style="border-right:0px"><a class="menunav">Item #3</a></li>
-                	</div>   
-                	       
-                	        	           	
-                <h5>Tab Text Selected</h5>
-<pre>
-color: #fff;
-</pre>
-            </div> 	
-<hr>
+				
+<!-- 	___________________________Reusable Components___________________ 	 -->		
+				
+				
+				
+				
+				
+				<article id="reusable-components">
+				
+				<h3>Reusable Components</h3>	
 
 
-
-   <!-- Menu Items ------------------------------> 
-    
-    
-                	<div class="example wide fullwidth">
-                		<ul class="menulinklist">
-                			<li class="menulistitem"><h5 class="subhead">Menu Category Title</h5></li>
-							<li class="menulistitem"><a class="menuitem">Individual Menu Item</a></li>
-							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
-							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
-							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
-                		</ul>
-                		<ul class="menulinklist">
-                			<li class="menulistitem"><h5 class="subhead">Second Title</h5></li>
-							<li class="menulistitem"><a class="menuitem">Dominate Life</a></li>
-							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
-							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
-							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
-                		</ul>
-                	</div>                
-
-            <div id="menusubheader">
-                <h5>Subheaders</h5>
+					<div id="recent_news">
+                		<h5>Recent News Module - Title</h5>
 <pre>
-color: #333;
-font-size: 1em;
+font-size: 1.286em;
+color: #706259;
 font-family: 'Gotham 7r', verdana;
-</pre>
-                	<div class="example">
-                		<h5 class="subhead">Menu Item Subheader</h5>
-                	</div>
-            </div>
-            
-            <div id="menulink_default">    	
-                <h5>Individual Menu Items</h5>
-<pre>
-width: 250px;
+padding-left: 10px;
 padding-right: 10px;
-border-right: 1px solid #bdbdbd;
-display: inline-block;
-margin-left: 15px;
-margin-bottom: 7px;
-line-height: 1.2;
-vertical-align: top;
-
-font-size: 0.875em;
-[normal <a href="#basic-elements">link style</a>]
-</pre>	
-
-					<div class="example" style="border-left: 1px solid #bdbdbd;">
-						<ul class="menulinklist">
-							<li class="menulistitem"><a class="menuitem">Individual Menu Item</a></li>
-							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
-							<li class="menulistitem"><a class="menuitem">Collaborate Effectively</a></li>
-                		</ul>
-					</div>
-   	
-            </div>   
-            
-<hr>
-
-					<div class="example wide fullwidth">
-                		<ul class="menulinklist">
-                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 1</h5></li>
-							<li class="menulistitem"><h5 class="subhead-under-column">A First Subheader</h5></li>
-							<li class="menulistitem"><a class="menuitem">Manage My Performance Goals Now</a></li>
-							<li class="menulistitem"><a class="menuitem">Party After Work</a></li>
-							<li class="menulistitem"><a class="menuitem">How Not To Get Fired</a></li>
-                		</ul>
-                		<ul class="menulinklist">
-                			<li class="menulistitem"><h5 class="subhead columnhead">Column Header 2</h5></li>
-							<li class="menulistitem"><h5 class="subhead-under-column">Another Subheader</h5></li>
-							<li class="menulistitem"><a class="menuitem">Your Endocrine System Really Deserves More Attention</a></li>
-							<li class="menulistitem"><a class="menuitem">Old Clothes That Need Homes</a></li>
-							<li class="menulistitem"><a class="menuitem">Emotions?</a></li>
-							<li class="menulistitem"><h5 class="subhead-under-column">One More Subheader</h5></li>
-							<li class="menulistitem"><a class="menuitem">Even More Aspirations</a></li>
-							<li class="menulistitem"><a class="menuitem">Appropriate Pharmacuticals</a></li>
-							<li class="menulistitem"><a class="menuitem">Sleep Better</a></li>
-                		</ul>
-                	</div>
-            
-            <div id="menulink_columnhead">    	
-                <h5>Megamenu Column Headers</h5>
-<pre>
-border-bottom: 1px solid #dddddd;
-padding-bottom: 10px;
-
-color: #333;
-font-size: 1em;
-font-family: 'Gotham 7r', verdana;
+padding-bottom: 8px;
+border-bottom: 1px solid #bdbdbd;
 </pre>
-
+						<div class="example">
+								<h5 class="global-news-head">Recent News</h5>
+								<p class="global-news-link"><a href="#">Attend a screening Event for "In Our Boots - A Veteran's Journey"</a></p>
+								<p class="global-news-link"><a href="#">New Retirement Savings Plan Contribution Limits for December 2015 and beyond</a></p>
+                		</div>
+                		
+                		<h5>Recent News Module - Links</h5>
+<pre>
+font-size: 0.929em;
+color: #006BA6;
+font-family: 'Gotham 4r', verdana;
+padding-left: 10px;
+padding-right: 10px;
+</pre>
+                	</div>
                 	
-                <h5>Megamenu Subheaders Under Columns</h5>
+<hr>
+
+					<div id="related-links-section">
+                		<h5>Related Links Module - Title</h5>
 <pre>
-margin-top: 24px;
+font-size: 1.286em;
+color: #706259;
 font-family: 'Gotham 7r', verdana;
-font-size: 0.875em;
-color: #333;
-</pre>	
-   	
-            </div>   	
-
-<hr>
-            
-                </article>
-                
-
-          
-          
-              
-   <!-- Alert Bar ------------------------------------------>                 
-             
-             
-             
-             
-                
-                <article class="desktop" id="alert">
-                <h3>Alert</h3>
-                
-                <h5>Alert Bar:  div.alert ></h5>
-<pre>
-background-color: #ffffff;
-border: 2px solid #BB1654;
-text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 8px;
+border-bottom: 1px solid #bdbdbd;
 </pre>
-                	<div class="example">
-                		<div id="alertbar"><a id="alerttext"><span class="glyphicon glyphicon-bullhorn" style="color:#BB1654; margin-right:5px;"></span> This is a test, this is only a test.</a></div>
+						<div class="example">
+								<h5 class="global-news-head">Related Links</h5>
+								<span class="global-related-link"><a href="#">Compliance</a></span>
+								<span class="global-related-link"><a href="#">Intent of Policies</a></span>
+								<span class="global-related-link"><a href="#">Violations & Consequences</a></span>
+								<span class="global-related-link"><a href="#">Leaving KP</a></span>
+                		</div>
+                		
+                		<h5>Related Links Module - Links</h5>
+<pre>
+font-size: 0.929em;
+color: #006BA6;
+font-family: 'Gotham 4r', verdana;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 7px;
+</pre>
                 	</div>
-                <h5>Alert Bar Text: div.alert > a</h5>
-<pre>
-font-size: 1em;
-color: #333;
-font-family: 'Gotham 4r', verdana
-</pre>
-
-				<h5>Alert Bar Text: div.alert > a > warning icon</h5>
-<pre>
-color: #BB1654;
-margin-right: 5px;
-</pre>
+                	
 <hr>
+
                 </article>
+          
+                
+          
+          
 
 
                 
@@ -1032,7 +997,7 @@ color: #555;
 			          	
 <hr>
 			<div id="searchbar">
-				<h5>Search Bar > preview text </h5>
+				<h5>Search Bar Preview Text </h5>
 <pre>
 font-family: 'Gotham 4r', verdana;
 font-size: 0.929em;
@@ -1042,7 +1007,7 @@ color: #333;
                 		<textarea class="form-control global-search-bar" rows="1" placeholder="Search person or topic"></textarea>
                 	</div>
                 	
-				<h5>Search Bar > field </h5>
+				<h5>Search Bar Field </h5>
 <pre>
 border: 1px solid #555555;
 height: 40px;
@@ -1052,9 +1017,49 @@ padding: 10px;
 			</div>		
 			
 <hr>
+
+
+   <!-- Alert Bar ------------------------------------------>     
+   
+   
+            	<div id="#alert">
+            	
+            	
+                	<h5>Alert Bar</h5>
+<pre>
+background-color: #ffffff;
+border: 2px solid #BB1654;
+text-align: center;
+</pre>
+                	<div class="example">
+                		<div id="alertbar"><a id="alerttext"><span class="glyphicon glyphicon-bullhorn" style="color:#BB1654; margin-right:5px;"></span> This is a test, this is only a test.</a></div>
+                	</div>
+                	<h5>Alert Bar Text</h5>
+<pre>
+font-size: 1em;
+color: #333;
+font-family: 'Gotham 4r', verdana
+</pre>
+
+					<h5>Alert Bar Icon</h5>
+<pre>
+color: #BB1654;
+margin-right: 5px;
+</pre>
+<hr>
+
+				</div>
+
 			
 
                 </article>
+                
+                              
+            
+             
+             
+             
+
                 
 
 
@@ -1097,7 +1102,7 @@ font-size: 1.071em;
                 	</div>
                 	
 
-<hr>  	
+				<h3 style="margin-top:20px">Windex - Columns</h3>
 
 
                 	<div id="column-title">
@@ -1180,7 +1185,7 @@ height: 222px;
                     	
                     </div>
                     
-<hr>
+                <h3 style="margin-top:20px">Windex - Rows</h3>
 
 					
                 	<div id="windex-rows-layout">
@@ -1244,28 +1249,43 @@ margin-right: 20px;
                 	</div>
                 	
                 	
-<hr>
-
-            	
-                	<div id="windex-cards-section">
+				<h3 style="margin-top:20px">Windex - Cards</h3>
+				
+				
+					<div id="windex-cards-section">
+					
+						<div class="example fullwidth">
+							<div style="width:340px; display:inline-block; padding:15px;">
+								<h5 class="windex-cards-subhead">Prevention</h5>
+								<img class="windex-cards-image" src="http://unsplash.it/310/222/?random">
+								<p class="windex-body" style="margin-bottom:20px">Lorem ipsum dolor sit amet, consectetur 
+								adipiscing elit. Ut venenatis ornare aliquam. Quisque in fringilla tellus. 
+								Suspendisse quis scelerisque quam. Nunc ac ex nec orci rhoncus feugiat.</p>
+								<a href="#" class="col-link">Total Health Incentive Plan</a>
+								<a href="#" class="col-link">Total Health Assessment</a>
+								<a href="#" class="col-link">Fitness Classes Available</a>
+							</div>
+							<div style="width:340px; display:inline-block; padding:15px;">
+								<h5 class="windex-cards-subhead">Eat Well</h5>
+								<img class="windex-cards-image" src="http://www.placecage.com/310/222">
+								<p class="windex-body" style="margin-bottom:20px">Lorem ipsum dolor sit amet, consectetur 
+								adipiscing elit. Ut venenatis ornare aliquam. Quisque in fringilla tellus. 
+								Suspendisse quis scelerisque quam. Nunc ac ex nec orci rhoncus feugiat.</p>
+								<a href="#" class="col-link">Total Health Incentive Plan</a>
+								<a href="#" class="col-link">Total Health Assessment</a>
+								<a href="#" class="col-link">Fitness Classes Available</a>
+							</div>
+						</div>
+						
+						            	
+                	
                 		<h5>Windex Cards Headline</h5>
 <pre>
 color: #706259;
 font-family: 'Gotham 4r', verdana;
 font-size: 1.714em;
 </pre>
-						<div class="example">
-							<div style="width:310px">
-							<h5 class="windex-cards-subhead">Prevention</h5>
-							<img class="windex-cards-image" src="http://unsplash.it/310/222/?random">
-							<p class="windex-body" style="margin-bottom:20px">Lorem ipsum dolor sit amet, consectetur 
-							adipiscing elit. Ut venenatis ornare aliquam. Quisque in fringilla tellus. 
-							Suspendisse quis scelerisque quam. Nunc ac ex nec orci rhoncus feugiat.</p>
-							<a href="#" class="col-link">Total Health Incentive Plan</a>
-							<a href="#" class="col-link">Total Health Assessment</a>
-							<a href="#" class="col-link">Fitness Classes Available</a>
-							</div>
-						</div>
+
 						
 						
 						<h5>Windex Cards Image</h5>
@@ -1349,13 +1369,13 @@ margin-bottom: 16px;
 
 						<div class="example">
 							<h5 class="detail-subsection-head">December General Sessions</h5>
-							<p class="detail-body" style="width:350px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien est, sagittis a facilisis dapibus, feugiat eleifend magna. Vestibulum quam ante, eleifend in neque vitae, viverra pulvinar dolor. Etiam ullamcorper tempor nulla, quis dapibus eros dignissim eget. Vestibulum mollis vel metus eu porttitor. Nulla facilisi. Vestibulum a orci viverra, dignissim odio a, malesuada turpis.</p>
+							<p class="detail-body" style="width:350px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien est, sagittis a facilisis dapibus, feugiat eleifend magna. Vestibulum quam ante, eleifend in neque vitae, viverra pulvinar dolor. Etiam malesuada turpis.</p>
 
 						</div>
                 	
                 	</div>
                 	
-<hr>                	
+                	<h3 style="margin-top:20px;">Detail - Narrative</h3>
                 	
                 	<div id="detail_image">
                 	
@@ -1489,8 +1509,12 @@ border-top: 1px solid #dddddd;
 </pre>						
 				
  					</div>
+ 		
  					
-<hr> 					
+					<h3 style="margin-top:20px;">Detail - List</h3>	
+
+
+				
  					<div id="detail-list-searchbar-section">
 
 
@@ -1707,7 +1731,7 @@ color: #555555;
  							<span class="glyphicon glyphicon-remove" style="color:#555555; margin-top:5px; font-size:0.857em;"></span>
  						</div>
 						
-<hr>						
+					<h3 style="margin-top:20px;">Detail - Video</h3>					
  						
  					</div>           
                 
@@ -1728,7 +1752,7 @@ color: #555555;
 							</div>
 						</div>
                 		
-                		<h5>Detail List: Video Player Window</h5>
+                		<h5>Detail Video: Player Window</h5>
                 		
 <pre>
 width: 645px;
@@ -1738,14 +1762,14 @@ padding-right: 15px;
 </pre>
 
 
-						<h5>Detail List: Video Actions Bar</h5>
+						<h5>Detail Video: Actions Bar</h5>
 						
 <pre>
 margin-top: 7px;
 width: 645px;
 </pre>
 
-						<h5>Detail List: Video Actions Text</h5>
+						<h5>Detail Video: Actions Text</h5>
 <pre>
 font-size: 1.071em;
 font-color: #706259;
@@ -1754,7 +1778,11 @@ font-family: 'Gotham 4r', verdana;
 Except "Helpful" which is basic link
 </pre>            
 
-						<h5>Detail List: Video Actions Icons</h5>
+						<div class="example">
+							<span class="detail-video-actions" style="color:#706259;">Download</span>
+						</div>
+
+						<h5>Detail Video: Actions Icons</h5>
 <pre>
 font-size: 1.286em;
 font-color: #706259;
@@ -1768,7 +1796,11 @@ glyphicon-share-alt
 glyphicon-thumbs-up
 </pre> 
 
-                		<h5>Detail List: Video Title</h5>
+						<div class="example">
+							<span class="glyphicon glyphicon-download-alt video-action-icons" style="color:#706259;"></span>
+						</div>
+
+                		<h5>Detail Video: Title</h5>
                 		
 <pre>
 see <a href="#detail_title">Detail: Page Title</a>
@@ -1779,14 +1811,14 @@ see <a href="#detail_title">Detail: Page Title</a>
 							<h5 class="detail-subtitle">by Emi Lee</h5>
 						</div>
 
-                		<h5>Detail List: Video Attribution</h5>
+                		<h5>Detail Video: Attribution</h5>
                 		
 <pre>
 see <a href="#detail_title">Detail: Page Subitle</a>
 </pre>
 
 
-                		<h5>Detail List: Video Thumbnail Image</h5>
+                		<h5>Detail Video: Thumbnail Image</h5>
                 		
 <pre>
 width: 135px;
@@ -1822,7 +1854,7 @@ margin-right: 15px;
 							</div>
 						</div>
 						
-						<h5>Detail List: Video Thumbnail Title</h5>
+						<h5>Detail Video: Thumbnail Title</h5>
                 		
 <pre>
 font-family: 'Gotham 7r', verdana;
@@ -1833,7 +1865,13 @@ margin-left: 15px;
 margin-right: 15px;
 </pre>
 
-						<h5>Detail List: Video Thumbnail Attribution & Duration</h5>
+						<div class="example">
+							<div style="width:165px; float:left;">
+								<p class="detail-video-thumb-description detail-video-thumb-title">Kick off your year with martial arts</p>
+							</div>
+						</div>
+
+						<h5>Detail Video: Thumbnail Attribution & Duration</h5>
                 		
 <pre>
 font-family: 'Gotham 4r', verdana;
@@ -1843,6 +1881,15 @@ width: 165px;
 margin-left: 15px;
 margin-right: 15px;
 </pre>
+
+						<div class="example">
+							<div style="width:165px; float:left;">
+								<p class="detail-video-thumb-description">by James Dailey</p>
+								<p class="detail-video-thumb-description">3:13</p>
+							</div>
+						</div>
+
+				</div>
 
 
                 
@@ -1932,6 +1979,26 @@ line-height: 1;
 <pre>
 color: #003B71;
 </pre>
+						<div class="example edge" style="width:160px">
+							<ul>
+								<li class="support-category" style="color:#003B71">Performance Management</li>
+							</ul>
+						</div>
+
+
+						<h5>Support - Category Selection Expanded List</h5>
+                		
+<pre>
+font-family: 'Gotham 7r', verdana;
+font-size: 1.071em;
+color: #555555;
+padding-bottom: 18px;
+text-align: right;
+line-height: 1.2;
+cursor: pointer;
+width: 124px;
+display: inline-block;
+</pre>
 
 						<div class="example edge" style="width:160px">
                 			<ul>
@@ -1949,20 +2016,6 @@ color: #003B71;
 								<li class="support-category">Benefits</li>
                 			</ul>
                 		</div>
-
-						<h5>Support - Category Selection Expanded List</h5>
-                		
-<pre>
-font-family: 'Gotham 7r', verdana;
-font-size: 1.071em;
-color: #555555;
-padding-bottom: 18px;
-text-align: right;
-line-height: 1.2;
-cursor: pointer;
-width: 124px;
-display: inline-block;
-</pre>
 
 
 						<h5>Support - Category Selection Expanded List: Hover</h5>
@@ -2162,7 +2215,182 @@ cursor: pointer;
                 
                 
                 
+               
                 
+                <article class="desktop" id="biz-process">
+                	
+                	<h3>Business Process</h3>
+
+					<div class="example wide fullwidth">
+						<div class="bizpro-block">
+							<p class="bizpro-stepname">Forecast</p>
+							<div class="bizpro-circle"></div>
+							<p class="bizpro-stepdesc">Key Roles</p>
+						</div>
+						<div class="bizpro-block">
+							<p class="bizpro-stepname">Assess</p>
+							<div class="bizpro-circle" style="background-color:#00A19B;"></div>
+							<p class="bizpro-stepdesc">Leadership Potential</p>
+						</div>
+						<div class="bizpro-block">
+							<p class="bizpro-stepname">Forecast</p>
+							<div class="bizpro-circle"></div>
+							<p class="bizpro-stepdesc">Key Roles</p>
+						</div>
+					</div>
+
+
+                	<h5>Diagram Circle</h5>
+                	
+<pre>
+width: 75px;
+height: 75px;
+border-radius: 50%;
+
+background-color: varies
+margin: varies based on # of steps
+</pre>
+
+					<div class="example">
+						<div class="bizpro-block">
+							<div class="bizpro-circle"></div>
+						</div>
+						<div class="bizpro-block">
+							<div class="bizpro-circle" style="background-color:#00A19B;"></div>
+						</div>
+					</div>
+
+					<h5>Step Name</h5>
+                	
+<pre>
+text-align: center;
+font-size: 24px;
+color: #706259;
+margin-bottom: 2px;
+</pre>
+					<div class="example">
+						<p class="bizpro-stepname">Forecast</p>
+					</div>
+					
+					
+					<h5>Step Description</h5>
+					
+<pre>
+text-align: center;
+font-size: 1.071em;
+color: #706259;
+margin-top: 15px;
+</pre>
+
+					<div class="example">
+						<p class="bizpro-stepdesc">Key Roles</p>
+					</div>
+
+<hr>
+
+
+					
+
+					<div class="example wide fullwidth">
+						<div class="bizpro-action-box">
+							<span class="bizpro-action-link"><a href="#">Orientation</a></span>
+							<span class="glyphicon glyphicon-education bizpro-action-icon"></span>
+							<span class="bizpro-action-link"><a href="#">Due Dates</a></span>
+							<span class="glyphicon glyphicon-calendar bizpro-action-icon"></span>
+							<span class="bizpro-action-link"><a href="#">Quick Links</a></span>
+							<span class="glyphicon glyphicon-ok bizpro-action-icon"></span>
+						</div>
+					</div>
+					
+				
+					<h5>Action Box</h5>
+					
+<pre>
+border: 2px solid #dddddd;
+padding-top: 16px;
+padding-left: 15px;
+padding-right: 15px;
+</pre>		
+
+	
+								
+					<h5>Action Link</h5>
+					
+<pre>
+font-size: 1.071em;
+font-family: 'Gotham 4r', verdana;
+display: inline-block;
+vertical-align: middle;
+</pre>
+					<div class="example">
+						<span class="bizpro-action-link"><a href="#">Orientation</a></span>
+					</div>		
+									
+					
+					<h5>Action Icon</h5>
+					
+<pre>
+font-size: 1.286em;
+color: #006BA6;
+display: inline-block;
+position: relative;
+top: -1px;
+margin-right: 15px;
+margin-left:2px;
+</pre>					
+					
+					<div class="example">
+						<span class="glyphicon glyphicon-education bizpro-action-icon"></span>
+					</div>
+					
+					
+<hr>
+
+					
+					<h5>Role Header Div</h5>
+					
+<pre>
+width: 420px;
+border-bottom: 2px solid #dddddd;
+display: inline-block;
+padding-bottom: 5px;
+</pre>
+
+					<div class="example">
+						<div class="bizpro-role-header">
+							<img src="icons/icon-employee.png" class="bizpro-role-icon">
+							<span>Employee Actions</span>
+						</div>
+					</div>					
+					
+
+					<h5>Role Header Icon</h5>
+					
+<pre>
+width: 45px;
+</pre>	
+
+					<div class="example">
+						<img src="icons/icon-employee.png" class="bizpro-role-icon">
+					</div>
+				
+
+					<h5>Role Header Text</h5>					
+
+<pre>
+font-size: 24px;
+color: #706259;
+font-family: 'Gotham 4r', verdana;
+</pre>								
+					<div class="example">
+						<div class="bizpro-role-header" style="border:0px;">
+							<span>Employee Actions</span>
+						</div>
+					</div>	
+                	
+                </article>
+                
+                                
                 
                 
                 <article class="desktop" id="container-page">
@@ -2347,9 +2575,19 @@ padding-bottom: 7px;
 					
 					</div>
 
-<hr>
+<hr>					
+
 
 					<div id="backmitem">	
+					
+					
+						<div class="example mobile-ex fullwidth" style="padding-left:0px; padding-top:0px;">
+							<li class="mmenublock mback"><a class="mmenulink mback"><span class="backarrow">&lsaquo;</span> Home</a></li>
+							<li class="mmenublock mselected"><a class="mmenulink mselected">Individual</a></li>
+							<li class="mmenublock mselectedlevel2"><a class="mmenulink mselected">Feedback</a></li>
+							<li class="mmenublock "><a class="mmenulink">Peer</a></li>		
+						</div>
+
 						<h5>Mobile menuitem block : Home/Back</h5>
 <pre class="mbl">
 background-color: #003B71;
@@ -2358,13 +2596,7 @@ padding-bottom: 13px;
 </pre>
 
 						
-						<div class="example mobile-ex" style="padding-left:0px; padding-top:0px;">
-							<li class="mmenublock mback"><a class="mmenulink mback"><span class="backarrow">&lsaquo;</span> Home</a></li>
-							<li class="mmenublock mselected"><a class="mmenulink mselected">Individual</a></li>
-							<li class="mmenublock mselectedlevel2"><a class="mmenulink mselected">Feedback</a></li>
-							<li class="mmenublock "><a class="mmenulink">Peer</a></li>
-							
-						</div>
+
 						
 						<h5>Caret Character</h5>
 <pre class="mbl">
@@ -2939,12 +3171,12 @@ margin-bottom: 7px;
 
 						<h5>Mobile Detail List: Share Icon</h5>
 <pre class="mbl">
-	float: right;
-	margin-right: 0px;
-	color: #706259;
-	font-size: 1.286em;
+float: right;
+margin-right: 0px;
+color: #706259;
+font-size: 1.286em;
 	
-	#span glyphicon glyphicon-share-alt
+icon: glyphicon glyphicon-share-alt
 </pre>	
 
 						<div class="example mobile-ex">
@@ -2953,22 +3185,135 @@ margin-bottom: 7px;
 
 						<h5>Mobile Detail List: Document Icon</h5>
 <pre class="mbl">
-	font-size: 1.286em;
-	color: #003B71;
-	vertical-align: top;
+font-size: 1.286em;
+color: #003B71;
+vertical-align: top;
 
-#span glyphicon glyphicon-file
+icon: glyphicon glyphicon-file
 </pre>	
 						
 						<div class="example mobile-ex">
 							<span class="glyphicon glyphicon-file mdetail-list-doc-icon"></span>
                 		</div>
 
-			
-
-					
-					
 					</div>
+					
+<hr>
+					
+					<div id="mvideo-detail">
+						
+						<div class="example mobile-ex">
+							<iframe width="100%" src="https://www.youtube.com/embed/m0taQOtvxfU" frameborder="0" allowfullscreen></iframe>
+							<div class="detail-video-actions-bar">
+								<span class="glyphicon glyphicon-download-alt video-action-icons"></span>	
+								<span class="detail-video-actions" style="margin-left:10px"> | </span>							
+								<span class="glyphicon glyphicon-share-alt video-action-icons"></span>
+								<span class="detail-video-actions video-viewcount" style="margin-left:5px;">2</span>
+								<span class="glyphicon glyphicon-thumbs-up video-viewcount" style="color:#006BA6; font-size:1.125em; position:relative; margin-right:3px; top:3px;"></span> 
+								<span class="detail-video-actions video-viewcount"><a href="#">Helpful</a></span>
+							</div>
+							<div class="mdetail-video-description" style="margin-top:15px">
+								<p class="mdetail-video-description-text">
+								Duis maximus urna eget facilisis mollis. Integer congue, 
+								felis in consequat porttitor, nunc libero
+								</p>
+							</div>
+								<span class="glyphicon glyphicon-option-horizontal" style="text-align:right; color:#706259; font-size:1.286em; display:block; width:100%; margin-bottom:15px;"></span>
+							<div class="mdetail-video-thumb">
+								<img style="width:135px; height:76px; float: left" src="http://www.snikwah.com/wp-content/uploads/2014/09/photo-blog-active.jpg">
+								<div style="width:50%; float:left;">
+									<p class="detail-video-thumb-description detail-video-thumb-title">Volleyball retreat '13!</p>
+									<p class="detail-video-thumb-description">by Uma Thurman</p>
+									<p class="detail-video-thumb-description">2:43</p>
+								</div>
+							</div>
+							<div class="mdetail-video-thumb">
+								<img style="width:135px; height:76px; float: left" src="http://liveboldandbloom.com/wp-content/uploads/2010/11/iStock_000000963439Small-e1288961119979.jpg">
+								<div style="width:50%; float:left;">
+									<p class="detail-video-thumb-description detail-video-thumb-title">Kick off your year with martial arts</p>
+									<p class="detail-video-thumb-description">by James Dailey</p>
+									<p class="detail-video-thumb-description">3:13</p>
+								</div>
+							</div>
+							<div class="mdetail-video-thumb">
+								<img style="width:135px; height:76px; float: left" src="http://cdn.trendhunterstatic.com/thumbs/active-lifestyle-sportography.jpeg">
+								<div style="width:50%; float:left;">
+									<p class="detail-video-thumb-description detail-video-thumb-title">Run through water like a boss</p>
+									<p class="detail-video-thumb-description">by Tina Alexander Reyes</p>
+									<p class="detail-video-thumb-description">0:13</p>
+								</div>
+							</div>
+						</div>
+						</div>
+						
+						<h5>Mobile Detail Video Window</h5>
+<pre class="mbl">
+width: 100%, 280px; or 12 xs cols
+height: auto
+</pre>					
+
+						<h5>Mobile Detail Video Action Bar</h5>
+<pre class="mbl">
+margin-top: 7px;
+width: 100%, 280px; or 12 xs cols
+</pre>										
+					
+						<h5>Mobile Detail Video Action "Helpful"</h5>
+<pre class="mbl">
+float:right
+
+"Helpful":
+  Normal link treatment
+  font-size: 1.071em;
+
+Helpful count ("2"):
+  font-size: 1.071em;
+  color: #706259;
+
+Thumb Icon:
+  font-size: 1.125em;
+  color: #006BA6;
+</pre>
+
+						<div class="example mobile-ex">
+							<span class="detail-video-actions video-viewcount" style="margin-left:5px;">2</span>
+							<span class="glyphicon glyphicon-thumbs-up video-viewcount" style="color:#006BA6; font-size:1.125em; position:relative; margin-right:3px; top:3px;"></span> 
+							<span class="detail-video-actions video-viewcount"><a href="#">Helpful</a></span>
+						</div>
+
+						<h5>Mobile Detail Video Action Icons </h5>
+<pre class="mbl">
+font-size: 1.286em;
+color: #706259;
+</pre>
+
+						<div class="example mobile-ex">
+							<span class="glyphicon glyphicon-download-alt video-action-icons" style="color:#706259;"></span>	
+							<span class="detail-video-actions" style="margin-left:10px; color:#706259;"> | </span>							
+							<span class="glyphicon glyphicon-share-alt video-action-icons" style="color:#706259;"></span>
+						</div>
+
+						<h5>Mobile Detail Video Thumbnail Images</h5>
+						
+						
+<pre class="mbl">
+width: 135px;
+height: 76px;
+margin-left: 15px;
+margin-right: 15px;
+</pre>
+
+						<div class="example mobile-ex">
+							<div class="mdetail-video-thumb">
+								<img style="width:135px; height:76px; float: left" src="http://www.snikwah.com/wp-content/uploads/2014/09/photo-blog-active.jpg">
+								<div style="width:50%; float:left;">
+									<p class="detail-video-thumb-description detail-video-thumb-title">Volleyball retreat '13!</p>
+									<p class="detail-video-thumb-description">by Uma Thurman</p>
+									<p class="detail-video-thumb-description">2:43</p>
+								</div>
+							</div>
+						</div>			
+
 					
 <hr>
 				</article>
@@ -3425,6 +3770,15 @@ margin-top: 10px;
 					} else { 
 						$('ul.mobiletoc').removeClass("active-scroll");
 						$('ul.desktoptoc').addClass("active-scroll");
+					}
+				});
+				
+				$(document).scroll(function () {
+					var x = $(this).scrollTop();
+					if (x > 300) {
+						$('nav.toc').css("top", "60");
+					} else { 
+						$('nav.toc').css("top", "145");
 					}
 				});
 
